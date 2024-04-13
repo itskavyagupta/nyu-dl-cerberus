@@ -19,7 +19,7 @@ The final parameters and hyper parameters in our model are:
 
 ## **Documentation**
 
-1. Project report can be found at [docs/project_report.pdf](https://github.com/95anantsingh/NYU-ResNet-On-Steroids/tree/main/docs/project_report.pdf)
-2. Hyper parameter variations [Wandb](https://wandb.ai/classical/DL_All_Model_Experiments)
+1. Project report can be found at [docs/project_report.pdf](https://github.com/itskavyagupta/NYU-DL-Cerberus/blob/main/docs/Report.pdf)
+2. Hyper parameter variations [Wandb](https://api.wandb.ai/links/classical/vhpf97st)
 
 > This Project was part of graduate level Deep Learning course at New York University
