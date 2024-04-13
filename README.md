@@ -2,7 +2,7 @@
 
 Our project aims to create a ResNet model from scratch using less than 5 million parameters. 
 
-Our model is a variant of the widely-implemented [ResNet model] (https://github.com/kuangliu/pytorch-cifar) that comprises basic building blocks called BasicBlocks, each consisting of two convolutional layers with batch normalization and ReLU activation. It consists of multiple layers of these blocks, with each of these block layers having the same channel size. We changed the ResNet() function so that it can create models of 3 block layers and 4 block layers. After experimenting with various model configs and hyperparameters, the final details of our model are as follows:
+Our model is a variant of the widely-implemented [ResNet model](https://github.com/kuangliu/pytorch-cifar) that comprises basic building blocks called BasicBlocks, each consisting of two convolutional layers with batch normalization and ReLU activation. It consists of multiple layers of these blocks, with each of these block layers having the same channel size. We changed the ResNet() function so that it can create models of 3 block layers and 4 block layers. After experimenting with various model configs and hyperparameters, the final details of our model are as follows:
 
 - B: [3, 5, 3]
 - C: [64, 128, 256]
