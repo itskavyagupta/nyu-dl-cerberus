@@ -1,0 +1,2296 @@
+6.0s 1 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar_test_nolabels.pkl
+6.0s 2 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_1
+6.0s 3 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_2
+6.0s 4 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/batches.meta
+6.0s 5 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/test_batch
+6.0s 6 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_3
+6.0s 7 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_5
+6.0s 8 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_4
+6.0s 9 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/readme.html
+12.2s 10 Total number of params 4919114
+12.2s 11 Total number of params 4919114
+15.6s 12 391
+34.0s 13 [34m[1mwandb[0m: W&B API key is configured. Use [1m`wandb login --relogin`[0m to force relogin
+34.0s 14 [34m[1mwandb[0m: [33mWARNING[0m If you're specifying your api key in code, ensure this code is not shared publicly.
+34.0s 15 [34m[1mwandb[0m: [33mWARNING[0m Consider setting the WANDB_API_KEY environment variable, or running `wandb login` from the command line.
+34.0s 16 [34m[1mwandb[0m: Appending key for api.wandb.ai to your netrc file: /root/.netrc
+34.4s 17 {'method': 'random',
+34.4s 18 'metric': {'goal': 'minimize', 'name': 'loss'},
+34.4s 19 'parameters': {'learning_rate': {'values': [0.1, 0.01]},
+34.4s 20 'optimizer': {'values': ['adadelta',
+34.4s 21 'sgd',
+34.4s 22 'adadelta-clipping']}}}
+41.0s 23 Create sweep with ID: gbmvnea4
+41.0s 24 Sweep URL: https://wandb.ai/aaaanubha/pytorch-sweeps-demo/sweeps/gbmvnea4
+41.7s 25 [34m[1mwandb[0m: Agent Starting Run: u27kq0yf with config:
+41.7s 26 [34m[1mwandb[0m: 	learning_rate: 0.01
+41.7s 27 [34m[1mwandb[0m: 	optimizer: sgd
+42.9s 28 [34m[1mwandb[0m: Currently logged in as: [33maaaanubha[0m. Use [1m`wandb login --relogin`[0m to force relogin
+58.5s 29 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+58.5s 30 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_122919-u27kq0yf[0m
+58.5s 31 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+58.5s 32 [34m[1mwandb[0m: Syncing run [33mdistinctive-sweep-1[0m
+58.5s 33 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+58.5s 34 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/sweeps/gbmvnea4[0m
+58.5s 35 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/u27kq0yf[0m
+59.5s 36 Total number of params 4919114
+59.5s 37 
+59.5s 38 Epoch: 0
+100.0s 39 
+100.0s 40 Epoch: 0, Loss: 1.453, Acc: 46.404%
+100.0s 41 Data loading time: 0.23726777699931745
+100.0s 42 Training time: 11.029049166000277
+100.0s 43 Total epoch time: 40.46788114599997
+102.6s 44 
+102.6s 45 Test Loss: 1.431, Acc: 53.670%
+102.6s 46 53.67
+102.6s 47 
+102.6s 48 Epoch: 1
+139.2s 49 
+139.2s 50 Epoch: 1, Loss: 0.982, Acc: 65.198%
+139.2s 51 Data loading time: 0.23532057899984693
+139.2s 52 Training time: 6.877975397999137
+139.2s 53 Total epoch time: 36.497047271999975
+141.6s 54 
+141.6s 55 Test Loss: 1.172, Acc: 62.550%
+141.6s 56 62.55
+141.6s 57 
+141.6s 58 Epoch: 2
+178.0s 59 
+178.0s 60 Epoch: 2, Loss: 0.787, Acc: 72.450%
+178.0s 61 Data loading time: 0.2345058959999733
+178.0s 62 Training time: 6.886249812000244
+178.0s 63 Total epoch time: 36.41070304599998
+180.4s 64 
+180.4s 65 Test Loss: 0.990, Acc: 68.160%
+180.4s 66 68.16
+180.4s 67 
+180.4s 68 Epoch: 3
+216.9s 69 
+216.9s 70 Epoch: 3, Loss: 0.669, Acc: 76.802%
+216.9s 71 Data loading time: 0.2338980780002089
+216.9s 72 Training time: 6.496325601999899
+216.9s 73 Total epoch time: 36.42077016500002
+219.3s 74 
+219.3s 75 Test Loss: 0.776, Acc: 75.770%
+219.3s 76 75.77
+219.3s 77 
+219.3s 78 Epoch: 4
+255.8s 79 
+255.8s 80 Epoch: 4, Loss: 0.595, Acc: 79.206%
+255.8s 81 Data loading time: 0.23502213399797256
+255.8s 82 Training time: 6.766028296998854
+255.8s 83 Total epoch time: 36.43281918299999
+258.2s 84 
+258.2s 85 Test Loss: 0.623, Acc: 79.290%
+258.2s 86 79.29
+258.2s 87 
+258.2s 88 Epoch: 5
+294.7s 89 
+294.7s 90 Epoch: 5, Loss: 0.532, Acc: 81.550%
+294.7s 91 Data loading time: 0.24295338100091612
+294.7s 92 Training time: 6.651043820000382
+294.7s 93 Total epoch time: 36.49522491000005
+297.1s 94 
+297.1s 95 Test Loss: 0.674, Acc: 78.390%
+297.1s 96 78.39
+297.1s 97 
+297.1s 98 Epoch: 6
+333.6s 99 
+333.6s 100 Epoch: 6, Loss: 0.493, Acc: 82.852%
+333.6s 101 Data loading time: 0.2414541579997831
+333.6s 102 Training time: 6.956903485999874
+333.6s 103 Total epoch time: 36.46898246699993
+336.0s 104 
+336.0s 105 Test Loss: 0.548, Acc: 81.870%
+336.0s 106 81.87
+336.0s 107 
+336.0s 108 Epoch: 7
+372.5s 109 
+372.5s 110 Epoch: 7, Loss: 0.458, Acc: 84.244%
+372.5s 111 Data loading time: 0.23640884999986156
+372.5s 112 Training time: 6.594081360001155
+372.5s 113 Total epoch time: 36.421731056
+374.9s 114 
+374.9s 115 Test Loss: 0.593, Acc: 81.230%
+374.9s 116 81.23
+374.9s 117 
+374.9s 118 Epoch: 8
+411.5s 119 
+411.5s 120 Epoch: 8, Loss: 0.423, Acc: 85.362%
+411.5s 121 Data loading time: 0.24345270599974356
+411.5s 122 Training time: 6.621375085999716
+411.5s 123 Total epoch time: 36.495502167999916
+413.9s 124 
+413.9s 125 Test Loss: 0.540, Acc: 82.580%
+413.9s 126 82.58
+413.9s 127 
+413.9s 128 Epoch: 9
+450.4s 129 
+450.4s 130 Epoch: 9, Loss: 0.400, Acc: 86.202%
+450.4s 131 Data loading time: 0.24045474000035938
+450.4s 132 Training time: 7.077755883000009
+450.4s 133 Total epoch time: 36.46540156900005
+452.9s 134 
+452.9s 135 Test Loss: 0.497, Acc: 83.360%
+452.9s 136 83.36
+452.9s 137 
+452.9s 138 Epoch: 10
+489.4s 139 
+489.4s 140 Epoch: 10, Loss: 0.375, Acc: 87.180%
+489.4s 141 Data loading time: 0.24012154900117366
+489.4s 142 Training time: 6.537862127000722
+489.4s 143 Total epoch time: 36.48646962600003
+492.0s 144 
+492.0s 145 Test Loss: 0.404, Acc: 86.080%
+492.0s 146 86.08
+495.1s 147 
+495.1s 148 Test Loss: 0.404, Acc: 86.080%
+497.9s 149 [34m[1mwandb[0m: - 0.001 MB of 0.001 MB uploaded[34m[1mwandb[0m: \ 0.019 MB of 0.019 MB uploaded[34m[1mwandb[0m: | 0.019 MB of 0.019 MB uploaded[34m[1mwandb[0m: / 0.019 MB of 0.019 MB uploaded[34m[1mwandb[0m:
+499.1s 150 [34m[1mwandb[0m:
+499.1s 151 [34m[1mwandb[0m: Run history:
+499.1s 152 [34m[1mwandb[0m:      early_stop ▁
+499.1s 153 [34m[1mwandb[0m:           epoch ▁▂▂▃▄▅▅▆▇▇█
+499.1s 154 [34m[1mwandb[0m: final_test_loss ▁
+499.1s 155 [34m[1mwandb[0m:   test_accuracy ▁▃▄▆▇▆▇▇▇▇█
+499.1s 156 [34m[1mwandb[0m:       test_loss █▆▅▄▂▃▂▂▂▂▁
+499.1s 157 [34m[1mwandb[0m:  train_accuracy ▁▄▅▆▇▇▇▇███
+499.1s 158 [34m[1mwandb[0m:      train_loss █▅▄▃▂▂▂▂▁▁▁
+499.1s 159 [34m[1mwandb[0m:
+499.1s 160 [34m[1mwandb[0m: Run summary:
+499.1s 161 [34m[1mwandb[0m:      early_stop 10
+499.1s 162 [34m[1mwandb[0m:           epoch 10
+499.1s 163 [34m[1mwandb[0m: final_test_loss 0.40398
+499.1s 164 [34m[1mwandb[0m:   test_accuracy 86.08
+499.1s 165 [34m[1mwandb[0m:       test_loss 0.40398
+499.1s 166 [34m[1mwandb[0m:  train_accuracy 87.18
+499.1s 167 [34m[1mwandb[0m:      train_loss 0.37484
+499.1s 168 [34m[1mwandb[0m:
+499.2s 169 [34m[1mwandb[0m: 🚀 View run [33mdistinctive-sweep-1[0m at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/u27kq0yf[0m
+499.2s 170 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+499.2s 171 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+499.2s 172 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_122919-u27kq0yf/logs[0m
+504.2s 173 [34m[1mwandb[0m: Sweep Agent: Waiting for job.
+509.2s 174 [34m[1mwandb[0m: Job received.
+510.3s 175 [34m[1mwandb[0m: Agent Starting Run: 1kooc432 with config:
+510.3s 176 [34m[1mwandb[0m: 	learning_rate: 0.1
+510.3s 177 [34m[1mwandb[0m: 	optimizer: sgd
+527.1s 178 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+527.1s 179 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_123707-1kooc432[0m
+527.1s 180 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+527.1s 181 [34m[1mwandb[0m: Syncing run [33mwild-sweep-2[0m
+527.1s 182 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+527.1s 183 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/sweeps/gbmvnea4[0m
+527.1s 184 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/1kooc432[0m
+528.1s 185 Total number of params 4919114
+528.1s 186 
+528.1s 187 Epoch: 0
+565.0s 188 
+565.0s 189 Epoch: 0, Loss: 1.851, Acc: 31.238%
+565.0s 190 Data loading time: 0.2387127059997738
+565.0s 191 Training time: 6.583385417000159
+565.0s 192 Total epoch time: 36.962803979
+567.7s 193 
+567.7s 194 Test Loss: 1.835, Acc: 35.550%
+567.7s 195 35.55
+567.7s 196 
+567.7s 197 Epoch: 1
+604.1s 198 
+604.1s 199 Epoch: 1, Loss: 1.404, Acc: 48.720%
+604.1s 200 Data loading time: 0.233322204001297
+604.1s 201 Training time: 6.17105777900008
+604.1s 202 Total epoch time: 36.397996895999995
+606.5s 203 
+606.5s 204 Test Loss: 1.456, Acc: 49.260%
+606.5s 205 49.26
+606.5s 206 
+606.5s 207 Epoch: 2
+643.0s 208 
+643.0s 209 Epoch: 2, Loss: 1.175, Acc: 57.730%
+643.0s 210 Data loading time: 0.23810151000031965
+643.0s 211 Training time: 6.419605439000293
+643.0s 212 Total epoch time: 36.436008722
+645.4s 213 
+645.4s 214 Test Loss: 1.256, Acc: 57.820%
+645.4s 215 57.82
+645.4s 216 
+645.4s 217 Epoch: 3
+681.8s 218 
+681.8s 219 Epoch: 3, Loss: 1.004, Acc: 64.582%
+681.8s 220 Data loading time: 0.23575528800029133
+681.8s 221 Training time: 5.937404883998852
+681.8s 222 Total epoch time: 36.38345846300001
+684.3s 223 
+684.3s 224 Test Loss: 1.092, Acc: 62.690%
+684.3s 225 62.69
+684.3s 226 
+684.3s 227 Epoch: 4
+720.7s 228 
+720.7s 229 Epoch: 4, Loss: 0.877, Acc: 68.958%
+720.7s 230 Data loading time: 0.23662223899975743
+720.7s 231 Training time: 6.916359402998523
+720.7s 232 Total epoch time: 36.37197077999997
+723.1s 233 
+723.1s 234 Test Loss: 0.912, Acc: 68.860%
+723.1s 235 68.86
+723.1s 236 
+723.1s 237 Epoch: 5
+759.6s 238 
+759.6s 239 Epoch: 5, Loss: 0.769, Acc: 73.032%
+759.6s 240 Data loading time: 0.2422680389992138
+759.6s 241 Training time: 6.678532353000378
+759.6s 242 Total epoch time: 36.45182384300006
+762.0s 243 
+762.0s 244 Test Loss: 0.762, Acc: 74.830%
+762.0s 245 74.83
+762.0s 246 
+762.0s 247 Epoch: 6
+798.5s 248 
+798.5s 249 Epoch: 6, Loss: 0.694, Acc: 75.960%
+798.5s 250 Data loading time: 0.23737872600077026
+798.5s 251 Training time: 6.394484484998884
+798.5s 252 Total epoch time: 36.46197261299994
+800.9s 253 
+800.9s 254 Test Loss: 0.766, Acc: 74.850%
+800.9s 255 74.85
+800.9s 256 
+800.9s 257 Epoch: 7
+837.3s 258 
+837.3s 259 Epoch: 7, Loss: 0.649, Acc: 77.452%
+837.3s 260 Data loading time: 0.23646154400125852
+837.3s 261 Training time: 6.171792851003602
+837.3s 262 Total epoch time: 36.39841969700001
+839.7s 263 
+839.7s 264 Test Loss: 0.714, Acc: 75.950%
+839.7s 265 75.95
+839.7s 266 
+839.7s 267 Epoch: 8
+876.2s 268 
+876.2s 269 Epoch: 8, Loss: 0.615, Acc: 78.798%
+876.2s 270 Data loading time: 0.23775009700239025
+876.2s 271 Training time: 6.4199328770005195
+876.2s 272 Total epoch time: 36.437389018999966
+878.6s 273 
+878.6s 274 Test Loss: 0.663, Acc: 76.900%
+878.6s 275 76.9
+878.6s 276 
+878.6s 277 Epoch: 9
+915.2s 278 
+915.2s 279 Epoch: 9, Loss: 0.585, Acc: 79.928%
+915.2s 280 Data loading time: 0.2368766869992669
+915.2s 281 Training time: 6.692923591000181
+915.2s 282 Total epoch time: 36.44814857899996
+917.6s 283 
+917.6s 284 Test Loss: 0.770, Acc: 75.630%
+917.6s 285 75.63
+917.6s 286 
+917.6s 287 Epoch: 10
+953.9s 288 
+953.9s 289 Epoch: 10, Loss: 0.558, Acc: 80.800%
+953.9s 290 Data loading time: 0.23822364199713775
+953.9s 291 Training time: 6.662631617998386
+953.9s 292 Total epoch time: 36.36504490399989
+956.4s 293 
+956.4s 294 Test Loss: 0.631, Acc: 79.010%
+956.4s 295 79.01
+956.4s 296 
+956.4s 297 Epoch: 11
+992.8s 298 
+992.8s 299 Epoch: 11, Loss: 0.534, Acc: 81.646%
+992.8s 300 Data loading time: 0.23508807199868897
+992.8s 301 Training time: 5.982933359996878
+992.8s 302 Total epoch time: 36.41181393299985
+995.2s 303 
+995.2s 304 Test Loss: 0.802, Acc: 74.920%
+995.2s 305 74.92
+995.2s 306 
+995.2s 307 Epoch: 12
+1031.8s 308 
+1031.8s 309 Epoch: 12, Loss: 0.515, Acc: 82.264%
+1031.8s 310 Data loading time: 0.24393878600062635
+1031.8s 311 Training time: 7.062771104000149
+1031.8s 312 Total epoch time: 36.50180267000019
+1034.2s 313 
+1034.2s 314 Test Loss: 0.629, Acc: 80.030%
+1034.2s 315 80.03
+1034.2s 316 
+1034.2s 317 Epoch: 13
+1070.8s 318 
+1070.8s 319 Epoch: 13, Loss: 0.501, Acc: 82.894%
+1070.8s 320 Data loading time: 0.24037013000179286
+1070.8s 321 Training time: 6.829053023999222
+1070.8s 322 Total epoch time: 36.54443660900006
+1073.3s 323 
+1073.3s 324 Test Loss: 0.866, Acc: 72.440%
+1073.3s 325 72.44
+1073.3s 326 
+1073.3s 327 Epoch: 14
+1109.9s 328 
+1109.9s 329 Epoch: 14, Loss: 0.490, Acc: 83.076%
+1109.9s 330 Data loading time: 0.24856120600065879
+1109.9s 331 Training time: 6.526176329999998
+1109.9s 332 Total epoch time: 36.634544720999884
+1112.4s 333 
+1112.4s 334 Test Loss: 0.818, Acc: 73.590%
+1112.4s 335 73.59
+1112.4s 336 
+1112.4s 337 Epoch: 15
+1149.2s 338 
+1149.2s 339 Epoch: 15, Loss: 0.477, Acc: 83.466%
+1149.2s 340 Data loading time: 0.25898905199824185
+1149.2s 341 Training time: 7.282819414997903
+1149.2s 342 Total epoch time: 36.78064446799999
+1151.6s 343 
+1151.6s 344 Test Loss: 0.597, Acc: 79.350%
+1151.6s 345 79.35
+1151.6s 346 
+1151.6s 347 Epoch: 16
+1188.2s 348 
+1188.2s 349 Epoch: 16, Loss: 0.475, Acc: 83.604%
+1188.2s 350 Data loading time: 0.2457105580008374
+1188.2s 351 Training time: 7.174604667003905
+1188.2s 352 Total epoch time: 36.540853538999954
+1190.6s 353 
+1190.6s 354 Test Loss: 0.504, Acc: 83.350%
+1190.6s 355 83.35
+1190.6s 356 
+1190.6s 357 Epoch: 17
+1227.1s 358 
+1227.1s 359 Epoch: 17, Loss: 0.456, Acc: 84.332%
+1227.1s 360 Data loading time: 0.24167495799929384
+1227.1s 361 Training time: 6.875956070999564
+1227.1s 362 Total epoch time: 36.49255458300013
+1229.5s 363 
+1229.5s 364 Test Loss: 0.655, Acc: 79.100%
+1229.5s 365 79.1
+1229.5s 366 
+1229.5s 367 Epoch: 18
+1266.0s 368 
+1266.0s 369 Epoch: 18, Loss: 0.453, Acc: 84.418%
+1266.0s 370 Data loading time: 0.24063771100122722
+1266.0s 371 Training time: 6.829769590999376
+1266.0s 372 Total epoch time: 36.47864687499987
+1268.5s 373 
+1268.5s 374 Test Loss: 0.462, Acc: 84.440%
+1268.5s 375 84.44
+1268.5s 376 
+1268.5s 377 Epoch: 19
+1305.1s 378 
+1305.1s 379 Epoch: 19, Loss: 0.445, Acc: 84.602%
+1305.1s 380 Data loading time: 0.24740137800017692
+1305.1s 381 Training time: 6.443583029001502
+1305.1s 382 Total epoch time: 36.52205742000001
+1307.5s 383 
+1307.5s 384 Test Loss: 0.470, Acc: 84.120%
+1307.5s 385 84.12
+1307.5s 386 
+1307.5s 387 Epoch: 20
+1344.0s 388 
+1344.0s 389 Epoch: 20, Loss: 0.432, Acc: 85.118%
+1344.0s 390 Data loading time: 0.23950638899896148
+1344.0s 391 Training time: 6.371595359998764
+1344.0s 392 Total epoch time: 36.43426937000004
+1346.4s 393 
+1346.4s 394 Test Loss: 0.476, Acc: 83.290%
+1346.4s 395 83.29
+1346.4s 396 
+1346.4s 397 Epoch: 21
+1382.9s 398 
+1382.9s 399 Epoch: 21, Loss: 0.431, Acc: 85.164%
+1382.9s 400 Data loading time: 0.24182767299953412
+1382.9s 401 Training time: 6.260002951999468
+1382.9s 402 Total epoch time: 36.449862594000024
+1385.3s 403 
+1385.3s 404 Test Loss: 1.353, Acc: 68.010%
+1385.3s 405 68.01
+1385.3s 406 
+1385.3s 407 Epoch: 22
+1421.7s 408 
+1421.7s 409 Epoch: 22, Loss: 0.426, Acc: 85.424%
+1421.7s 410 Data loading time: 0.24127627800180562
+1421.7s 411 Training time: 6.560909692002042
+1421.7s 412 Total epoch time: 36.41845969199994
+1424.2s 413 
+1424.2s 414 Test Loss: 0.661, Acc: 79.470%
+1424.2s 415 79.47
+1424.2s 416 
+1424.2s 417 Epoch: 23
+1460.6s 418 
+1460.6s 419 Epoch: 23, Loss: 0.421, Acc: 85.644%
+1460.6s 420 Data loading time: 0.23967059000119662
+1460.6s 421 Training time: 6.028361495998297
+1460.6s 422 Total epoch time: 36.43460854299997
+1463.1s 423 
+1463.1s 424 Test Loss: 0.512, Acc: 83.850%
+1463.1s 425 83.85
+1463.1s 426 
+1463.1s 427 Epoch: 24
+1499.6s 428 
+1499.6s 429 Epoch: 24, Loss: 0.417, Acc: 85.688%
+1499.6s 430 Data loading time: 0.2406854920011483
+1499.6s 431 Training time: 6.785671095999987
+1499.6s 432 Total epoch time: 36.50451233400008
+1502.1s 433 
+1502.1s 434 Test Loss: 0.508, Acc: 82.920%
+1502.1s 435 82.92
+1502.1s 436 
+1502.1s 437 Epoch: 25
+1538.6s 438 
+1538.6s 439 Epoch: 25, Loss: 0.403, Acc: 86.226%
+1538.6s 440 Data loading time: 0.2453504560021429
+1538.6s 441 Training time: 6.961099982997666
+1538.6s 442 Total epoch time: 36.502313393999884
+1541.1s 443 
+1541.1s 444 Test Loss: 0.721, Acc: 78.110%
+1541.1s 445 78.11
+1541.1s 446 
+1541.1s 447 Epoch: 26
+1577.5s 448 
+1577.5s 449 Epoch: 26, Loss: 0.412, Acc: 85.870%
+1577.5s 450 Data loading time: 0.23491986399835696
+1577.5s 451 Training time: 6.431447415999855
+1577.5s 452 Total epoch time: 36.428014806999954
+1580.0s 453 
+1580.0s 454 Test Loss: 0.499, Acc: 82.580%
+1580.0s 455 82.58
+1580.0s 456 
+1580.0s 457 Epoch: 27
+1616.5s 458 
+1616.5s 459 Epoch: 27, Loss: 0.408, Acc: 85.932%
+1616.5s 460 Data loading time: 0.2507903879979949
+1616.5s 461 Training time: 6.858954590000849
+1616.5s 462 Total epoch time: 36.532616787999814
+1618.9s 463 
+1618.9s 464 Test Loss: 0.476, Acc: 83.910%
+1618.9s 465 83.91
+1618.9s 466 
+1618.9s 467 Epoch: 28
+1655.4s 468 
+1655.4s 469 Epoch: 28, Loss: 0.404, Acc: 86.088%
+1655.4s 470 Data loading time: 0.24267376400143803
+1655.4s 471 Training time: 6.661882122998122
+1655.4s 472 Total epoch time: 36.45864614900006
+1657.9s 473 
+1657.9s 474 Test Loss: 0.507, Acc: 83.540%
+1657.9s 475 83.54
+1657.9s 476 
+1657.9s 477 Epoch: 29
+1694.5s 478 
+1694.5s 479 Epoch: 29, Loss: 0.402, Acc: 85.996%
+1694.5s 480 Data loading time: 0.24860088899936272
+1694.5s 481 Training time: 6.888587736999625
+1694.5s 482 Total epoch time: 36.57845396000016
+1696.9s 483 
+1696.9s 484 Test Loss: 0.525, Acc: 82.250%
+1696.9s 485 82.25
+1696.9s 486 
+1696.9s 487 Epoch: 30
+1733.5s 488 
+1733.5s 489 Epoch: 30, Loss: 0.398, Acc: 86.480%
+1733.5s 490 Data loading time: 0.2463986290001685
+1733.5s 491 Training time: 6.615593014001433
+1733.5s 492 Total epoch time: 36.53033914299999
+1735.9s 493 
+1735.9s 494 Test Loss: 0.512, Acc: 83.220%
+1735.9s 495 83.22
+1735.9s 496 
+1735.9s 497 Epoch: 31
+1772.3s 498 
+1772.3s 499 Epoch: 31, Loss: 0.390, Acc: 86.692%
+1772.3s 500 Data loading time: 0.2380100080010834
+1772.3s 501 Training time: 6.290824850996387
+1772.3s 502 Total epoch time: 36.423153492999745
+1774.8s 503 
+1774.8s 504 Test Loss: 0.679, Acc: 78.620%
+1774.8s 505 78.62
+1774.8s 506 
+1774.8s 507 Epoch: 32
+1811.3s 508 
+1811.3s 509 Epoch: 32, Loss: 0.391, Acc: 86.466%
+1811.3s 510 Data loading time: 0.24468988099533817
+1811.3s 511 Training time: 6.616264571001921
+1811.3s 512 Total epoch time: 36.48739780000005
+1813.7s 513 
+1813.7s 514 Test Loss: 0.627, Acc: 79.360%
+1813.7s 515 79.36
+1813.7s 516 
+1813.7s 517 Epoch: 33
+1850.2s 518 
+1850.2s 519 Epoch: 33, Loss: 0.386, Acc: 86.718%
+1850.2s 520 Data loading time: 0.24216049800043038
+1850.2s 521 Training time: 7.0549600830008785
+1850.2s 522 Total epoch time: 36.4521115460002
+1852.6s 523 
+1852.6s 524 Test Loss: 0.561, Acc: 81.490%
+1852.6s 525 81.49
+1852.6s 526 
+1852.6s 527 Epoch: 34
+1889.1s 528 
+1889.1s 529 Epoch: 34, Loss: 0.391, Acc: 86.672%
+1889.1s 530 Data loading time: 0.23815471499847263
+1889.1s 531 Training time: 6.339626456001042
+1889.1s 532 Total epoch time: 36.42156566700032
+1891.5s 533 
+1891.5s 534 Test Loss: 0.508, Acc: 82.970%
+1891.5s 535 82.97
+1891.5s 536 
+1891.5s 537 Epoch: 35
+1927.9s 538 
+1927.9s 539 Epoch: 35, Loss: 0.380, Acc: 87.010%
+1927.9s 540 Data loading time: 0.24057942400395405
+1927.9s 541 Training time: 6.428554714998427
+1927.9s 542 Total epoch time: 36.43095895899978
+1930.3s 543 
+1930.3s 544 Test Loss: 0.459, Acc: 84.870%
+1930.3s 545 84.87
+1930.3s 546 
+1930.3s 547 Epoch: 36
+1966.8s 548 
+1966.8s 549 Epoch: 36, Loss: 0.384, Acc: 86.820%
+1966.8s 550 Data loading time: 0.24115602900201338
+1966.8s 551 Training time: 6.477655048005545
+1966.8s 552 Total epoch time: 36.44688636500041
+1969.5s 553 
+1969.5s 554 Test Loss: 0.411, Acc: 85.620%
+1969.5s 555 85.62
+1972.6s 556 
+1972.6s 557 Test Loss: 0.411, Acc: 85.620%
+1976.0s 558 [34m[1mwandb[0m: - 0.001 MB of 0.001 MB uploaded[34m[1mwandb[0m: \ 0.001 MB of 0.024 MB uploaded[34m[1mwandb[0m: | 0.001 MB of 0.024 MB uploaded[34m[1mwandb[0m: / 0.024 MB of 0.024 MB uploaded[34m[1mwandb[0m:
+1977.2s 559 [34m[1mwandb[0m:
+1977.2s 560 [34m[1mwandb[0m: Run history:
+1977.2s 561 [34m[1mwandb[0m:      early_stop ▁
+1977.2s 562 [34m[1mwandb[0m:           epoch ▁▁▁▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇███
+1977.2s 563 [34m[1mwandb[0m: final_test_loss ▁
+1977.2s 564 [34m[1mwandb[0m:   test_accuracy ▁▃▄▅▆▆▆▇▇▇▇▇▇▆▆▇█▇███▆▇██▇█████▇▇▇███
+1977.2s 565 [34m[1mwandb[0m:       test_loss █▆▅▄▃▃▃▂▂▃▂▃▂▃▃▂▁▂▁▁▁▆▂▁▁▃▁▁▁▂▁▂▂▂▁▁▁
+1977.2s 566 [34m[1mwandb[0m:  train_accuracy ▁▃▄▅▆▆▇▇▇▇▇▇▇▇███████████████████████
+1977.2s 567 [34m[1mwandb[0m:      train_loss █▆▅▄▃▃▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+1977.2s 568 [34m[1mwandb[0m:
+1977.2s 569 [34m[1mwandb[0m: Run summary:
+1977.2s 570 [34m[1mwandb[0m:      early_stop 36
+1977.2s 571 [34m[1mwandb[0m:           epoch 36
+1977.2s 572 [34m[1mwandb[0m: final_test_loss 0.4106
+1977.2s 573 [34m[1mwandb[0m:   test_accuracy 85.62
+1977.2s 574 [34m[1mwandb[0m:       test_loss 0.4106
+1977.2s 575 [34m[1mwandb[0m:  train_accuracy 86.82
+1977.2s 576 [34m[1mwandb[0m:      train_loss 0.38418
+1977.2s 577 [34m[1mwandb[0m:
+1977.2s 578 [34m[1mwandb[0m: 🚀 View run [33mwild-sweep-2[0m at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/1kooc432[0m
+1977.2s 579 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+1977.2s 580 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+1977.2s 581 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_123707-1kooc432/logs[0m
+1981.3s 582 [34m[1mwandb[0m: Agent Starting Run: io8bsl8l with config:
+1981.3s 583 [34m[1mwandb[0m: 	learning_rate: 0.1
+1981.3s 584 [34m[1mwandb[0m: 	optimizer: adadelta
+1998.1s 585 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+1998.1s 586 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_130138-io8bsl8l[0m
+1998.1s 587 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+1998.1s 588 [34m[1mwandb[0m: Syncing run [33mzesty-sweep-3[0m
+1998.1s 589 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+1998.1s 590 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/sweeps/gbmvnea4[0m
+1998.2s 591 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/io8bsl8l[0m
+1999.1s 592 Total number of params 4919114
+1999.1s 593 
+1999.1s 594 Epoch: 0
+2036.5s 595 
+2036.5s 596 Epoch: 0, Loss: 1.451, Acc: 46.484%
+2036.5s 597 Data loading time: 0.2364698369983671
+2036.5s 598 Training time: 7.797148971998013
+2036.5s 599 Total epoch time: 37.35034920199996
+2039.1s 600 
+2039.1s 601 Test Loss: 1.718, Acc: 45.120%
+2039.1s 602 45.12
+2039.1s 603 
+2039.1s 604 Epoch: 1
+2075.9s 605 
+2075.9s 606 Epoch: 1, Loss: 0.986, Acc: 64.982%
+2075.9s 607 Data loading time: 0.23320166800158404
+2075.9s 608 Training time: 6.734613516997342
+2075.9s 609 Total epoch time: 36.76382905800028
+2078.3s 610 
+2078.3s 611 Test Loss: 1.404, Acc: 55.770%
+2078.3s 612 55.77
+2078.3s 613 
+2078.3s 614 Epoch: 2
+2115.2s 615 
+2115.2s 616 Epoch: 2, Loss: 0.788, Acc: 72.508%
+2115.2s 617 Data loading time: 0.24371608900582942
+2115.2s 618 Training time: 7.298064681001961
+2115.2s 619 Total epoch time: 36.85596266599987
+2117.6s 620 
+2117.6s 621 Test Loss: 0.894, Acc: 70.870%
+2117.6s 622 70.87
+2117.6s 623 
+2117.6s 624 Epoch: 3
+2154.6s 625 
+2154.6s 626 Epoch: 3, Loss: 0.670, Acc: 76.656%
+2154.6s 627 Data loading time: 0.25164019799740345
+2154.6s 628 Training time: 7.419120015002591
+2154.6s 629 Total epoch time: 36.93270630999996
+2157.0s 630 
+2157.0s 631 Test Loss: 0.760, Acc: 76.260%
+2157.0s 632 76.26
+2157.0s 633 
+2157.0s 634 Epoch: 4
+2193.8s 635 
+2193.8s 636 Epoch: 4, Loss: 0.590, Acc: 79.504%
+2193.8s 637 Data loading time: 0.23227928899859762
+2193.8s 638 Training time: 6.581143193003754
+2193.8s 639 Total epoch time: 36.727586541000164
+2196.2s 640 
+2196.2s 641 Test Loss: 1.046, Acc: 69.810%
+2196.2s 642 69.81
+2196.2s 643 
+2196.2s 644 Epoch: 5
+2233.0s 645 
+2233.0s 646 Epoch: 5, Loss: 0.534, Acc: 81.358%
+2233.0s 647 Data loading time: 0.23841020800045953
+2233.0s 648 Training time: 7.100966756994694
+2233.0s 649 Total epoch time: 36.770352381000066
+2235.4s 650 
+2235.4s 651 Test Loss: 0.735, Acc: 75.640%
+2235.4s 652 75.64
+2235.4s 653 
+2235.4s 654 Epoch: 6
+2272.2s 655 
+2272.2s 656 Epoch: 6, Loss: 0.489, Acc: 83.206%
+2272.2s 657 Data loading time: 0.23571463399866843
+2272.2s 658 Training time: 6.681773832998715
+2272.2s 659 Total epoch time: 36.74805773199978
+2274.6s 660 
+2274.6s 661 Test Loss: 0.653, Acc: 78.870%
+2274.6s 662 78.87
+2274.6s 663 
+2274.6s 664 Epoch: 7
+2311.5s 665 
+2311.5s 666 Epoch: 7, Loss: 0.453, Acc: 84.342%
+2311.5s 667 Data loading time: 0.24094586900537251
+2311.5s 668 Training time: 6.818791208000675
+2311.5s 669 Total epoch time: 36.792257357999915
+2313.9s 670 
+2313.9s 671 Test Loss: 0.611, Acc: 79.900%
+2313.9s 672 79.9
+2313.9s 673 
+2313.9s 674 Epoch: 8
+2350.8s 675 
+2350.8s 676 Epoch: 8, Loss: 0.426, Acc: 85.352%
+2350.8s 677 Data loading time: 0.2457830779962933
+2350.8s 678 Training time: 7.360299659999328
+2350.8s 679 Total epoch time: 36.890294220000214
+2353.3s 680 
+2353.3s 681 Test Loss: 0.838, Acc: 75.010%
+2353.3s 682 75.01
+2353.3s 683 
+2353.3s 684 Epoch: 9
+2390.1s 685 
+2390.1s 686 Epoch: 9, Loss: 0.401, Acc: 86.160%
+2390.1s 687 Data loading time: 0.23647069299886425
+2390.1s 688 Training time: 6.934274537004512
+2390.1s 689 Total epoch time: 36.77053964800007
+2392.5s 690 
+2392.5s 691 Test Loss: 0.719, Acc: 78.910%
+2392.5s 692 78.91
+2392.5s 693 
+2392.5s 694 Epoch: 10
+2429.3s 695 
+2429.3s 696 Epoch: 10, Loss: 0.379, Acc: 86.770%
+2429.3s 697 Data loading time: 0.23764790400218772
+2429.3s 698 Training time: 7.184932861998732
+2429.3s 699 Total epoch time: 36.80807422199996
+2431.8s 700 
+2431.8s 701 Test Loss: 0.471, Acc: 84.370%
+2431.8s 702 84.37
+2431.8s 703 
+2431.8s 704 Epoch: 11
+2468.6s 705 
+2468.6s 706 Epoch: 11, Loss: 0.355, Acc: 87.708%
+2468.6s 707 Data loading time: 0.24147118800283351
+2468.6s 708 Training time: 7.136899071999778
+2468.6s 709 Total epoch time: 36.78108508200012
+2471.0s 710 
+2471.0s 711 Test Loss: 0.610, Acc: 81.050%
+2471.0s 712 81.05
+2471.0s 713 
+2471.0s 714 Epoch: 12
+2507.8s 715 
+2507.8s 716 Epoch: 12, Loss: 0.340, Acc: 88.212%
+2507.8s 717 Data loading time: 0.23908427800506615
+2507.8s 718 Training time: 6.687522092001473
+2507.8s 719 Total epoch time: 36.81023420199972
+2510.4s 720 
+2510.4s 721 Test Loss: 0.465, Acc: 85.050%
+2510.4s 722 85.05
+2513.5s 723 
+2513.5s 724 Test Loss: 0.465, Acc: 85.050%
+2515.6s 725 [34m[1mwandb[0m: - 0.001 MB of 0.020 MB uploaded[34m[1mwandb[0m: \ 0.001 MB of 0.020 MB uploaded[34m[1mwandb[0m: | 0.020 MB of 0.020 MB uploaded[34m[1mwandb[0m:
+2516.8s 726 [34m[1mwandb[0m:
+2516.8s 727 [34m[1mwandb[0m: Run history:
+2516.8s 728 [34m[1mwandb[0m:      early_stop ▁
+2516.8s 729 [34m[1mwandb[0m:           epoch ▁▂▂▃▃▄▅▅▆▆▇▇█
+2516.8s 730 [34m[1mwandb[0m: final_test_loss ▁
+2516.8s 731 [34m[1mwandb[0m:   test_accuracy ▁▃▆▆▅▆▇▇▆▇█▇█
+2516.8s 732 [34m[1mwandb[0m:       test_loss █▆▃▃▄▃▂▂▃▂▁▂▁
+2516.8s 733 [34m[1mwandb[0m:  train_accuracy ▁▄▅▆▇▇▇▇█████
+2516.8s 734 [34m[1mwandb[0m:      train_loss █▅▄▃▃▂▂▂▂▁▁▁▁
+2516.8s 735 [34m[1mwandb[0m:
+2516.8s 736 [34m[1mwandb[0m: Run summary:
+2516.8s 737 [34m[1mwandb[0m:      early_stop 12
+2516.8s 738 [34m[1mwandb[0m:           epoch 12
+2516.8s 739 [34m[1mwandb[0m: final_test_loss 0.46533
+2516.8s 740 [34m[1mwandb[0m:   test_accuracy 85.05
+2516.8s 741 [34m[1mwandb[0m:       test_loss 0.46533
+2516.8s 742 [34m[1mwandb[0m:  train_accuracy 88.212
+2516.8s 743 [34m[1mwandb[0m:      train_loss 0.3397
+2516.8s 744 [34m[1mwandb[0m:
+2516.8s 745 [34m[1mwandb[0m: 🚀 View run [33mzesty-sweep-3[0m at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/io8bsl8l[0m
+2516.8s 746 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+2516.8s 747 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+2516.8s 748 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_130138-io8bsl8l/logs[0m
+2521.8s 749 [34m[1mwandb[0m: Sweep Agent: Waiting for job.
+2526.8s 750 [34m[1mwandb[0m: Job received.
+2527.9s 751 [34m[1mwandb[0m: Agent Starting Run: 7rzmwdhf with config:
+2527.9s 752 [34m[1mwandb[0m: 	learning_rate: 0.1
+2527.9s 753 [34m[1mwandb[0m: 	optimizer: adadelta
+2544.8s 754 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+2544.8s 755 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_131045-7rzmwdhf[0m
+2544.8s 756 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+2544.8s 757 [34m[1mwandb[0m: Syncing run [33mfresh-sweep-4[0m
+2544.8s 758 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+2544.8s 759 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/sweeps/gbmvnea4[0m
+2544.8s 760 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/7rzmwdhf[0m
+2545.7s 761 Total number of params 4919114
+2545.7s 762 
+2545.7s 763 Epoch: 0
+2583.0s 764 
+2583.0s 765 Epoch: 0, Loss: 1.456, Acc: 46.412%
+2583.0s 766 Data loading time: 0.23022822799885034
+2583.0s 767 Training time: 7.650417384997581
+2583.0s 768 Total epoch time: 37.23686806400019
+2585.6s 769 
+2585.6s 770 Test Loss: 1.201, Acc: 57.110%
+2585.6s 771 57.11
+2585.6s 772 
+2585.6s 773 Epoch: 1
+2622.4s 774 
+2622.4s 775 Epoch: 1, Loss: 0.996, Acc: 64.234%
+2622.4s 776 Data loading time: 0.23941379599364154
+2622.4s 777 Training time: 6.915664209002443
+2622.4s 778 Total epoch time: 36.82373198899995
+2624.9s 779 
+2624.9s 780 Test Loss: 1.333, Acc: 58.640%
+2624.9s 781 58.64
+2624.9s 782 
+2624.9s 783 Epoch: 2
+2661.8s 784 
+2661.8s 785 Epoch: 2, Loss: 0.800, Acc: 71.770%
+2661.8s 786 Data loading time: 0.23831103500151585
+2661.8s 787 Training time: 6.473090754001078
+2661.8s 788 Total epoch time: 36.838212424000176
+2664.2s 789 
+2664.2s 790 Test Loss: 0.877, Acc: 70.770%
+2664.2s 791 70.77
+2664.2s 792 
+2664.2s 793 Epoch: 3
+2701.2s 794 
+2701.2s 795 Epoch: 3, Loss: 0.676, Acc: 76.578%
+2701.2s 796 Data loading time: 0.2420822230055819
+2701.2s 797 Training time: 6.9991196790001595
+2701.2s 798 Total epoch time: 36.948883900000055
+2703.7s 799 
+2703.7s 800 Test Loss: 0.942, Acc: 68.900%
+2703.7s 801 68.9
+2703.7s 802 
+2703.7s 803 Epoch: 4
+2740.6s 804 
+2740.6s 805 Epoch: 4, Loss: 0.598, Acc: 78.918%
+2740.6s 806 Data loading time: 0.24084987499873023
+2740.6s 807 Training time: 6.966325852999944
+2740.6s 808 Total epoch time: 36.888588005999736
+2743.0s 809 
+2743.0s 810 Test Loss: 0.854, Acc: 73.310%
+2743.0s 811 73.31
+2743.0s 812 
+2743.0s 813 Epoch: 5
+2780.0s 814 
+2780.0s 815 Epoch: 5, Loss: 0.543, Acc: 81.184%
+2780.0s 816 Data loading time: 0.24200923200214675
+2780.0s 817 Training time: 7.125682737000716
+2780.0s 818 Total epoch time: 36.925403079999796
+2782.4s 819 
+2782.4s 820 Test Loss: 0.780, Acc: 75.970%
+2782.4s 821 75.97
+2782.4s 822 
+2782.4s 823 Epoch: 6
+2819.3s 824 
+2819.3s 825 Epoch: 6, Loss: 0.499, Acc: 82.740%
+2819.3s 826 Data loading time: 0.2360335799994573
+2819.3s 827 Training time: 6.698459807998006
+2819.3s 828 Total epoch time: 36.80991530900019
+2821.7s 829 
+2821.7s 830 Test Loss: 0.712, Acc: 76.720%
+2821.7s 831 76.72
+2821.7s 832 
+2821.7s 833 Epoch: 7
+2858.7s 834 
+2858.7s 835 Epoch: 7, Loss: 0.459, Acc: 84.084%
+2858.7s 836 Data loading time: 0.2468172240023705
+2858.7s 837 Training time: 7.071802047006713
+2858.7s 838 Total epoch time: 36.917903447999834
+2861.1s 839 
+2861.1s 840 Test Loss: 0.644, Acc: 79.170%
+2861.1s 841 79.17
+2861.1s 842 
+2861.1s 843 Epoch: 8
+2898.0s 844 
+2898.0s 845 Epoch: 8, Loss: 0.432, Acc: 85.018%
+2898.0s 846 Data loading time: 0.24559771899885163
+2898.0s 847 Training time: 7.145404313002473
+2898.0s 848 Total epoch time: 36.882246631999806
+2900.4s 849 
+2900.4s 850 Test Loss: 0.557, Acc: 82.000%
+2900.4s 851 82.0
+2900.4s 852 
+2900.4s 853 Epoch: 9
+2937.3s 854 
+2937.3s 855 Epoch: 9, Loss: 0.404, Acc: 86.076%
+2937.3s 856 Data loading time: 0.23698837700430886
+2937.3s 857 Training time: 6.515090945004431
+2937.3s 858 Total epoch time: 36.78798685699985
+2939.7s 859 
+2939.7s 860 Test Loss: 0.593, Acc: 80.820%
+2939.7s 861 80.82
+2939.7s 862 
+2939.7s 863 Epoch: 10
+2976.5s 864 
+2976.5s 865 Epoch: 10, Loss: 0.382, Acc: 86.778%
+2976.5s 866 Data loading time: 0.23741743100163148
+2976.5s 867 Training time: 6.364949205001722
+2976.5s 868 Total epoch time: 36.77442249600017
+2978.9s 869 
+2978.9s 870 Test Loss: 0.541, Acc: 82.190%
+2978.9s 871 82.19
+2978.9s 872 
+2978.9s 873 Epoch: 11
+3015.7s 874 
+3015.7s 875 Epoch: 11, Loss: 0.361, Acc: 87.484%
+3015.7s 876 Data loading time: 0.2329649589987639
+3015.7s 877 Training time: 6.672197686007166
+3015.7s 878 Total epoch time: 36.7563187249998
+3018.2s 879 
+3018.2s 880 Test Loss: 0.529, Acc: 82.690%
+3018.2s 881 82.69
+3018.2s 882 
+3018.2s 883 Epoch: 12
+3055.0s 884 
+3055.0s 885 Epoch: 12, Loss: 0.345, Acc: 88.106%
+3055.0s 886 Data loading time: 0.24189886799922533
+3055.0s 887 Training time: 7.138260365000406
+3055.0s 888 Total epoch time: 36.85015287400029
+3057.5s 889 
+3057.5s 890 Test Loss: 0.642, Acc: 80.510%
+3057.5s 891 80.51
+3057.5s 892 
+3057.5s 893 Epoch: 13
+3094.4s 894 
+3094.4s 895 Epoch: 13, Loss: 0.334, Acc: 88.436%
+3094.4s 896 Data loading time: 0.2450519010003518
+3094.4s 897 Training time: 7.002606788999401
+3094.4s 898 Total epoch time: 36.841880234999735
+3096.8s 899 
+3096.8s 900 Test Loss: 0.535, Acc: 83.480%
+3096.8s 901 83.48
+3096.8s 902 
+3096.8s 903 Epoch: 14
+3133.8s 904 
+3133.8s 905 Epoch: 14, Loss: 0.316, Acc: 89.048%
+3133.8s 906 Data loading time: 0.2453886180005611
+3133.8s 907 Training time: 7.164325790998646
+3133.8s 908 Total epoch time: 36.938790986000186
+3136.2s 909 
+3136.2s 910 Test Loss: 0.467, Acc: 84.590%
+3136.2s 911 84.59
+3136.2s 912 
+3136.2s 913 Epoch: 15
+3173.1s 914 
+3173.1s 915 Epoch: 15, Loss: 0.301, Acc: 89.582%
+3173.1s 916 Data loading time: 0.24394859799394908
+3173.1s 917 Training time: 7.30816381799923
+3173.1s 918 Total epoch time: 36.89172525899994
+3175.6s 919 
+3175.6s 920 Test Loss: 0.509, Acc: 84.450%
+3175.6s 921 84.45
+3175.6s 922 
+3175.6s 923 Epoch: 16
+3212.4s 924 
+3212.4s 925 Epoch: 16, Loss: 0.291, Acc: 90.004%
+3212.4s 926 Data loading time: 0.23884626399922126
+3212.4s 927 Training time: 6.817823503991804
+3212.4s 928 Total epoch time: 36.81435336499999
+3214.8s 929 
+3214.8s 930 Test Loss: 0.695, Acc: 79.990%
+3214.8s 931 79.99
+3214.8s 932 
+3214.8s 933 Epoch: 17
+3251.7s 934 
+3251.7s 935 Epoch: 17, Loss: 0.279, Acc: 90.352%
+3251.7s 936 Data loading time: 0.23776921399621642
+3251.7s 937 Training time: 6.893438594005147
+3251.7s 938 Total epoch time: 36.781823668000015
+3254.3s 939 
+3254.3s 940 Test Loss: 0.470, Acc: 85.980%
+3254.3s 941 85.98
+3257.4s 942 
+3257.4s 943 Test Loss: 0.470, Acc: 85.980%
+3260.3s 944 [34m[1mwandb[0m: - 0.001 MB of 0.001 MB uploaded[34m[1mwandb[0m: \ 0.021 MB of 0.021 MB uploaded[34m[1mwandb[0m: | 0.021 MB of 0.021 MB uploaded[34m[1mwandb[0m: / 0.021 MB of 0.021 MB uploaded[34m[1mwandb[0m:
+3261.5s 945 [34m[1mwandb[0m:
+3261.5s 946 [34m[1mwandb[0m: Run history:
+3261.5s 947 [34m[1mwandb[0m:      early_stop ▁
+3261.5s 948 [34m[1mwandb[0m:           epoch ▁▁▂▂▃▃▃▄▄▅▅▆▆▆▇▇██
+3261.5s 949 [34m[1mwandb[0m: final_test_loss ▁
+3261.5s 950 [34m[1mwandb[0m:   test_accuracy ▁▁▄▄▅▆▆▆▇▇▇▇▇▇██▇█
+3261.5s 951 [34m[1mwandb[0m:       test_loss ▇█▄▅▄▄▃▂▂▂▂▁▂▂▁▁▃▁
+3261.5s 952 [34m[1mwandb[0m:  train_accuracy ▁▄▅▆▆▇▇▇▇▇▇███████
+3261.5s 953 [34m[1mwandb[0m:      train_loss █▅▄▃▃▃▂▂▂▂▂▁▁▁▁▁▁▁
+3261.5s 954 [34m[1mwandb[0m:
+3261.5s 955 [34m[1mwandb[0m: Run summary:
+3261.5s 956 [34m[1mwandb[0m:      early_stop 17
+3261.5s 957 [34m[1mwandb[0m:           epoch 17
+3261.5s 958 [34m[1mwandb[0m: final_test_loss 0.47026
+3261.5s 959 [34m[1mwandb[0m:   test_accuracy 85.98
+3261.5s 960 [34m[1mwandb[0m:       test_loss 0.47026
+3261.5s 961 [34m[1mwandb[0m:  train_accuracy 90.352
+3261.5s 962 [34m[1mwandb[0m:      train_loss 0.27856
+3261.5s 963 [34m[1mwandb[0m:
+3261.5s 964 [34m[1mwandb[0m: 🚀 View run [33mfresh-sweep-4[0m at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/7rzmwdhf[0m
+3261.5s 965 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+3261.5s 966 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+3261.5s 967 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_131045-7rzmwdhf/logs[0m
+3265.6s 968 [34m[1mwandb[0m: Agent Starting Run: tj3v7kd8 with config:
+3265.6s 969 [34m[1mwandb[0m: 	learning_rate: 0.01
+3265.6s 970 [34m[1mwandb[0m: 	optimizer: adadelta-clipping
+3282.5s 971 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+3282.5s 972 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_132303-tj3v7kd8[0m
+3282.5s 973 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+3282.5s 974 [34m[1mwandb[0m: Syncing run [33mruby-sweep-5[0m
+3282.5s 975 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+3282.5s 976 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/sweeps/gbmvnea4[0m
+3282.5s 977 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/tj3v7kd8[0m
+3283.5s 978 Total number of params 4919114
+3283.5s 979 
+3283.5s 980 Epoch: 0
+3326.2s 981 
+3326.2s 982 Epoch: 0, Loss: 2.183, Acc: 19.638%
+3326.2s 983 Data loading time: 0.2264798090000113
+3326.2s 984 Training time: 41.03931764700246
+3326.2s 985 Total epoch time: 42.68199795800001
+3328.9s 986 
+3328.9s 987 Test Loss: 1.936, Acc: 27.410%
+3328.9s 988 27.41
+3328.9s 989 
+3328.9s 990 Epoch: 1
+3370.7s 991 
+3370.7s 992 Epoch: 1, Loss: 1.860, Acc: 31.168%
+3370.7s 993 Data loading time: 0.23625143799745274
+3370.7s 994 Training time: 40.39084587100069
+3370.7s 995 Total epoch time: 41.746441667
+3373.1s 996 
+3373.1s 997 Test Loss: 1.771, Acc: 33.680%
+3373.1s 998 33.68
+3373.1s 999 
+3373.1s 1000 Epoch: 2
+3414.8s 1001 
+3414.8s 1002 Epoch: 2, Loss: 1.739, Acc: 35.634%
+3414.8s 1003 Data loading time: 0.23147497300169562
+3414.8s 1004 Training time: 40.315627398003926
+3414.8s 1005 Total epoch time: 41.668807206999645
+3417.2s 1006 
+3417.2s 1007 Test Loss: 1.660, Acc: 37.540%
+3417.2s 1008 37.54
+3417.2s 1009 
+3417.2s 1010 Epoch: 3
+3459.0s 1011 
+3459.0s 1012 Epoch: 3, Loss: 1.652, Acc: 39.024%
+3459.0s 1013 Data loading time: 0.2375628320028227
+3459.0s 1014 Training time: 40.4110599469991
+3459.0s 1015 Total epoch time: 41.765430444999765
+3461.4s 1016 
+3461.4s 1017 Test Loss: 1.589, Acc: 40.750%
+3461.4s 1018 40.75
+3461.4s 1019 
+3461.4s 1020 Epoch: 4
+3503.2s 1021 
+3503.2s 1022 Epoch: 4, Loss: 1.589, Acc: 41.284%
+3503.2s 1023 Data loading time: 0.23427654600345704
+3503.2s 1024 Training time: 40.35241015299562
+3503.2s 1025 Total epoch time: 41.72065760199985
+3505.6s 1026 
+3505.6s 1027 Test Loss: 1.522, Acc: 43.730%
+3505.6s 1028 43.73
+3505.6s 1029 
+3505.6s 1030 Epoch: 5
+3547.4s 1031 
+3547.4s 1032 Epoch: 5, Loss: 1.540, Acc: 43.062%
+3547.4s 1033 Data loading time: 0.23211533500261794
+3547.4s 1034 Training time: 40.34841603799987
+3547.4s 1035 Total epoch time: 41.69010664799998
+3549.8s 1036 
+3549.8s 1037 Test Loss: 1.483, Acc: 45.070%
+3549.8s 1038 45.07
+3549.8s 1039 
+3549.8s 1040 Epoch: 6
+3591.6s 1041 
+3591.6s 1042 Epoch: 6, Loss: 1.502, Acc: 44.600%
+3591.6s 1043 Data loading time: 0.23567176099822973
+3591.6s 1044 Training time: 40.376655935999224
+3591.6s 1045 Total epoch time: 41.77567336400034
+3594.0s 1046 
+3594.0s 1047 Test Loss: 1.437, Acc: 47.050%
+3594.0s 1048 47.05
+3594.0s 1049 
+3594.0s 1050 Epoch: 7
+3635.8s 1051 
+3635.8s 1052 Epoch: 7, Loss: 1.462, Acc: 46.098%
+3635.8s 1053 Data loading time: 0.2342899169998418
+3635.8s 1054 Training time: 40.33701292899377
+3635.8s 1055 Total epoch time: 41.6886296749999
+3638.2s 1056 
+3638.2s 1057 Test Loss: 1.406, Acc: 48.120%
+3638.2s 1058 48.12
+3638.2s 1059 
+3638.2s 1060 Epoch: 8
+3680.0s 1061 
+3680.0s 1062 Epoch: 8, Loss: 1.433, Acc: 47.204%
+3680.0s 1063 Data loading time: 0.23913317800088407
+3680.0s 1064 Training time: 40.452106997002375
+3680.0s 1065 Total epoch time: 41.82546457799981
+3682.5s 1066 
+3682.5s 1067 Test Loss: 1.378, Acc: 49.460%
+3682.5s 1068 49.46
+3682.5s 1069 
+3682.5s 1070 Epoch: 9
+3724.3s 1071 
+3724.3s 1072 Epoch: 9, Loss: 1.403, Acc: 48.836%
+3724.3s 1073 Data loading time: 0.24213475300575737
+3724.3s 1074 Training time: 40.40580125600218
+3724.3s 1075 Total epoch time: 41.767149259000234
+3726.7s 1076 
+3726.7s 1077 Test Loss: 1.356, Acc: 50.430%
+3726.7s 1078 50.43
+3726.7s 1079 
+3726.7s 1080 Epoch: 10
+3768.5s 1081 
+3768.5s 1082 Epoch: 10, Loss: 1.375, Acc: 50.022%
+3768.5s 1083 Data loading time: 0.23885432800216222
+3768.5s 1084 Training time: 40.35876095299409
+3768.5s 1085 Total epoch time: 41.70621753700016
+3770.9s 1086 
+3770.9s 1087 Test Loss: 1.341, Acc: 50.680%
+3770.9s 1088 50.68
+3770.9s 1089 
+3770.9s 1090 Epoch: 11
+3812.8s 1091 
+3812.8s 1092 Epoch: 11, Loss: 1.351, Acc: 50.860%
+3812.8s 1093 Data loading time: 0.24220582399993873
+3812.8s 1094 Training time: 40.45947551800009
+3812.8s 1095 Total epoch time: 41.879243936999956
+3815.3s 1096 
+3815.3s 1097 Test Loss: 1.296, Acc: 52.650%
+3815.3s 1098 52.65
+3815.3s 1099 
+3815.3s 1100 Epoch: 12
+3857.0s 1101 
+3857.0s 1102 Epoch: 12, Loss: 1.329, Acc: 51.838%
+3857.0s 1103 Data loading time: 0.23306546900221292
+3857.0s 1104 Training time: 40.36903572801748
+3857.0s 1105 Total epoch time: 41.71296615200026
+3859.4s 1106 
+3859.4s 1107 Test Loss: 1.286, Acc: 53.440%
+3859.4s 1108 53.44
+3859.4s 1109 
+3859.4s 1110 Epoch: 13
+3901.2s 1111 
+3901.2s 1112 Epoch: 13, Loss: 1.306, Acc: 52.924%
+3901.2s 1113 Data loading time: 0.23529722599687375
+3901.2s 1114 Training time: 40.33569019900369
+3901.2s 1115 Total epoch time: 41.67391174900058
+3903.6s 1116 
+3903.6s 1117 Test Loss: 1.258, Acc: 54.210%
+3903.6s 1118 54.21
+3903.6s 1119 
+3903.6s 1120 Epoch: 14
+3945.3s 1121 
+3945.3s 1122 Epoch: 14, Loss: 1.289, Acc: 53.580%
+3945.3s 1123 Data loading time: 0.241075447993353
+3945.3s 1124 Training time: 40.34198454598027
+3945.3s 1125 Total epoch time: 41.69065944900012
+3947.8s 1126 
+3947.8s 1127 Test Loss: 1.242, Acc: 55.600%
+3947.8s 1128 55.6
+3947.8s 1129 
+3947.8s 1130 Epoch: 15
+3989.5s 1131 
+3989.5s 1132 Epoch: 15, Loss: 1.269, Acc: 54.160%
+3989.5s 1133 Data loading time: 0.23202179999498185
+3989.5s 1134 Training time: 40.32429818698438
+3989.5s 1135 Total epoch time: 41.66027192799993
+3991.9s 1136 
+3991.9s 1137 Test Loss: 1.224, Acc: 55.590%
+3991.9s 1138 55.59
+3991.9s 1139 
+3991.9s 1140 Epoch: 16
+4033.7s 1141 
+4033.7s 1142 Epoch: 16, Loss: 1.254, Acc: 54.992%
+4033.7s 1143 Data loading time: 0.24073633899661218
+4033.7s 1144 Training time: 40.40652683700682
+4033.7s 1145 Total epoch time: 41.76753173199995
+4036.2s 1146 
+4036.2s 1147 Test Loss: 1.205, Acc: 56.500%
+4036.2s 1148 56.5
+4036.2s 1149 
+4036.2s 1150 Epoch: 17
+4077.9s 1151 
+4077.9s 1152 Epoch: 17, Loss: 1.237, Acc: 55.644%
+4077.9s 1153 Data loading time: 0.2327381500035699
+4077.9s 1154 Training time: 40.32557046900092
+4077.9s 1155 Total epoch time: 41.6767420619999
+4080.3s 1156 
+4080.3s 1157 Test Loss: 1.203, Acc: 57.090%
+4080.3s 1158 57.09
+4080.3s 1159 
+4080.3s 1160 Epoch: 18
+4122.1s 1161 
+4122.1s 1162 Epoch: 18, Loss: 1.223, Acc: 55.952%
+4122.1s 1163 Data loading time: 0.2317243440047605
+4122.1s 1164 Training time: 40.36869665100585
+4122.1s 1165 Total epoch time: 41.72384510000029
+4124.5s 1166 
+4124.5s 1167 Test Loss: 1.186, Acc: 57.510%
+4124.5s 1168 57.51
+4124.5s 1169 
+4124.5s 1170 Epoch: 19
+4166.2s 1171 
+4166.2s 1172 Epoch: 19, Loss: 1.207, Acc: 56.642%
+4166.2s 1173 Data loading time: 0.23744869900292542
+4166.2s 1174 Training time: 40.36743866499182
+4166.2s 1175 Total epoch time: 41.714041643999735
+4168.6s 1176 
+4168.6s 1177 Test Loss: 1.164, Acc: 58.810%
+4168.6s 1178 58.81
+4168.6s 1179 
+4168.6s 1180 Epoch: 20
+4210.5s 1181 
+4210.5s 1182 Epoch: 20, Loss: 1.197, Acc: 56.912%
+4210.5s 1183 Data loading time: 0.2359544460177858
+4210.5s 1184 Training time: 40.408866157999
+4210.5s 1185 Total epoch time: 41.78156951700021
+4212.9s 1186 
+4212.9s 1187 Test Loss: 1.185, Acc: 57.830%
+4212.9s 1188 57.83
+4212.9s 1189 
+4212.9s 1190 Epoch: 21
+4254.8s 1191 
+4254.8s 1192 Epoch: 21, Loss: 1.184, Acc: 57.774%
+4254.8s 1193 Data loading time: 0.2353934180127908
+4254.8s 1194 Training time: 40.418844081003044
+4254.8s 1195 Total epoch time: 41.77508311100064
+4257.2s 1196 
+4257.2s 1197 Test Loss: 1.144, Acc: 59.250%
+4257.2s 1198 59.25
+4257.2s 1199 
+4257.2s 1200 Epoch: 22
+4299.0s 1201 
+4299.0s 1202 Epoch: 22, Loss: 1.168, Acc: 57.966%
+4299.0s 1203 Data loading time: 0.2374948599972413
+4299.0s 1204 Training time: 40.41419468498498
+4299.0s 1205 Total epoch time: 41.7672036240001
+4301.4s 1206 
+4301.4s 1207 Test Loss: 1.146, Acc: 59.120%
+4301.4s 1208 59.12
+4301.4s 1209 
+4301.4s 1210 Epoch: 23
+4343.1s 1211 
+4343.1s 1212 Epoch: 23, Loss: 1.156, Acc: 58.552%
+4343.1s 1213 Data loading time: 0.23389795100229094
+4343.1s 1214 Training time: 40.32449479600473
+4343.1s 1215 Total epoch time: 41.659348915999544
+4345.5s 1216 
+4345.5s 1217 Test Loss: 1.110, Acc: 60.210%
+4345.5s 1218 60.21
+4345.5s 1219 
+4345.5s 1220 Epoch: 24
+4387.3s 1221 
+4387.3s 1222 Epoch: 24, Loss: 1.148, Acc: 59.082%
+4387.3s 1223 Data loading time: 0.2406394210011058
+4387.3s 1224 Training time: 40.379944652012455
+4387.3s 1225 Total epoch time: 41.729883591000544
+4389.7s 1226 
+4389.7s 1227 Test Loss: 1.142, Acc: 59.070%
+4389.7s 1228 59.07
+4389.7s 1229 
+4389.7s 1230 Epoch: 25
+4431.6s 1231 
+4431.6s 1232 Epoch: 25, Loss: 1.140, Acc: 59.006%
+4431.6s 1233 Data loading time: 0.24377645699860295
+4431.6s 1234 Training time: 40.443674231013574
+4431.6s 1235 Total epoch time: 41.8184232349995
+4434.1s 1236 
+4434.1s 1237 Test Loss: 1.092, Acc: 60.800%
+4434.1s 1238 60.8
+4434.1s 1239 
+4434.1s 1240 Epoch: 26
+4475.9s 1241 
+4475.9s 1242 Epoch: 26, Loss: 1.125, Acc: 59.930%
+4475.9s 1243 Data loading time: 0.2352984449998985
+4475.9s 1244 Training time: 40.35291154199422
+4475.9s 1245 Total epoch time: 41.720252536999396
+4478.3s 1246 
+4478.3s 1247 Test Loss: 1.091, Acc: 61.050%
+4478.3s 1248 61.05
+4478.3s 1249 
+4478.3s 1250 Epoch: 27
+4520.0s 1251 
+4520.0s 1252 Epoch: 27, Loss: 1.113, Acc: 60.264%
+4520.0s 1253 Data loading time: 0.23548012998435297
+4520.0s 1254 Training time: 40.365687972999694
+4520.0s 1255 Total epoch time: 41.70201721000012
+4522.5s 1256 
+4522.5s 1257 Test Loss: 1.129, Acc: 60.030%
+4522.5s 1258 60.03
+4522.5s 1259 
+4522.5s 1260 Epoch: 28
+4564.3s 1261 
+4564.3s 1262 Epoch: 28, Loss: 1.106, Acc: 60.648%
+4564.3s 1263 Data loading time: 0.24106138100250973
+4564.3s 1264 Training time: 40.446273056983955
+4564.3s 1265 Total epoch time: 41.80256364899924
+4566.7s 1266 
+4566.7s 1267 Test Loss: 1.102, Acc: 60.730%
+4566.7s 1268 60.73
+4566.7s 1269 
+4566.7s 1270 Epoch: 29
+4608.5s 1271 
+4608.5s 1272 Epoch: 29, Loss: 1.097, Acc: 60.832%
+4608.5s 1273 Data loading time: 0.23737264099963795
+4608.5s 1274 Training time: 40.39209613798084
+4608.5s 1275 Total epoch time: 41.76183952500014
+4610.9s 1276 
+4610.9s 1277 Test Loss: 1.073, Acc: 61.950%
+4610.9s 1278 61.95
+4610.9s 1279 
+4610.9s 1280 Epoch: 30
+4652.7s 1281 
+4652.7s 1282 Epoch: 30, Loss: 1.090, Acc: 61.002%
+4652.7s 1283 Data loading time: 0.23826328199356794
+4652.7s 1284 Training time: 40.360823459010135
+4652.7s 1285 Total epoch time: 41.706181085000026
+4655.2s 1286 
+4655.2s 1287 Test Loss: 1.058, Acc: 62.280%
+4655.2s 1288 62.28
+4655.2s 1289 
+4655.2s 1290 Epoch: 31
+4697.0s 1291 
+4697.0s 1292 Epoch: 31, Loss: 1.078, Acc: 61.670%
+4697.0s 1293 Data loading time: 0.23626104600771214
+4697.0s 1294 Training time: 40.44124087900491
+4697.0s 1295 Total epoch time: 41.8270176470005
+4699.4s 1296 
+4699.4s 1297 Test Loss: 1.067, Acc: 61.860%
+4699.4s 1298 61.86
+4699.4s 1299 
+4699.4s 1300 Epoch: 32
+4741.2s 1301 
+4741.2s 1302 Epoch: 32, Loss: 1.072, Acc: 61.582%
+4741.2s 1303 Data loading time: 0.23750959700009844
+4741.2s 1304 Training time: 40.347726632996455
+4741.2s 1305 Total epoch time: 41.69370041299953
+4743.6s 1306 
+4743.6s 1307 Test Loss: 1.057, Acc: 62.430%
+4743.6s 1308 62.43
+4743.6s 1309 
+4743.6s 1310 Epoch: 33
+4785.4s 1311 
+4785.4s 1312 Epoch: 33, Loss: 1.063, Acc: 62.318%
+4785.4s 1313 Data loading time: 0.23698240099747636
+4785.4s 1314 Training time: 40.396449043002576
+4785.4s 1315 Total epoch time: 41.76132966899968
+4787.8s 1316 
+4787.8s 1317 Test Loss: 1.050, Acc: 62.450%
+4787.8s 1318 62.45
+4787.8s 1319 
+4787.8s 1320 Epoch: 34
+4829.5s 1321 
+4829.5s 1322 Epoch: 34, Loss: 1.055, Acc: 62.448%
+4829.5s 1323 Data loading time: 0.2346224420089129
+4829.5s 1324 Training time: 40.300780268999006
+4829.5s 1325 Total epoch time: 41.624874172999625
+4831.9s 1326 
+4831.9s 1327 Test Loss: 1.043, Acc: 63.230%
+4831.9s 1328 63.23
+4831.9s 1329 
+4831.9s 1330 Epoch: 35
+4873.7s 1331 
+4873.7s 1332 Epoch: 35, Loss: 1.047, Acc: 62.786%
+4873.7s 1333 Data loading time: 0.23784399201031192
+4873.7s 1334 Training time: 40.39685315101269
+4873.7s 1335 Total epoch time: 41.76748291399963
+4876.2s 1336 
+4876.2s 1337 Test Loss: 1.063, Acc: 62.300%
+4876.2s 1338 62.3
+4876.2s 1339 
+4876.2s 1340 Epoch: 36
+4918.0s 1341 
+4918.0s 1342 Epoch: 36, Loss: 1.041, Acc: 62.820%
+4918.0s 1343 Data loading time: 0.23455726799693366
+4918.0s 1344 Training time: 40.40976066400526
+4918.0s 1345 Total epoch time: 41.78996596599973
+4920.4s 1346 
+4920.4s 1347 Test Loss: 1.029, Acc: 63.820%
+4920.4s 1348 63.82
+4920.4s 1349 
+4920.4s 1350 Epoch: 37
+4962.3s 1351 
+4962.3s 1352 Epoch: 37, Loss: 1.035, Acc: 62.930%
+4962.3s 1353 Data loading time: 0.2390921409951261
+4962.3s 1354 Training time: 40.418187759009015
+4962.3s 1355 Total epoch time: 41.78543016399999
+4964.7s 1356 
+4964.7s 1357 Test Loss: 1.025, Acc: 63.660%
+4964.7s 1358 63.66
+4964.7s 1359 
+4964.7s 1360 Epoch: 38
+5006.5s 1361 
+5006.5s 1362 Epoch: 38, Loss: 1.026, Acc: 63.568%
+5006.5s 1363 Data loading time: 0.24148439800319466
+5006.5s 1364 Training time: 40.41787298100189
+5006.5s 1365 Total epoch time: 41.78777461699974
+5008.9s 1366 
+5008.9s 1367 Test Loss: 1.019, Acc: 63.830%
+5008.9s 1368 63.83
+5008.9s 1369 
+5008.9s 1370 Epoch: 39
+5050.7s 1371 
+5050.7s 1372 Epoch: 39, Loss: 1.017, Acc: 63.924%
+5050.7s 1373 Data loading time: 0.23340908000864147
+5050.7s 1374 Training time: 40.38049362899528
+5050.7s 1375 Total epoch time: 41.73959946700052
+5053.2s 1376 
+5053.2s 1377 Test Loss: 1.005, Acc: 64.200%
+5053.2s 1378 64.2
+5053.2s 1379 
+5053.2s 1380 Epoch: 40
+5095.0s 1381 
+5095.0s 1382 Epoch: 40, Loss: 1.012, Acc: 64.242%
+5095.0s 1383 Data loading time: 0.23347459199612786
+5095.0s 1384 Training time: 40.36952671798463
+5095.0s 1385 Total epoch time: 41.70631646899983
+5097.3s 1386 
+5097.3s 1387 Test Loss: 1.006, Acc: 64.180%
+5097.3s 1388 64.18
+5097.3s 1389 
+5097.3s 1390 Epoch: 41
+5139.2s 1391 
+5139.2s 1392 Epoch: 41, Loss: 1.007, Acc: 64.224%
+5139.2s 1393 Data loading time: 0.24561851700582338
+5139.2s 1394 Training time: 40.392398858996785
+5139.2s 1395 Total epoch time: 41.79074828800003
+5141.6s 1396 
+5141.6s 1397 Test Loss: 1.015, Acc: 64.000%
+5141.6s 1398 64.0
+5141.6s 1399 
+5141.6s 1400 Epoch: 42
+5183.5s 1401 
+5183.5s 1402 Epoch: 42, Loss: 1.002, Acc: 64.530%
+5183.5s 1403 Data loading time: 0.2385245099903841
+5183.5s 1404 Training time: 40.466600329003995
+5183.5s 1405 Total epoch time: 41.83503711100002
+5185.9s 1406 
+5185.9s 1407 Test Loss: 0.994, Acc: 64.860%
+5185.9s 1408 64.86
+5185.9s 1409 
+5185.9s 1410 Epoch: 43
+5227.8s 1411 
+5227.8s 1412 Epoch: 43, Loss: 0.991, Acc: 64.810%
+5227.8s 1413 Data loading time: 0.24238508899270528
+5227.8s 1414 Training time: 40.502083619001496
+5227.8s 1415 Total epoch time: 41.86654291499963
+5230.3s 1416 
+5230.3s 1417 Test Loss: 0.992, Acc: 65.290%
+5230.3s 1418 65.29
+5230.3s 1419 
+5230.3s 1420 Epoch: 44
+5272.0s 1421 
+5272.0s 1422 Epoch: 44, Loss: 0.986, Acc: 64.926%
+5272.0s 1423 Data loading time: 0.23497170901100617
+5272.0s 1424 Training time: 40.40048225100327
+5272.0s 1425 Total epoch time: 41.741602545000205
+5274.5s 1426 
+5274.5s 1427 Test Loss: 0.978, Acc: 65.260%
+5274.5s 1428 65.26
+5274.5s 1429 
+5274.5s 1430 Epoch: 45
+5316.3s 1431 
+5316.3s 1432 Epoch: 45, Loss: 0.980, Acc: 65.188%
+5316.3s 1433 Data loading time: 0.24294199999894772
+5316.3s 1434 Training time: 40.41072659701058
+5316.3s 1435 Total epoch time: 41.76923651699963
+5318.7s 1436 
+5318.7s 1437 Test Loss: 0.972, Acc: 65.710%
+5318.7s 1438 65.71
+5318.7s 1439 
+5318.7s 1440 Epoch: 46
+5360.5s 1441 
+5360.5s 1442 Epoch: 46, Loss: 0.971, Acc: 65.458%
+5360.5s 1443 Data loading time: 0.2336691080017772
+5360.5s 1444 Training time: 40.34995496600641
+5360.5s 1445 Total epoch time: 41.71939431200008
+5362.9s 1446 
+5362.9s 1447 Test Loss: 0.964, Acc: 65.770%
+5362.9s 1448 65.77
+5362.9s 1449 
+5362.9s 1450 Epoch: 47
+5404.8s 1451 
+5404.8s 1452 Epoch: 47, Loss: 0.970, Acc: 65.572%
+5404.8s 1453 Data loading time: 0.24215693399946758
+5404.8s 1454 Training time: 40.46150205200229
+5404.8s 1455 Total epoch time: 41.8403113509994
+5407.2s 1456 
+5407.2s 1457 Test Loss: 0.979, Acc: 65.470%
+5407.2s 1458 65.47
+5407.2s 1459 
+5407.2s 1460 Epoch: 48
+5449.0s 1461 
+5449.0s 1462 Epoch: 48, Loss: 0.961, Acc: 65.938%
+5449.0s 1463 Data loading time: 0.23800075100189133
+5449.0s 1464 Training time: 40.39825669600668
+5449.0s 1465 Total epoch time: 41.74402806499984
+5451.4s 1466 
+5451.4s 1467 Test Loss: 0.954, Acc: 66.500%
+5451.4s 1468 66.5
+5451.4s 1469 
+5451.4s 1470 Epoch: 49
+5493.2s 1471 
+5493.2s 1472 Epoch: 49, Loss: 0.959, Acc: 66.142%
+5493.2s 1473 Data loading time: 0.23587191099977645
+5493.2s 1474 Training time: 40.41250511900125
+5493.2s 1475 Total epoch time: 41.7240855910004
+5495.6s 1476 
+5495.6s 1477 Test Loss: 0.964, Acc: 66.070%
+5495.6s 1478 66.07
+5495.6s 1479 
+5495.6s 1480 Epoch: 50
+5537.5s 1481 
+5537.5s 1482 Epoch: 50, Loss: 0.949, Acc: 66.288%
+5537.5s 1483 Data loading time: 0.23667735998969874
+5537.5s 1484 Training time: 40.410614840985545
+5537.5s 1485 Total epoch time: 41.7820989490001
+5540.0s 1486 
+5540.0s 1487 Test Loss: 0.945, Acc: 66.780%
+5540.0s 1488 66.78
+5540.0s 1489 
+5540.0s 1490 Epoch: 51
+5581.9s 1491 
+5581.9s 1492 Epoch: 51, Loss: 0.941, Acc: 66.694%
+5581.9s 1493 Data loading time: 0.23637803899146093
+5581.9s 1494 Training time: 40.51566954799364
+5581.9s 1495 Total epoch time: 41.876429214999916
+5584.3s 1496 
+5584.3s 1497 Test Loss: 0.948, Acc: 66.540%
+5584.3s 1498 66.54
+5584.3s 1499 
+5584.3s 1500 Epoch: 52
+5626.2s 1501 
+5626.2s 1502 Epoch: 52, Loss: 0.937, Acc: 66.754%
+5626.2s 1503 Data loading time: 0.23702897498515085
+5626.2s 1504 Training time: 40.46446533001017
+5626.2s 1505 Total epoch time: 41.85690439599966
+5628.6s 1506 
+5628.6s 1507 Test Loss: 0.934, Acc: 67.050%
+5628.6s 1508 67.05
+5628.6s 1509 
+5628.6s 1510 Epoch: 53
+5670.4s 1511 
+5670.4s 1512 Epoch: 53, Loss: 0.932, Acc: 67.028%
+5670.4s 1513 Data loading time: 0.2328434939881845
+5670.4s 1514 Training time: 40.415092342002026
+5670.4s 1515 Total epoch time: 41.74632274099986
+5672.9s 1516 
+5672.9s 1517 Test Loss: 0.942, Acc: 66.620%
+5672.9s 1518 66.62
+5672.9s 1519 
+5672.9s 1520 Epoch: 54
+5714.7s 1521 
+5714.7s 1522 Epoch: 54, Loss: 0.929, Acc: 67.312%
+5714.7s 1523 Data loading time: 0.24179112099864142
+5714.7s 1524 Training time: 40.39472393699634
+5714.7s 1525 Total epoch time: 41.75328642699969
+5717.1s 1526 
+5717.1s 1527 Test Loss: 0.950, Acc: 66.420%
+5717.1s 1528 66.42
+5717.1s 1529 
+5717.1s 1530 Epoch: 55
+5758.9s 1531 
+5758.9s 1532 Epoch: 55, Loss: 0.922, Acc: 67.432%
+5758.9s 1533 Data loading time: 0.2377158459958082
+5758.9s 1534 Training time: 40.39250320499559
+5758.9s 1535 Total epoch time: 41.720057458000156
+5761.3s 1536 
+5761.3s 1537 Test Loss: 0.942, Acc: 66.670%
+5761.3s 1538 66.67
+5761.3s 1539 
+5761.3s 1540 Epoch: 56
+5803.2s 1541 
+5803.2s 1542 Epoch: 56, Loss: 0.923, Acc: 67.428%
+5803.2s 1543 Data loading time: 0.23931181200350693
+5803.2s 1544 Training time: 40.43956032498954
+5803.2s 1545 Total epoch time: 41.82224905599924
+5805.6s 1546 
+5805.6s 1547 Test Loss: 0.920, Acc: 67.340%
+5805.6s 1548 67.34
+5805.6s 1549 
+5805.6s 1550 Epoch: 57
+5847.5s 1551 
+5847.5s 1552 Epoch: 57, Loss: 0.918, Acc: 67.610%
+5847.5s 1553 Data loading time: 0.23594200701154477
+5847.5s 1554 Training time: 40.413337668992426
+5847.5s 1555 Total epoch time: 41.78333949700027
+5849.9s 1556 
+5849.9s 1557 Test Loss: 0.922, Acc: 67.520%
+5849.9s 1558 67.52
+5849.9s 1559 
+5849.9s 1560 Epoch: 58
+5891.6s 1561 
+5891.6s 1562 Epoch: 58, Loss: 0.907, Acc: 68.122%
+5891.6s 1563 Data loading time: 0.23142351800106553
+5891.6s 1564 Training time: 40.34943392900095
+5891.6s 1565 Total epoch time: 41.68399876700005
+5894.0s 1566 
+5894.0s 1567 Test Loss: 0.923, Acc: 67.520%
+5894.0s 1568 67.52
+5894.0s 1569 
+5894.0s 1570 Epoch: 59
+5935.9s 1571 
+5935.9s 1572 Epoch: 59, Loss: 0.899, Acc: 68.340%
+5935.9s 1573 Data loading time: 0.24010948100112728
+5935.9s 1574 Training time: 40.39177434600424
+5935.9s 1575 Total epoch time: 41.73439396499998
+5938.3s 1576 
+5938.3s 1577 Test Loss: 0.908, Acc: 67.940%
+5938.3s 1578 67.94
+5938.3s 1579 
+5938.3s 1580 Epoch: 60
+5980.1s 1581 
+5980.1s 1582 Epoch: 60, Loss: 0.900, Acc: 68.312%
+5980.1s 1583 Data loading time: 0.23948529300105292
+5980.1s 1584 Training time: 40.42286183100077
+5980.1s 1585 Total epoch time: 41.75834107600076
+5982.5s 1586 
+5982.5s 1587 Test Loss: 0.906, Acc: 68.110%
+5982.5s 1588 68.11
+5982.5s 1589 
+5982.5s 1590 Epoch: 61
+6024.5s 1591 
+6024.5s 1592 Epoch: 61, Loss: 0.892, Acc: 68.578%
+6024.5s 1593 Data loading time: 0.24262670098778472
+6024.5s 1594 Training time: 40.522031854998204
+6024.5s 1595 Total epoch time: 41.9357602300006
+6026.9s 1596 
+6026.9s 1597 Test Loss: 0.903, Acc: 68.350%
+6026.9s 1598 68.35
+6026.9s 1599 
+6026.9s 1600 Epoch: 62
+6068.8s 1601 
+6068.8s 1602 Epoch: 62, Loss: 0.889, Acc: 68.644%
+6068.8s 1603 Data loading time: 0.23493532199245237
+6068.8s 1604 Training time: 40.405131654003526
+6068.8s 1605 Total epoch time: 41.78000998100015
+6071.2s 1606 
+6071.2s 1607 Test Loss: 0.904, Acc: 67.900%
+6071.2s 1608 67.9
+6071.2s 1609 
+6071.2s 1610 Epoch: 63
+6113.2s 1611 
+6113.2s 1612 Epoch: 63, Loss: 0.887, Acc: 68.580%
+6113.2s 1613 Data loading time: 0.23751928699039127
+6113.2s 1614 Training time: 40.58084246999897
+6113.2s 1615 Total epoch time: 41.96987026399984
+6115.6s 1616 
+6115.6s 1617 Test Loss: 0.906, Acc: 68.160%
+6115.6s 1618 68.16
+6115.6s 1619 
+6115.6s 1620 Epoch: 64
+6157.4s 1621 
+6157.4s 1622 Epoch: 64, Loss: 0.881, Acc: 69.068%
+6157.4s 1623 Data loading time: 0.23302353799317643
+6157.4s 1624 Training time: 40.43080607799857
+6157.4s 1625 Total epoch time: 41.77487870599998
+6159.8s 1626 
+6159.8s 1627 Test Loss: 0.892, Acc: 68.670%
+6159.8s 1628 68.67
+6159.8s 1629 
+6159.8s 1630 Epoch: 65
+6201.6s 1631 
+6201.6s 1632 Epoch: 65, Loss: 0.874, Acc: 69.502%
+6201.6s 1633 Data loading time: 0.23745857200083265
+6201.6s 1634 Training time: 40.373664438997366
+6201.6s 1635 Total epoch time: 41.72201675999986
+6204.1s 1636 
+6204.1s 1637 Test Loss: 0.907, Acc: 67.930%
+6204.1s 1638 67.93
+6204.1s 1639 
+6204.1s 1640 Epoch: 66
+6245.9s 1641 
+6245.9s 1642 Epoch: 66, Loss: 0.872, Acc: 69.190%
+6245.9s 1643 Data loading time: 0.24365672399289906
+6245.9s 1644 Training time: 40.41038253100123
+6245.9s 1645 Total epoch time: 41.78345613500005
+6248.3s 1646 
+6248.3s 1647 Test Loss: 0.892, Acc: 68.750%
+6248.3s 1648 68.75
+6248.3s 1649 
+6248.3s 1650 Epoch: 67
+6290.1s 1651 
+6290.1s 1652 Epoch: 67, Loss: 0.863, Acc: 69.610%
+6290.1s 1653 Data loading time: 0.23897318600211293
+6290.1s 1654 Training time: 40.41056632101572
+6290.1s 1655 Total epoch time: 41.76880791199983
+6292.5s 1656 
+6292.5s 1657 Test Loss: 0.887, Acc: 68.770%
+6292.5s 1658 68.77
+6292.5s 1659 
+6292.5s 1660 Epoch: 68
+6334.4s 1661 
+6334.4s 1662 Epoch: 68, Loss: 0.865, Acc: 69.534%
+6334.4s 1663 Data loading time: 0.23733614999582642
+6334.4s 1664 Training time: 40.39377263099959
+6334.4s 1665 Total epoch time: 41.74916067699996
+6336.7s 1666 
+6336.7s 1667 Test Loss: 0.899, Acc: 68.550%
+6336.7s 1668 68.55
+6336.7s 1669 
+6336.7s 1670 Epoch: 69
+6378.6s 1671 
+6378.6s 1672 Epoch: 69, Loss: 0.860, Acc: 69.570%
+6378.6s 1673 Data loading time: 0.23949866300517897
+6378.6s 1674 Training time: 40.402753247000874
+6378.6s 1675 Total epoch time: 41.75073544600036
+6381.0s 1676 
+6381.0s 1677 Test Loss: 0.874, Acc: 69.450%
+6381.0s 1678 69.45
+6381.0s 1679 
+6381.0s 1680 Epoch: 70
+6422.7s 1681 
+6422.7s 1682 Epoch: 70, Loss: 0.859, Acc: 69.754%
+6422.7s 1683 Data loading time: 0.23145327300608187
+6422.7s 1684 Training time: 40.324084871991545
+6422.7s 1685 Total epoch time: 41.63604406500053
+6425.1s 1686 
+6425.1s 1687 Test Loss: 0.877, Acc: 69.240%
+6425.1s 1688 69.24
+6425.1s 1689 
+6425.1s 1690 Epoch: 71
+6467.0s 1691 
+6467.0s 1692 Epoch: 71, Loss: 0.847, Acc: 70.080%
+6467.0s 1693 Data loading time: 0.23340561300392437
+6467.0s 1694 Training time: 40.426381265998316
+6467.0s 1695 Total epoch time: 41.77717897000002
+6469.4s 1696 
+6469.4s 1697 Test Loss: 0.877, Acc: 69.480%
+6469.4s 1698 69.48
+6469.4s 1699 
+6469.4s 1700 Epoch: 72
+6511.1s 1701 
+6511.1s 1702 Epoch: 72, Loss: 0.845, Acc: 70.496%
+6511.1s 1703 Data loading time: 0.23409805800383765
+6511.1s 1704 Training time: 40.35652577399378
+6511.1s 1705 Total epoch time: 41.68886996499987
+6513.5s 1706 
+6513.5s 1707 Test Loss: 0.904, Acc: 68.460%
+6513.5s 1708 68.46
+6513.5s 1709 
+6513.5s 1710 Epoch: 73
+6555.3s 1711 
+6555.3s 1712 Epoch: 73, Loss: 0.842, Acc: 70.432%
+6555.3s 1713 Data loading time: 0.23272269398967182
+6555.3s 1714 Training time: 40.368002717998934
+6555.3s 1715 Total epoch time: 41.70241636500032
+6557.7s 1716 
+6557.7s 1717 Test Loss: 0.864, Acc: 69.700%
+6557.7s 1718 69.7
+6557.7s 1719 
+6557.7s 1720 Epoch: 74
+6599.5s 1721 
+6599.5s 1722 Epoch: 74, Loss: 0.840, Acc: 70.566%
+6599.5s 1723 Data loading time: 0.23303018700153189
+6599.5s 1724 Training time: 40.37676599898259
+6599.5s 1725 Total epoch time: 41.72541678400012
+6601.9s 1726 
+6601.9s 1727 Test Loss: 0.867, Acc: 69.420%
+6601.9s 1728 69.42
+6601.9s 1729 
+6601.9s 1730 Epoch: 75
+6643.7s 1731 
+6643.7s 1732 Epoch: 75, Loss: 0.832, Acc: 70.844%
+6643.7s 1733 Data loading time: 0.23681374699845037
+6643.7s 1734 Training time: 40.40043122100269
+6643.7s 1735 Total epoch time: 41.74222887899941
+6646.2s 1736 
+6646.2s 1737 Test Loss: 0.864, Acc: 69.590%
+6646.2s 1738 69.59
+6646.2s 1739 
+6646.2s 1740 Epoch: 76
+6688.1s 1741 
+6688.1s 1742 Epoch: 76, Loss: 0.830, Acc: 70.856%
+6688.1s 1743 Data loading time: 0.23258482500023092
+6688.1s 1744 Training time: 40.42602970200187
+6688.1s 1745 Total epoch time: 41.81042243000047
+6690.5s 1746 
+6690.5s 1747 Test Loss: 0.855, Acc: 69.690%
+6690.5s 1748 69.69
+6690.5s 1749 
+6690.5s 1750 Epoch: 77
+6732.5s 1751 
+6732.5s 1752 Epoch: 77, Loss: 0.827, Acc: 71.078%
+6732.5s 1753 Data loading time: 0.24100285000895383
+6732.5s 1754 Training time: 40.60581162299695
+6732.5s 1755 Total epoch time: 41.998127740999735
+6735.0s 1756 
+6735.0s 1757 Test Loss: 0.856, Acc: 69.810%
+6735.0s 1758 69.81
+6735.0s 1759 
+6735.0s 1760 Epoch: 78
+6777.2s 1761 
+6777.2s 1762 Epoch: 78, Loss: 0.820, Acc: 71.228%
+6777.2s 1763 Data loading time: 0.24028860999715107
+6777.2s 1764 Training time: 40.733420000997285
+6777.2s 1765 Total epoch time: 42.16503225999986
+6779.7s 1766 
+6779.7s 1767 Test Loss: 0.858, Acc: 70.040%
+6779.7s 1768 70.04
+6779.7s 1769 
+6779.7s 1770 Epoch: 79
+6821.9s 1771 
+6821.9s 1772 Epoch: 79, Loss: 0.817, Acc: 71.100%
+6821.9s 1773 Data loading time: 0.2442713550026383
+6821.9s 1774 Training time: 40.7802950830046
+6821.9s 1775 Total epoch time: 42.227643121000256
+6824.6s 1776 
+6824.6s 1777 Test Loss: 0.847, Acc: 70.280%
+6824.6s 1778 70.28
+6827.8s 1779 
+6827.8s 1780 Test Loss: 0.847, Acc: 70.280%
+6831.1s 1781 [34m[1mwandb[0m: - 0.001 MB of 0.001 MB uploaded[34m[1mwandb[0m: \ 0.001 MB of 0.032 MB uploaded[34m[1mwandb[0m: | 0.001 MB of 0.032 MB uploaded[34m[1mwandb[0m: / 0.032 MB of 0.032 MB uploaded[34m[1mwandb[0m:
+6832.3s 1782 [34m[1mwandb[0m:
+6832.3s 1783 [34m[1mwandb[0m: Run history:
+6832.3s 1784 [34m[1mwandb[0m:           epoch ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇███
+6832.3s 1785 [34m[1mwandb[0m: final_test_loss ▁
+6832.3s 1786 [34m[1mwandb[0m:   test_accuracy ▁▃▄▄▅▅▅▆▆▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇████████████
+6832.3s 1787 [34m[1mwandb[0m:       test_loss █▆▅▅▄▄▄▄▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁
+6832.3s 1788 [34m[1mwandb[0m:  train_accuracy ▁▃▄▄▅▅▅▆▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇████████████
+6832.3s 1789 [34m[1mwandb[0m:      train_loss █▆▅▅▄▄▄▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁
+6832.3s 1790 [34m[1mwandb[0m:
+6832.3s 1791 [34m[1mwandb[0m: Run summary:
+6832.3s 1792 [34m[1mwandb[0m:           epoch 79
+6832.3s 1793 [34m[1mwandb[0m: final_test_loss 0.84671
+6832.3s 1794 [34m[1mwandb[0m:   test_accuracy 70.28
+6832.3s 1795 [34m[1mwandb[0m:       test_loss 0.84671
+6832.3s 1796 [34m[1mwandb[0m:  train_accuracy 71.1
+6832.3s 1797 [34m[1mwandb[0m:      train_loss 0.81746
+6832.3s 1798 [34m[1mwandb[0m:
+6832.3s 1799 [34m[1mwandb[0m: 🚀 View run [33mruby-sweep-5[0m at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/tj3v7kd8[0m
+6832.3s 1800 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+6832.3s 1801 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+6832.3s 1802 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_132303-tj3v7kd8/logs[0m
+6835.4s 1803 [34m[1mwandb[0m: Agent Starting Run: ru8k5syu with config:
+6835.4s 1804 [34m[1mwandb[0m: 	learning_rate: 0.1
+6835.4s 1805 [34m[1mwandb[0m: 	optimizer: adadelta-clipping
+6852.5s 1806 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+6852.5s 1807 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_142233-ru8k5syu[0m
+6852.5s 1808 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+6852.5s 1809 [34m[1mwandb[0m: Syncing run [33mrevived-sweep-6[0m
+6852.5s 1810 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+6852.5s 1811 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/sweeps/gbmvnea4[0m
+6852.5s 1812 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/ru8k5syu[0m
+6853.4s 1813 Total number of params 4919114
+6853.4s 1814 
+6853.4s 1815 Epoch: 0
+6896.2s 1816 
+6896.2s 1817 Epoch: 0, Loss: 1.670, Acc: 37.736%
+6896.2s 1818 Data loading time: 0.2445352980057578
+6896.2s 1819 Training time: 41.18628621600965
+6896.2s 1820 Total epoch time: 42.63274410400027
+6898.8s 1821 
+6898.8s 1822 Test Loss: 1.429, Acc: 47.160%
+6898.8s 1823 47.16
+6898.8s 1824 
+6898.8s 1825 Epoch: 1
+6941.0s 1826 
+6941.0s 1827 Epoch: 1, Loss: 1.347, Acc: 50.854%
+6941.0s 1828 Data loading time: 0.2374271530106853
+6941.0s 1829 Training time: 40.669672856000034
+6941.0s 1830 Total epoch time: 42.12670999199963
+6943.4s 1831 
+6943.4s 1832 Test Loss: 1.261, Acc: 53.620%
+6943.4s 1833 53.62
+6943.4s 1834 
+6943.4s 1835 Epoch: 2
+6985.7s 1836 
+6985.7s 1837 Epoch: 2, Loss: 1.196, Acc: 56.894%
+6985.7s 1838 Data loading time: 0.24634336000053736
+6985.7s 1839 Training time: 40.75052725300975
+6985.7s 1840 Total epoch time: 42.216264736000085
+6988.1s 1841 
+6988.1s 1842 Test Loss: 1.266, Acc: 54.820%
+6988.1s 1843 54.82
+6988.1s 1844 
+6988.1s 1845 Epoch: 3
+7030.3s 1846 
+7030.3s 1847 Epoch: 3, Loss: 1.086, Acc: 61.092%
+7030.3s 1848 Data loading time: 0.2438786139991862
+7030.3s 1849 Training time: 40.711075288005304
+7030.3s 1850 Total epoch time: 42.14012023499981
+7032.7s 1851 
+7032.7s 1852 Test Loss: 1.112, Acc: 60.700%
+7032.7s 1853 60.7
+7032.7s 1854 
+7032.7s 1855 Epoch: 4
+7074.9s 1856 
+7074.9s 1857 Epoch: 4, Loss: 1.008, Acc: 64.076%
+7074.9s 1858 Data loading time: 0.23866189800173743
+7074.9s 1859 Training time: 40.66053218399156
+7074.9s 1860 Total epoch time: 42.12669947299946
+7077.4s 1861 
+7077.4s 1862 Test Loss: 1.039, Acc: 63.400%
+7077.4s 1863 63.4
+7077.4s 1864 
+7077.4s 1865 Epoch: 5
+7119.5s 1866 
+7119.5s 1867 Epoch: 5, Loss: 0.948, Acc: 66.546%
+7119.5s 1868 Data loading time: 0.23969758399653074
+7119.5s 1869 Training time: 40.68168892300946
+7119.5s 1870 Total epoch time: 42.118652441999984
+7122.0s 1871 
+7122.0s 1872 Test Loss: 1.054, Acc: 63.430%
+7122.0s 1873 63.43
+7122.0s 1874 
+7122.0s 1875 Epoch: 6
+7164.3s 1876 
+7164.3s 1877 Epoch: 6, Loss: 0.900, Acc: 68.014%
+7164.3s 1878 Data loading time: 0.24209171401253116
+7164.3s 1879 Training time: 40.7593087930054
+7164.3s 1880 Total epoch time: 42.215716998999596
+7166.8s 1881 
+7166.8s 1882 Test Loss: 0.927, Acc: 67.890%
+7166.8s 1883 67.89
+7166.8s 1884 
+7166.8s 1885 Epoch: 7
+7209.0s 1886 
+7209.0s 1887 Epoch: 7, Loss: 0.851, Acc: 69.976%
+7209.0s 1888 Data loading time: 0.24357487299766944
+7209.0s 1889 Training time: 40.74411371801125
+7209.0s 1890 Total epoch time: 42.17179542899976
+7211.4s 1891 
+7211.4s 1892 Test Loss: 0.866, Acc: 69.710%
+7211.4s 1893 69.71
+7211.4s 1894 
+7211.4s 1895 Epoch: 8
+7253.8s 1896 
+7253.8s 1897 Epoch: 8, Loss: 0.816, Acc: 71.332%
+7253.8s 1898 Data loading time: 0.24429119900469232
+7253.8s 1899 Training time: 40.76077374399483
+7253.8s 1900 Total epoch time: 42.22878690699963
+7256.2s 1901 
+7256.2s 1902 Test Loss: 0.835, Acc: 71.290%
+7256.2s 1903 71.29
+7256.2s 1904 
+7256.2s 1905 Epoch: 9
+7298.5s 1906 
+7298.5s 1907 Epoch: 9, Loss: 0.781, Acc: 72.788%
+7298.5s 1908 Data loading time: 0.24333828699673177
+7298.5s 1909 Training time: 40.74125895299312
+7298.5s 1910 Total epoch time: 42.1810537299998
+7300.9s 1911 
+7300.9s 1912 Test Loss: 0.779, Acc: 72.740%
+7300.9s 1913 72.74
+7300.9s 1914 
+7300.9s 1915 Epoch: 10
+7343.2s 1916 
+7343.2s 1917 Epoch: 10, Loss: 0.740, Acc: 74.184%
+7343.2s 1918 Data loading time: 0.2435532949930348
+7343.2s 1919 Training time: 40.72806319900337
+7343.2s 1920 Total epoch time: 42.17752807400029
+7345.6s 1921 
+7345.6s 1922 Test Loss: 0.756, Acc: 74.130%
+7345.6s 1923 74.13
+7345.6s 1924 
+7345.6s 1925 Epoch: 11
+7387.8s 1926 
+7387.8s 1927 Epoch: 11, Loss: 0.710, Acc: 75.380%
+7387.8s 1928 Data loading time: 0.24046679599177878
+7387.8s 1929 Training time: 40.67060076100552
+7387.8s 1930 Total epoch time: 42.1228208600005
+7390.3s 1931 
+7390.3s 1932 Test Loss: 0.760, Acc: 74.040%
+7390.3s 1933 74.04
+7390.3s 1934 
+7390.3s 1935 Epoch: 12
+7432.4s 1936 
+7432.4s 1937 Epoch: 12, Loss: 0.685, Acc: 76.358%
+7432.4s 1938 Data loading time: 0.24429360999783967
+7432.4s 1939 Training time: 40.69357205901633
+7432.4s 1940 Total epoch time: 42.11429245799991
+7434.9s 1941 
+7434.9s 1942 Test Loss: 0.798, Acc: 72.060%
+7434.9s 1943 72.06
+7434.9s 1944 
+7434.9s 1945 Epoch: 13
+7477.3s 1946 
+7477.3s 1947 Epoch: 13, Loss: 0.652, Acc: 77.580%
+7477.3s 1948 Data loading time: 0.2511163070139446
+7477.3s 1949 Training time: 40.79524883900285
+7477.3s 1950 Total epoch time: 42.24730806200023
+7479.7s 1951 
+7479.7s 1952 Test Loss: 0.778, Acc: 74.070%
+7479.7s 1953 74.07
+7479.7s 1954 
+7479.7s 1955 Epoch: 14
+7521.9s 1956 
+7521.9s 1957 Epoch: 14, Loss: 0.633, Acc: 78.180%
+7521.9s 1958 Data loading time: 0.2388135879955371
+7521.9s 1959 Training time: 40.69771542599301
+7521.9s 1960 Total epoch time: 42.14362123399951
+7524.4s 1961 
+7524.4s 1962 Test Loss: 0.710, Acc: 76.090%
+7524.4s 1963 76.09
+7524.4s 1964 
+7524.4s 1965 Epoch: 15
+7566.7s 1966 
+7566.7s 1967 Epoch: 15, Loss: 0.606, Acc: 79.064%
+7566.7s 1968 Data loading time: 0.2453540629867348
+7566.7s 1969 Training time: 40.78964239600009
+7566.7s 1970 Total epoch time: 42.24419503700028
+7569.1s 1971 
+7569.1s 1972 Test Loss: 0.703, Acc: 76.190%
+7569.1s 1973 76.19
+7569.1s 1974 
+7569.1s 1975 Epoch: 16
+7611.1s 1976 
+7611.1s 1977 Epoch: 16, Loss: 0.585, Acc: 79.866%
+7611.1s 1978 Data loading time: 0.23916386901237274
+7611.1s 1979 Training time: 40.55295311800364
+7611.1s 1980 Total epoch time: 41.93468146899977
+7613.6s 1981 
+7613.6s 1982 Test Loss: 0.720, Acc: 75.870%
+7613.6s 1983 75.87
+7613.6s 1984 
+7613.6s 1985 Epoch: 17
+7655.6s 1986 
+7655.6s 1987 Epoch: 17, Loss: 0.569, Acc: 80.510%
+7655.6s 1988 Data loading time: 0.24242783999034145
+7655.6s 1989 Training time: 40.558071151998774
+7655.6s 1990 Total epoch time: 41.96469977199922
+7658.0s 1991 
+7658.0s 1992 Test Loss: 0.762, Acc: 75.280%
+7658.0s 1993 75.28
+7658.0s 1994 
+7658.0s 1995 Epoch: 18
+7699.9s 1996 
+7699.9s 1997 Epoch: 18, Loss: 0.549, Acc: 81.094%
+7699.9s 1998 Data loading time: 0.24445782400198368
+7699.9s 1999 Training time: 40.38306602100147
+7699.9s 2000 Total epoch time: 41.76993662800032
+7702.3s 2001 
+7702.3s 2002 Test Loss: 0.653, Acc: 77.820%
+7702.3s 2003 77.82
+7702.3s 2004 
+7702.3s 2005 Epoch: 19
+7744.1s 2006 
+7744.1s 2007 Epoch: 19, Loss: 0.533, Acc: 81.740%
+7744.1s 2008 Data loading time: 0.23977857700538152
+7744.1s 2009 Training time: 40.394998133019726
+7744.1s 2010 Total epoch time: 41.75754765500005
+7746.5s 2011 
+7746.5s 2012 Test Loss: 0.615, Acc: 79.530%
+7746.5s 2013 79.53
+7746.5s 2014 
+7746.5s 2015 Epoch: 20
+7788.4s 2016 
+7788.4s 2017 Epoch: 20, Loss: 0.519, Acc: 82.090%
+7788.4s 2018 Data loading time: 0.24136282600557024
+7788.4s 2019 Training time: 40.460141186995315
+7788.4s 2020 Total epoch time: 41.8043846949995
+7790.8s 2021 
+7790.8s 2022 Test Loss: 0.685, Acc: 77.610%
+7790.8s 2023 77.61
+7790.8s 2024 
+7790.8s 2025 Epoch: 21
+7832.5s 2026 
+7832.5s 2027 Epoch: 21, Loss: 0.503, Acc: 82.772%
+7832.5s 2028 Data loading time: 0.23579485400296107
+7832.5s 2029 Training time: 40.33310058900406
+7832.5s 2030 Total epoch time: 41.651463031000276
+7834.9s 2031 
+7834.9s 2032 Test Loss: 0.669, Acc: 77.540%
+7834.9s 2033 77.54
+7834.9s 2034 
+7834.9s 2035 Epoch: 22
+7876.6s 2036 
+7876.6s 2037 Epoch: 22, Loss: 0.489, Acc: 83.298%
+7876.6s 2038 Data loading time: 0.2371321140035434
+7876.6s 2039 Training time: 40.351735567001015
+7876.6s 2040 Total epoch time: 41.684099128000526
+7879.1s 2041 
+7879.1s 2042 Test Loss: 0.588, Acc: 80.670%
+7879.1s 2043 80.67
+7879.1s 2044 
+7879.1s 2045 Epoch: 23
+7921.0s 2046 
+7921.0s 2047 Epoch: 23, Loss: 0.473, Acc: 83.962%
+7921.0s 2048 Data loading time: 0.24150440200082812
+7921.0s 2049 Training time: 40.47416990100555
+7921.0s 2050 Total epoch time: 41.879377352999654
+7923.4s 2051 
+7923.4s 2052 Test Loss: 0.549, Acc: 81.580%
+7923.4s 2053 81.58
+7923.4s 2054 
+7923.4s 2055 Epoch: 24
+7965.4s 2056 
+7965.4s 2057 Epoch: 24, Loss: 0.462, Acc: 84.276%
+7965.4s 2058 Data loading time: 0.24620407198381145
+7965.4s 2059 Training time: 40.47411891199772
+7965.4s 2060 Total epoch time: 41.83657577399936
+7967.8s 2061 
+7967.8s 2062 Test Loss: 0.570, Acc: 81.230%
+7967.8s 2063 81.23
+7967.8s 2064 
+7967.8s 2065 Epoch: 25
+8009.9s 2066 
+8009.9s 2067 Epoch: 25, Loss: 0.451, Acc: 84.646%
+8009.9s 2068 Data loading time: 0.24421505697500834
+8009.9s 2069 Training time: 40.6179192839827
+8009.9s 2070 Total epoch time: 42.02997926599892
+8012.3s 2071 
+8012.3s 2072 Test Loss: 0.565, Acc: 81.260%
+8012.3s 2073 81.26
+8012.3s 2074 
+8012.3s 2075 Epoch: 26
+8054.2s 2076 
+8054.2s 2077 Epoch: 26, Loss: 0.438, Acc: 85.196%
+8054.2s 2078 Data loading time: 0.23828213599699666
+8054.2s 2079 Training time: 40.44535703102156
+8054.2s 2080 Total epoch time: 41.80066872499992
+8056.6s 2081 
+8056.6s 2082 Test Loss: 0.554, Acc: 81.380%
+8056.6s 2083 81.38
+8056.6s 2084 
+8056.6s 2085 Epoch: 27
+8098.5s 2086 
+8098.5s 2087 Epoch: 27, Loss: 0.428, Acc: 85.438%
+8098.5s 2088 Data loading time: 0.24706407401390607
+8098.5s 2089 Training time: 40.46441522498935
+8098.5s 2090 Total epoch time: 41.81009927499872
+8100.9s 2091 
+8100.9s 2092 Test Loss: 0.598, Acc: 80.810%
+8100.9s 2093 80.81
+8100.9s 2094 
+8100.9s 2095 Epoch: 28
+8142.7s 2096 
+8142.7s 2097 Epoch: 28, Loss: 0.422, Acc: 85.552%
+8142.7s 2098 Data loading time: 0.23506433799229853
+8142.7s 2099 Training time: 40.37572342901149
+8142.7s 2100 Total epoch time: 41.75792255499982
+8145.2s 2101 
+8145.2s 2102 Test Loss: 0.551, Acc: 81.690%
+8145.2s 2103 81.69
+8145.2s 2104 
+8145.2s 2105 Epoch: 29
+8187.0s 2106 
+8187.0s 2107 Epoch: 29, Loss: 0.412, Acc: 85.912%
+8187.0s 2108 Data loading time: 0.23410811497888062
+8187.0s 2109 Training time: 40.41160646301796
+8187.0s 2110 Total epoch time: 41.76354662299855
+8189.4s 2111 
+8189.4s 2112 Test Loss: 0.590, Acc: 80.240%
+8189.4s 2113 80.24
+8189.4s 2114 
+8189.4s 2115 Epoch: 30
+8231.3s 2116 
+8231.3s 2117 Epoch: 30, Loss: 0.398, Acc: 86.450%
+8231.3s 2118 Data loading time: 0.23858623299565807
+8231.3s 2119 Training time: 40.43998244899558
+8231.3s 2120 Total epoch time: 41.805556960000104
+8233.7s 2121 
+8233.7s 2122 Test Loss: 0.509, Acc: 83.280%
+8233.7s 2123 83.28
+8233.7s 2124 
+8233.7s 2125 Epoch: 31
+8275.5s 2126 
+8275.5s 2127 Epoch: 31, Loss: 0.392, Acc: 86.752%
+8275.5s 2128 Data loading time: 0.23906167198583717
+8275.5s 2129 Training time: 40.34634623499005
+8275.5s 2130 Total epoch time: 41.70683243399981
+8277.9s 2131 
+8277.9s 2132 Test Loss: 0.605, Acc: 80.790%
+8277.9s 2133 80.79
+8277.9s 2134 
+8277.9s 2135 Epoch: 32
+8319.8s 2136 
+8319.8s 2137 Epoch: 32, Loss: 0.380, Acc: 87.054%
+8319.8s 2138 Data loading time: 0.2357386230105476
+8319.8s 2139 Training time: 40.43685586099309
+8319.8s 2140 Total epoch time: 41.79808921299991
+8322.2s 2141 
+8322.2s 2142 Test Loss: 0.573, Acc: 81.730%
+8322.2s 2143 81.73
+8322.2s 2144 
+8322.2s 2145 Epoch: 33
+8364.0s 2146 
+8364.0s 2147 Epoch: 33, Loss: 0.372, Acc: 87.378%
+8364.0s 2148 Data loading time: 0.2367472290115984
+8364.0s 2149 Training time: 40.38259777998792
+8364.0s 2150 Total epoch time: 41.76637612400009
+8366.4s 2151 
+8366.4s 2152 Test Loss: 0.529, Acc: 82.040%
+8366.4s 2153 82.04
+8366.4s 2154 
+8366.4s 2155 Epoch: 34
+8408.4s 2156 
+8408.4s 2157 Epoch: 34, Loss: 0.365, Acc: 87.654%
+8408.4s 2158 Data loading time: 0.2424944979866268
+8408.4s 2159 Training time: 40.53849947801609
+8408.4s 2160 Total epoch time: 41.906428485001015
+8410.8s 2161 
+8410.8s 2162 Test Loss: 0.664, Acc: 79.090%
+8410.8s 2163 79.09
+8410.8s 2164 
+8410.8s 2165 Epoch: 35
+8452.7s 2166 
+8452.7s 2167 Epoch: 35, Loss: 0.359, Acc: 87.816%
+8452.7s 2168 Data loading time: 0.23698354099906282
+8452.7s 2169 Training time: 40.48232703700705
+8452.7s 2170 Total epoch time: 41.835399091
+8455.2s 2171 
+8455.2s 2172 Test Loss: 0.544, Acc: 82.600%
+8455.2s 2173 82.6
+8455.2s 2174 
+8455.2s 2175 Epoch: 36
+8497.2s 2176 
+8497.2s 2177 Epoch: 36, Loss: 0.348, Acc: 88.108%
+8497.2s 2178 Data loading time: 0.24523122499522287
+8497.2s 2179 Training time: 40.58400724198327
+8497.2s 2180 Total epoch time: 41.96344337499977
+8499.6s 2181 
+8499.6s 2182 Test Loss: 0.512, Acc: 83.270%
+8499.6s 2183 83.27
+8499.6s 2184 
+8499.6s 2185 Epoch: 37
+8541.5s 2186 
+8541.5s 2187 Epoch: 37, Loss: 0.340, Acc: 88.488%
+8541.5s 2188 Data loading time: 0.23911350700291223
+8541.5s 2189 Training time: 40.4627413940143
+8541.5s 2190 Total epoch time: 41.832143080000606
+8544.0s 2191 
+8544.0s 2192 Test Loss: 0.500, Acc: 83.580%
+8544.0s 2193 83.58
+8544.0s 2194 
+8544.0s 2195 Epoch: 38
+8585.8s 2196 
+8585.8s 2197 Epoch: 38, Loss: 0.336, Acc: 88.496%
+8585.8s 2198 Data loading time: 0.23193583500142267
+8585.8s 2199 Training time: 40.42213885901583
+8585.8s 2200 Total epoch time: 41.775307178999356
+8588.2s 2201 
+8588.2s 2202 Test Loss: 0.537, Acc: 82.390%
+8588.2s 2203 82.39
+8588.2s 2204 
+8588.2s 2205 Epoch: 39
+8630.2s 2206 
+8630.2s 2207 Epoch: 39, Loss: 0.328, Acc: 88.954%
+8630.2s 2208 Data loading time: 0.24005399797715654
+8630.2s 2209 Training time: 40.54954874001851
+8630.2s 2210 Total epoch time: 41.901751492001495
+8632.6s 2211 
+8632.6s 2212 Test Loss: 0.525, Acc: 83.070%
+8632.6s 2213 83.07
+8632.6s 2214 
+8632.6s 2215 Epoch: 40
+8674.4s 2216 
+8674.4s 2217 Epoch: 40, Loss: 0.321, Acc: 89.194%
+8674.4s 2218 Data loading time: 0.23323228599474533
+8674.4s 2219 Training time: 40.44378871795925
+8674.4s 2220 Total epoch time: 41.77220897500047
+8676.9s 2221 
+8676.9s 2222 Test Loss: 0.495, Acc: 83.990%
+8676.9s 2223 83.99
+8676.9s 2224 
+8676.9s 2225 Epoch: 41
+8718.7s 2226 
+8718.7s 2227 Epoch: 41, Loss: 0.315, Acc: 89.286%
+8718.7s 2228 Data loading time: 0.23217514798488992
+8718.7s 2229 Training time: 40.43174508498305
+8718.7s 2230 Total epoch time: 41.76427572600005
+8721.1s 2231 
+8721.1s 2232 Test Loss: 0.499, Acc: 83.760%
+8721.1s 2233 83.76
+8721.1s 2234 
+8721.1s 2235 Epoch: 42
+8763.0s 2236 
+8763.0s 2237 Epoch: 42, Loss: 0.306, Acc: 89.672%
+8763.0s 2238 Data loading time: 0.24336137399768631
+8763.0s 2239 Training time: 40.49912761300584
+8763.0s 2240 Total epoch time: 41.84704507199967
+8765.5s 2241 
+8765.5s 2242 Test Loss: 0.501, Acc: 84.190%
+8765.5s 2243 84.19
+8765.5s 2244 
+8765.5s 2245 Epoch: 43
+8807.4s 2246 
+8807.4s 2247 Epoch: 43, Loss: 0.302, Acc: 89.596%
+8807.4s 2248 Data loading time: 0.24105439600316458
+8807.4s 2249 Training time: 40.45412507901892
+8807.4s 2250 Total epoch time: 41.80461960499997
+8810.0s 2251 
+8810.0s 2252 Test Loss: 0.460, Acc: 85.210%
+8810.0s 2253 85.21
+8813.1s 2254 
+8813.1s 2255 Test Loss: 0.460, Acc: 85.210%
+8815.5s 2256 [34m[1mwandb[0m: - 0.001 MB of 0.025 MB uploaded[34m[1mwandb[0m: \ 0.001 MB of 0.025 MB uploaded[34m[1mwandb[0m: | 0.026 MB of 0.026 MB uploaded[34m[1mwandb[0m:
+8816.7s 2257 [34m[1mwandb[0m:
+8816.7s 2258 [34m[1mwandb[0m: Run history:
+8816.7s 2259 [34m[1mwandb[0m:      early_stop ▁
+8816.7s 2260 [34m[1mwandb[0m:           epoch ▁▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+8816.7s 2261 [34m[1mwandb[0m: final_test_loss ▁
+8816.7s 2262 [34m[1mwandb[0m:   test_accuracy ▁▂▂▃▄▄▅▅▅▆▆▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇█▇▇▇███▇████
+8816.7s 2263 [34m[1mwandb[0m:       test_loss █▇▇▆▅▅▄▄▄▃▃▃▃▃▃▃▃▂▂▃▂▂▂▂▂▂▂▂▁▂▂▂▂▁▁▂▁▁▁▁
+8816.7s 2264 [34m[1mwandb[0m:  train_accuracy ▁▃▄▄▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇█████████████
+8816.7s 2265 [34m[1mwandb[0m:      train_loss █▆▆▅▅▄▄▄▄▃▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁
+8816.7s 2266 [34m[1mwandb[0m:
+8816.7s 2267 [34m[1mwandb[0m: Run summary:
+8816.7s 2268 [34m[1mwandb[0m:      early_stop 43
+8816.7s 2269 [34m[1mwandb[0m:           epoch 43
+8816.7s 2270 [34m[1mwandb[0m: final_test_loss 0.45956
+8816.7s 2271 [34m[1mwandb[0m:   test_accuracy 85.21
+8816.7s 2272 [34m[1mwandb[0m:       test_loss 0.45956
+8816.7s 2273 [34m[1mwandb[0m:  train_accuracy 89.596
+8816.7s 2274 [34m[1mwandb[0m:      train_loss 0.30244
+8816.7s 2275 [34m[1mwandb[0m:
+8816.7s 2276 [34m[1mwandb[0m: 🚀 View run [33mrevived-sweep-6[0m at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/ru8k5syu[0m
+8816.7s 2277 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+8816.7s 2278 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+8816.7s 2279 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_142233-ru8k5syu/logs[0m
+8822.2s 2280 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+8822.2s 2281 warn(
+8822.2s 2282 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+8822.2s 2283 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+8822.8s 2284 [NbConvertApp] Writing 585308 bytes to __notebook__.ipynb
+8824.4s 2285 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+8824.4s 2286 warn(
+8824.4s 2287 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+8824.5s 2288 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+8825.5s 2289 [NbConvertApp] Support files will be in __results___files/
+8825.5s 2290 [NbConvertApp] Making directory __results___files
+8825.5s 2291 [NbConvertApp] Making directory __results___files
+8825.5s 2292 [NbConvertApp] Making directory __results___files
+8825.5s 2293 [NbConvertApp] Making directory __results___files
+8825.5s 2294 [NbConvertApp] Making directory __results___files
+8825.5s 2295 [NbConvertApp] Making directory __results___files
+8825.5s 2296 [NbConvertApp] Writing 444953 bytes to __results__.html

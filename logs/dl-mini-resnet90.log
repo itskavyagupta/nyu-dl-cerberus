@@ -1,0 +1,506 @@
+6.3s 1 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar_test_nolabels.pkl
+6.3s 2 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_1
+6.3s 3 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_2
+6.3s 4 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/batches.meta
+6.3s 5 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/test_batch
+6.3s 6 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_3
+6.3s 7 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_5
+6.3s 8 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_4
+6.3s 9 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/readme.html
+12.7s 10 Total number of params 4946538
+12.8s 11 Total number of params 4946538
+15.1s 12 391
+33.8s 13 [34m[1mwandb[0m: W&B API key is configured. Use [1m`wandb login --relogin`[0m to force relogin
+33.8s 14 [34m[1mwandb[0m: [33mWARNING[0m If you're specifying your api key in code, ensure this code is not shared publicly.
+33.8s 15 [34m[1mwandb[0m: [33mWARNING[0m Consider setting the WANDB_API_KEY environment variable, or running `wandb login` from the command line.
+33.8s 16 [34m[1mwandb[0m: Appending key for api.wandb.ai to your netrc file: /root/.netrc
+34.3s 17 {'method': 'random',
+34.3s 18 'metric': {'goal': 'minimize', 'name': 'loss'},
+34.3s 19 'parameters': {'learning_rate': {'values': [0.1, 0.01]},
+34.3s 20 'optimizer': {'values': ['adadelta',
+34.3s 21 'sgd',
+34.3s 22 'adadelta-clipping']}}}
+34.7s 23 Create sweep with ID: ubt5mnn1
+34.7s 24 Sweep URL: https://wandb.ai/aaaanubha/pytorch-sweeps-demo/sweeps/ubt5mnn1
+35.4s 25 [34m[1mwandb[0m: Agent Starting Run: g9fj5hhd with config:
+35.4s 26 [34m[1mwandb[0m: 	learning_rate: 0.1
+35.4s 27 [34m[1mwandb[0m: 	optimizer: sgd
+36.8s 28 [34m[1mwandb[0m: Currently logged in as: [33maaaanubha[0m. Use [1m`wandb login --relogin`[0m to force relogin
+52.4s 29 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+52.4s 30 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_145941-g9fj5hhd[0m
+52.4s 31 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+52.4s 32 [34m[1mwandb[0m: Syncing run [33mlemon-sweep-1[0m
+52.4s 33 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+52.4s 34 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/sweeps/ubt5mnn1[0m
+52.4s 35 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/g9fj5hhd[0m
+53.5s 36 Total number of params 4946538
+53.5s 37 
+53.5s 38 Epoch: 0
+58.0s 39 [34m[1mwandb[0m: - 0.001 MB of 0.001 MB uploaded[34m[1mwandb[0m: \ 0.001 MB of 0.017 MB uploaded[34m[1mwandb[0m: | 0.001 MB of 0.017 MB uploaded[34m[1mwandb[0m: / 0.017 MB of 0.017 MB uploaded[34m[1mwandb[0m:
+59.1s 40 [34m[1mwandb[0m: 🚀 View run [33mlemon-sweep-1[0m at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/g9fj5hhd[0m
+59.1s 41 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+59.1s 42 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+59.1s 43 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_145941-g9fj5hhd/logs[0m
+59.2s 44 Run g9fj5hhd errored:
+59.2s 45 Traceback (most recent call last):
+59.2s 46 File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+59.2s 47 self._function()
+59.2s 48 File "/tmp/ipykernel_24/2739059182.py", line 38, in trainwandb
+59.2s 49 train_acc, train_loss = train(epoch, optimizer, net, do_clipping)
+59.2s 50 File "/tmp/ipykernel_24/1024781223.py", line 28, in train
+59.2s 51 outputs = mynet(inputs)
+59.2s 52 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+59.2s 53 return self._call_impl(*args, **kwargs)
+59.2s 54 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+59.2s 55 return forward_call(*args, **kwargs)
+59.2s 56 File "/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 183, in forward
+59.2s 57 return self.module(*inputs[0], **module_kwargs[0])
+59.2s 58 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+59.2s 59 return self._call_impl(*args, **kwargs)
+59.2s 60 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+59.2s 61 return forward_call(*args, **kwargs)
+59.2s 62 File "/tmp/ipykernel_24/2894146540.py", line 53, in forward
+59.2s 63 out = F.relu(self.bn1(self.conv1(x)))
+59.2s 64 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+59.2s 65 return self._call_impl(*args, **kwargs)
+59.2s 66 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+59.2s 67 return forward_call(*args, **kwargs)
+59.2s 68 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+59.2s 69 return F.batch_norm(
+59.2s 70 File "/opt/conda/lib/python3.10/site-packages/torch/nn/functional.py", line 2478, in batch_norm
+59.2s 71 return torch.batch_norm(
+59.2s 72 RuntimeError: running_mean should contain 32 elements not 64
+59.2s 73 
+59.2s 74 [34m[1mwandb[0m: [32m[41mERROR[0m Run g9fj5hhd errored:
+59.2s 75 [34m[1mwandb[0m: [32m[41mERROR[0m Traceback (most recent call last):
+59.2s 76 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+59.2s 77 [34m[1mwandb[0m: [32m[41mERROR[0m     self._function()
+59.2s 78 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/2739059182.py", line 38, in trainwandb
+59.2s 79 [34m[1mwandb[0m: [32m[41mERROR[0m     train_acc, train_loss = train(epoch, optimizer, net, do_clipping)
+59.2s 80 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/1024781223.py", line 28, in train
+59.2s 81 [34m[1mwandb[0m: [32m[41mERROR[0m     outputs = mynet(inputs)
+59.2s 82 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+59.2s 83 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+59.2s 84 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+59.2s 85 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+59.2s 86 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 183, in forward
+59.2s 87 [34m[1mwandb[0m: [32m[41mERROR[0m     return self.module(*inputs[0], **module_kwargs[0])
+59.2s 88 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+59.2s 89 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+59.2s 90 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+59.2s 91 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+59.2s 92 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/2894146540.py", line 53, in forward
+59.2s 93 [34m[1mwandb[0m: [32m[41mERROR[0m     out = F.relu(self.bn1(self.conv1(x)))
+59.2s 94 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+59.2s 95 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+59.2s 96 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+59.2s 97 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+59.2s 98 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+59.2s 99 [34m[1mwandb[0m: [32m[41mERROR[0m     return F.batch_norm(
+59.2s 100 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/functional.py", line 2478, in batch_norm
+59.2s 101 [34m[1mwandb[0m: [32m[41mERROR[0m     return torch.batch_norm(
+59.2s 102 [34m[1mwandb[0m: [32m[41mERROR[0m RuntimeError: running_mean should contain 32 elements not 64
+59.2s 103 [34m[1mwandb[0m: [32m[41mERROR[0m
+62.2s 104 [34m[1mwandb[0m: Agent Starting Run: 7key8b36 with config:
+62.2s 105 [34m[1mwandb[0m: 	learning_rate: 0.01
+62.2s 106 [34m[1mwandb[0m: 	optimizer: sgd
+79.0s 107 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+79.0s 108 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_150008-7key8b36[0m
+79.0s 109 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+79.0s 110 [34m[1mwandb[0m: Syncing run [33mrare-sweep-2[0m
+79.0s 111 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+79.1s 112 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/sweeps/ubt5mnn1[0m
+79.1s 113 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/7key8b36[0m
+80.1s 114 Total number of params 4946538
+80.1s 115 
+80.1s 116 Epoch: 0
+83.9s 117 [34m[1mwandb[0m: - 0.001 MB of 0.001 MB uploaded[34m[1mwandb[0m: \ 0.001 MB of 0.017 MB uploaded[34m[1mwandb[0m: | 0.001 MB of 0.017 MB uploaded[34m[1mwandb[0m: / 0.017 MB of 0.017 MB uploaded[34m[1mwandb[0m:
+85.1s 118 [34m[1mwandb[0m: 🚀 View run [33mrare-sweep-2[0m at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/7key8b36[0m
+85.1s 119 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+85.1s 120 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+85.1s 121 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_150008-7key8b36/logs[0m
+85.1s 122 Run 7key8b36 errored:
+85.1s 123 Traceback (most recent call last):
+85.1s 124 File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+85.1s 125 self._function()
+85.1s 126 File "/tmp/ipykernel_24/2739059182.py", line 38, in trainwandb
+85.1s 127 train_acc, train_loss = train(epoch, optimizer, net, do_clipping)
+85.1s 128 File "/tmp/ipykernel_24/1024781223.py", line 28, in train
+85.1s 129 outputs = mynet(inputs)
+85.1s 130 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+85.1s 131 return self._call_impl(*args, **kwargs)
+85.1s 132 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+85.1s 133 return forward_call(*args, **kwargs)
+85.1s 134 File "/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 183, in forward
+85.1s 135 return self.module(*inputs[0], **module_kwargs[0])
+85.1s 136 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+85.1s 137 return self._call_impl(*args, **kwargs)
+85.1s 138 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+85.1s 139 return forward_call(*args, **kwargs)
+85.1s 140 File "/tmp/ipykernel_24/2894146540.py", line 53, in forward
+85.1s 141 out = F.relu(self.bn1(self.conv1(x)))
+85.1s 142 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+85.1s 143 return self._call_impl(*args, **kwargs)
+85.1s 144 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+85.1s 145 return forward_call(*args, **kwargs)
+85.1s 146 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+85.1s 147 return F.batch_norm(
+85.1s 148 File "/opt/conda/lib/python3.10/site-packages/torch/nn/functional.py", line 2478, in batch_norm
+85.1s 149 return torch.batch_norm(
+85.1s 150 RuntimeError: running_mean should contain 32 elements not 64
+85.1s 151 
+85.1s 152 [34m[1mwandb[0m: [32m[41mERROR[0m Run 7key8b36 errored:
+85.1s 153 [34m[1mwandb[0m: [32m[41mERROR[0m Traceback (most recent call last):
+85.1s 154 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+85.1s 155 [34m[1mwandb[0m: [32m[41mERROR[0m     self._function()
+85.1s 156 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/2739059182.py", line 38, in trainwandb
+85.1s 157 [34m[1mwandb[0m: [32m[41mERROR[0m     train_acc, train_loss = train(epoch, optimizer, net, do_clipping)
+85.1s 158 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/1024781223.py", line 28, in train
+85.1s 159 [34m[1mwandb[0m: [32m[41mERROR[0m     outputs = mynet(inputs)
+85.1s 160 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+85.1s 161 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+85.1s 162 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+85.1s 163 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+85.1s 164 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 183, in forward
+85.1s 165 [34m[1mwandb[0m: [32m[41mERROR[0m     return self.module(*inputs[0], **module_kwargs[0])
+85.1s 166 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+85.1s 167 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+85.1s 168 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+85.1s 169 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+85.1s 170 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/2894146540.py", line 53, in forward
+85.1s 171 [34m[1mwandb[0m: [32m[41mERROR[0m     out = F.relu(self.bn1(self.conv1(x)))
+85.1s 172 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+85.1s 173 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+85.1s 174 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+85.1s 175 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+85.1s 176 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+85.1s 177 [34m[1mwandb[0m: [32m[41mERROR[0m     return F.batch_norm(
+85.1s 178 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/functional.py", line 2478, in batch_norm
+85.1s 179 [34m[1mwandb[0m: [32m[41mERROR[0m     return torch.batch_norm(
+85.1s 180 [34m[1mwandb[0m: [32m[41mERROR[0m RuntimeError: running_mean should contain 32 elements not 64
+85.1s 181 [34m[1mwandb[0m: [32m[41mERROR[0m
+88.2s 182 [34m[1mwandb[0m: Agent Starting Run: e6dutqi1 with config:
+88.2s 183 [34m[1mwandb[0m: 	learning_rate: 0.01
+88.2s 184 [34m[1mwandb[0m: 	optimizer: adadelta
+104.9s 185 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+104.9s 186 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_150034-e6dutqi1[0m
+104.9s 187 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+104.9s 188 [34m[1mwandb[0m: Syncing run [33mgraceful-sweep-3[0m
+104.9s 189 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+104.9s 190 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/sweeps/ubt5mnn1[0m
+105.0s 191 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/e6dutqi1[0m
+106.0s 192 Total number of params 4946538
+106.0s 193 
+106.0s 194 Epoch: 0
+110.4s 195 [34m[1mwandb[0m: - 0.001 MB of 0.001 MB uploaded[34m[1mwandb[0m: \ 0.001 MB of 0.017 MB uploaded[34m[1mwandb[0m: | 0.017 MB of 0.017 MB uploaded[34m[1mwandb[0m: / 0.017 MB of 0.017 MB uploaded[34m[1mwandb[0m: - 0.017 MB of 0.017 MB uploaded[34m[1mwandb[0m:
+111.5s 196 [34m[1mwandb[0m: 🚀 View run [33mgraceful-sweep-3[0m at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/e6dutqi1[0m
+111.5s 197 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+111.5s 198 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+111.5s 199 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_150034-e6dutqi1/logs[0m
+111.6s 200 Run e6dutqi1 errored:
+111.6s 201 Traceback (most recent call last):
+111.6s 202 File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+111.6s 203 self._function()
+111.6s 204 File "/tmp/ipykernel_24/2739059182.py", line 38, in trainwandb
+111.6s 205 train_acc, train_loss = train(epoch, optimizer, net, do_clipping)
+111.6s 206 File "/tmp/ipykernel_24/1024781223.py", line 28, in train
+111.6s 207 outputs = mynet(inputs)
+111.6s 208 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+111.6s 209 return self._call_impl(*args, **kwargs)
+111.6s 210 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+111.6s 211 return forward_call(*args, **kwargs)
+111.6s 212 File "/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 183, in forward
+111.6s 213 return self.module(*inputs[0], **module_kwargs[0])
+111.6s 214 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+111.6s 215 return self._call_impl(*args, **kwargs)
+111.6s 216 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+111.6s 217 return forward_call(*args, **kwargs)
+111.6s 218 File "/tmp/ipykernel_24/2894146540.py", line 53, in forward
+111.6s 219 out = F.relu(self.bn1(self.conv1(x)))
+111.6s 220 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+111.6s 221 return self._call_impl(*args, **kwargs)
+111.6s 222 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+111.6s 223 return forward_call(*args, **kwargs)
+111.6s 224 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+111.6s 225 return F.batch_norm(
+111.6s 226 File "/opt/conda/lib/python3.10/site-packages/torch/nn/functional.py", line 2478, in batch_norm
+111.6s 227 return torch.batch_norm(
+111.6s 228 RuntimeError: running_mean should contain 32 elements not 64
+111.6s 229 
+111.6s 230 [34m[1mwandb[0m: [32m[41mERROR[0m Run e6dutqi1 errored:
+111.6s 231 [34m[1mwandb[0m: [32m[41mERROR[0m Traceback (most recent call last):
+111.6s 232 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+111.6s 233 [34m[1mwandb[0m: [32m[41mERROR[0m     self._function()
+111.6s 234 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/2739059182.py", line 38, in trainwandb
+111.6s 235 [34m[1mwandb[0m: [32m[41mERROR[0m     train_acc, train_loss = train(epoch, optimizer, net, do_clipping)
+111.6s 236 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/1024781223.py", line 28, in train
+111.6s 237 [34m[1mwandb[0m: [32m[41mERROR[0m     outputs = mynet(inputs)
+111.6s 238 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+111.6s 239 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+111.6s 240 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+111.6s 241 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+111.6s 242 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 183, in forward
+111.6s 243 [34m[1mwandb[0m: [32m[41mERROR[0m     return self.module(*inputs[0], **module_kwargs[0])
+111.6s 244 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+111.6s 245 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+111.6s 246 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+111.6s 247 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+111.6s 248 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/2894146540.py", line 53, in forward
+111.6s 249 [34m[1mwandb[0m: [32m[41mERROR[0m     out = F.relu(self.bn1(self.conv1(x)))
+111.6s 250 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+111.6s 251 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+111.6s 252 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+111.6s 253 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+111.6s 254 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+111.6s 255 [34m[1mwandb[0m: [32m[41mERROR[0m     return F.batch_norm(
+111.6s 256 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/functional.py", line 2478, in batch_norm
+111.6s 257 [34m[1mwandb[0m: [32m[41mERROR[0m     return torch.batch_norm(
+111.6s 258 [34m[1mwandb[0m: [32m[41mERROR[0m RuntimeError: running_mean should contain 32 elements not 64
+111.6s 259 [34m[1mwandb[0m: [32m[41mERROR[0m
+113.6s 260 [34m[1mwandb[0m: Agent Starting Run: p8h8s8gx with config:
+113.6s 261 [34m[1mwandb[0m: 	learning_rate: 0.1
+113.6s 262 [34m[1mwandb[0m: 	optimizer: sgd
+130.4s 263 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+130.4s 264 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_150059-p8h8s8gx[0m
+130.4s 265 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+130.4s 266 [34m[1mwandb[0m: Syncing run [33mdivine-sweep-4[0m
+130.4s 267 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+130.4s 268 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/sweeps/ubt5mnn1[0m
+130.4s 269 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/p8h8s8gx[0m
+131.4s 270 Total number of params 4946538
+131.4s 271 
+131.4s 272 Epoch: 0
+135.9s 273 [34m[1mwandb[0m: - 0.001 MB of 0.001 MB uploaded[34m[1mwandb[0m: \ 0.001 MB of 0.017 MB uploaded[34m[1mwandb[0m: | 0.017 MB of 0.017 MB uploaded[34m[1mwandb[0m: / 0.017 MB of 0.017 MB uploaded[34m[1mwandb[0m: - 0.017 MB of 0.017 MB uploaded[34m[1mwandb[0m:
+137.1s 274 [34m[1mwandb[0m: 🚀 View run [33mdivine-sweep-4[0m at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/p8h8s8gx[0m
+137.1s 275 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+137.1s 276 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+137.1s 277 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_150059-p8h8s8gx/logs[0m
+137.1s 278 Run p8h8s8gx errored:
+137.1s 279 Traceback (most recent call last):
+137.1s 280 File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+137.1s 281 self._function()
+137.1s 282 File "/tmp/ipykernel_24/2739059182.py", line 38, in trainwandb
+137.1s 283 train_acc, train_loss = train(epoch, optimizer, net, do_clipping)
+137.1s 284 File "/tmp/ipykernel_24/1024781223.py", line 28, in train
+137.1s 285 outputs = mynet(inputs)
+137.1s 286 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+137.1s 287 return self._call_impl(*args, **kwargs)
+137.1s 288 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+137.1s 289 return forward_call(*args, **kwargs)
+137.1s 290 File "/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 183, in forward
+137.1s 291 return self.module(*inputs[0], **module_kwargs[0])
+137.1s 292 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+137.1s 293 return self._call_impl(*args, **kwargs)
+137.1s 294 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+137.1s 295 return forward_call(*args, **kwargs)
+137.1s 296 File "/tmp/ipykernel_24/2894146540.py", line 53, in forward
+137.1s 297 out = F.relu(self.bn1(self.conv1(x)))
+137.1s 298 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+137.1s 299 return self._call_impl(*args, **kwargs)
+137.1s 300 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+137.1s 301 return forward_call(*args, **kwargs)
+137.1s 302 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+137.1s 303 return F.batch_norm(
+137.1s 304 File "/opt/conda/lib/python3.10/site-packages/torch/nn/functional.py", line 2478, in batch_norm
+137.1s 305 return torch.batch_norm(
+137.1s 306 RuntimeError: running_mean should contain 32 elements not 64
+137.1s 307 
+137.1s 308 [34m[1mwandb[0m: [32m[41mERROR[0m Run p8h8s8gx errored:
+137.1s 309 [34m[1mwandb[0m: [32m[41mERROR[0m Traceback (most recent call last):
+137.1s 310 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+137.1s 311 [34m[1mwandb[0m: [32m[41mERROR[0m     self._function()
+137.1s 312 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/2739059182.py", line 38, in trainwandb
+137.1s 313 [34m[1mwandb[0m: [32m[41mERROR[0m     train_acc, train_loss = train(epoch, optimizer, net, do_clipping)
+137.1s 314 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/1024781223.py", line 28, in train
+137.1s 315 [34m[1mwandb[0m: [32m[41mERROR[0m     outputs = mynet(inputs)
+137.1s 316 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+137.1s 317 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+137.1s 318 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+137.1s 319 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+137.1s 320 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 183, in forward
+137.1s 321 [34m[1mwandb[0m: [32m[41mERROR[0m     return self.module(*inputs[0], **module_kwargs[0])
+137.1s 322 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+137.1s 323 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+137.1s 324 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+137.1s 325 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+137.1s 326 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/2894146540.py", line 53, in forward
+137.1s 327 [34m[1mwandb[0m: [32m[41mERROR[0m     out = F.relu(self.bn1(self.conv1(x)))
+137.1s 328 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+137.1s 329 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+137.1s 330 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+137.1s 331 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+137.1s 332 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+137.1s 333 [34m[1mwandb[0m: [32m[41mERROR[0m     return F.batch_norm(
+137.1s 334 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/functional.py", line 2478, in batch_norm
+137.1s 335 [34m[1mwandb[0m: [32m[41mERROR[0m     return torch.batch_norm(
+137.1s 336 [34m[1mwandb[0m: [32m[41mERROR[0m RuntimeError: running_mean should contain 32 elements not 64
+137.1s 337 [34m[1mwandb[0m: [32m[41mERROR[0m
+140.2s 338 [34m[1mwandb[0m: Agent Starting Run: pbunbwio with config:
+140.2s 339 [34m[1mwandb[0m: 	learning_rate: 0.1
+140.2s 340 [34m[1mwandb[0m: 	optimizer: adadelta-clipping
+156.9s 341 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+156.9s 342 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_150126-pbunbwio[0m
+156.9s 343 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+156.9s 344 [34m[1mwandb[0m: Syncing run [33mgenerous-sweep-5[0m
+156.9s 345 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+156.9s 346 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/sweeps/ubt5mnn1[0m
+156.9s 347 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/pbunbwio[0m
+157.9s 348 Total number of params 4946538
+157.9s 349 
+157.9s 350 Epoch: 0
+162.4s 351 [34m[1mwandb[0m: - 0.001 MB of 0.001 MB uploaded[34m[1mwandb[0m: \ 0.001 MB of 0.017 MB uploaded[34m[1mwandb[0m: | 0.017 MB of 0.017 MB uploaded[34m[1mwandb[0m: / 0.017 MB of 0.017 MB uploaded[34m[1mwandb[0m: - 0.017 MB of 0.017 MB uploaded[34m[1mwandb[0m:
+163.6s 352 [34m[1mwandb[0m: 🚀 View run [33mgenerous-sweep-5[0m at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/pbunbwio[0m
+163.6s 353 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+163.6s 354 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+163.6s 355 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_150126-pbunbwio/logs[0m
+163.6s 356 Run pbunbwio errored:
+163.6s 357 Traceback (most recent call last):
+163.6s 358 File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+163.6s 359 self._function()
+163.6s 360 File "/tmp/ipykernel_24/2739059182.py", line 38, in trainwandb
+163.6s 361 train_acc, train_loss = train(epoch, optimizer, net, do_clipping)
+163.6s 362 File "/tmp/ipykernel_24/1024781223.py", line 28, in train
+163.6s 363 outputs = mynet(inputs)
+163.6s 364 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+163.6s 365 return self._call_impl(*args, **kwargs)
+163.6s 366 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+163.6s 367 return forward_call(*args, **kwargs)
+163.6s 368 File "/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 183, in forward
+163.6s 369 return self.module(*inputs[0], **module_kwargs[0])
+163.6s 370 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+163.6s 371 return self._call_impl(*args, **kwargs)
+163.6s 372 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+163.6s 373 return forward_call(*args, **kwargs)
+163.6s 374 File "/tmp/ipykernel_24/2894146540.py", line 53, in forward
+163.6s 375 out = F.relu(self.bn1(self.conv1(x)))
+163.6s 376 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+163.6s 377 return self._call_impl(*args, **kwargs)
+163.6s 378 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+163.6s 379 return forward_call(*args, **kwargs)
+163.6s 380 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+163.6s 381 return F.batch_norm(
+163.6s 382 File "/opt/conda/lib/python3.10/site-packages/torch/nn/functional.py", line 2478, in batch_norm
+163.6s 383 return torch.batch_norm(
+163.6s 384 RuntimeError: running_mean should contain 32 elements not 64
+163.6s 385 
+163.6s 386 [34m[1mwandb[0m: [32m[41mERROR[0m Run pbunbwio errored:
+163.6s 387 [34m[1mwandb[0m: [32m[41mERROR[0m Traceback (most recent call last):
+163.6s 388 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+163.6s 389 [34m[1mwandb[0m: [32m[41mERROR[0m     self._function()
+163.6s 390 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/2739059182.py", line 38, in trainwandb
+163.6s 391 [34m[1mwandb[0m: [32m[41mERROR[0m     train_acc, train_loss = train(epoch, optimizer, net, do_clipping)
+163.6s 392 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/1024781223.py", line 28, in train
+163.6s 393 [34m[1mwandb[0m: [32m[41mERROR[0m     outputs = mynet(inputs)
+163.6s 394 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+163.6s 395 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+163.6s 396 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+163.6s 397 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+163.6s 398 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 183, in forward
+163.6s 399 [34m[1mwandb[0m: [32m[41mERROR[0m     return self.module(*inputs[0], **module_kwargs[0])
+163.6s 400 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+163.6s 401 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+163.6s 402 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+163.6s 403 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+163.6s 404 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/2894146540.py", line 53, in forward
+163.6s 405 [34m[1mwandb[0m: [32m[41mERROR[0m     out = F.relu(self.bn1(self.conv1(x)))
+163.6s 406 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+163.6s 407 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+163.6s 408 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+163.6s 409 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+163.6s 410 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+163.6s 411 [34m[1mwandb[0m: [32m[41mERROR[0m     return F.batch_norm(
+163.6s 412 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/functional.py", line 2478, in batch_norm
+163.6s 413 [34m[1mwandb[0m: [32m[41mERROR[0m     return torch.batch_norm(
+163.6s 414 [34m[1mwandb[0m: [32m[41mERROR[0m RuntimeError: running_mean should contain 32 elements not 64
+163.6s 415 [34m[1mwandb[0m: [32m[41mERROR[0m
+165.7s 416 [34m[1mwandb[0m: Agent Starting Run: lkmj3p3n with config:
+165.7s 417 [34m[1mwandb[0m: 	learning_rate: 0.01
+165.7s 418 [34m[1mwandb[0m: 	optimizer: adadelta
+182.7s 419 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+182.7s 420 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_150152-lkmj3p3n[0m
+182.7s 421 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+182.7s 422 [34m[1mwandb[0m: Syncing run [33msweepy-sweep-6[0m
+182.7s 423 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+182.7s 424 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/sweeps/ubt5mnn1[0m
+182.7s 425 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/lkmj3p3n[0m
+183.7s 426 Total number of params 4946538
+183.7s 427 
+183.7s 428 Epoch: 0
+187.6s 429 [34m[1mwandb[0m: - 0.001 MB of 0.001 MB uploaded[34m[1mwandb[0m: \ 0.001 MB of 0.017 MB uploaded[34m[1mwandb[0m: | 0.001 MB of 0.017 MB uploaded[34m[1mwandb[0m: / 0.017 MB of 0.017 MB uploaded[34m[1mwandb[0m:
+188.8s 430 [34m[1mwandb[0m: 🚀 View run [33msweepy-sweep-6[0m at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo/runs/lkmj3p3n[0m
+188.8s 431 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/aaaanubha/pytorch-sweeps-demo[0m
+188.8s 432 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+188.8s 433 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_150152-lkmj3p3n/logs[0m
+188.8s 434 Run lkmj3p3n errored:
+188.8s 435 Traceback (most recent call last):
+188.8s 436 File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+188.8s 437 self._function()
+188.8s 438 File "/tmp/ipykernel_24/2739059182.py", line 38, in trainwandb
+188.8s 439 train_acc, train_loss = train(epoch, optimizer, net, do_clipping)
+188.8s 440 File "/tmp/ipykernel_24/1024781223.py", line 28, in train
+188.8s 441 outputs = mynet(inputs)
+188.8s 442 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+188.8s 443 return self._call_impl(*args, **kwargs)
+188.8s 444 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+188.8s 445 return forward_call(*args, **kwargs)
+188.8s 446 File "/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 183, in forward
+188.8s 447 return self.module(*inputs[0], **module_kwargs[0])
+188.8s 448 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+188.8s 449 return self._call_impl(*args, **kwargs)
+188.8s 450 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+188.8s 451 return forward_call(*args, **kwargs)
+188.8s 452 File "/tmp/ipykernel_24/2894146540.py", line 53, in forward
+188.8s 453 out = F.relu(self.bn1(self.conv1(x)))
+188.8s 454 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+188.8s 455 return self._call_impl(*args, **kwargs)
+188.8s 456 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+188.8s 457 return forward_call(*args, **kwargs)
+188.8s 458 File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+188.8s 459 return F.batch_norm(
+188.8s 460 File "/opt/conda/lib/python3.10/site-packages/torch/nn/functional.py", line 2478, in batch_norm
+188.8s 461 return torch.batch_norm(
+188.8s 462 RuntimeError: running_mean should contain 32 elements not 64
+188.8s 463 
+188.8s 464 [34m[1mwandb[0m: [32m[41mERROR[0m Run lkmj3p3n errored:
+188.8s 465 [34m[1mwandb[0m: [32m[41mERROR[0m Traceback (most recent call last):
+188.8s 466 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+188.8s 467 [34m[1mwandb[0m: [32m[41mERROR[0m     self._function()
+188.8s 468 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/2739059182.py", line 38, in trainwandb
+188.8s 469 [34m[1mwandb[0m: [32m[41mERROR[0m     train_acc, train_loss = train(epoch, optimizer, net, do_clipping)
+188.8s 470 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/1024781223.py", line 28, in train
+188.8s 471 [34m[1mwandb[0m: [32m[41mERROR[0m     outputs = mynet(inputs)
+188.8s 472 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+188.8s 473 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+188.8s 474 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+188.8s 475 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+188.8s 476 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 183, in forward
+188.8s 477 [34m[1mwandb[0m: [32m[41mERROR[0m     return self.module(*inputs[0], **module_kwargs[0])
+188.8s 478 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+188.8s 479 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+188.8s 480 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+188.8s 481 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+188.8s 482 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/2894146540.py", line 53, in forward
+188.8s 483 [34m[1mwandb[0m: [32m[41mERROR[0m     out = F.relu(self.bn1(self.conv1(x)))
+188.8s 484 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+188.8s 485 [34m[1mwandb[0m: [32m[41mERROR[0m     return self._call_impl(*args, **kwargs)
+188.8s 486 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+188.8s 487 [34m[1mwandb[0m: [32m[41mERROR[0m     return forward_call(*args, **kwargs)
+188.8s 488 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 171, in forward
+188.8s 489 [34m[1mwandb[0m: [32m[41mERROR[0m     return F.batch_norm(
+188.8s 490 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/torch/nn/functional.py", line 2478, in batch_norm
+188.8s 491 [34m[1mwandb[0m: [32m[41mERROR[0m     return torch.batch_norm(
+188.8s 492 [34m[1mwandb[0m: [32m[41mERROR[0m RuntimeError: running_mean should contain 32 elements not 64
+188.8s 493 [34m[1mwandb[0m: [32m[41mERROR[0m
+188.8s 494 Detected 5 failed runs in a row at start, killing sweep.
+188.8s 495 [34m[1mwandb[0m: [32m[41mERROR[0m Detected 5 failed runs in a row at start, killing sweep.
+188.8s 496 [34m[1mwandb[0m: To change this value set WANDB_AGENT_MAX_INITIAL_FAILURES=val
+193.6s 497 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+193.6s 498 warn(
+193.6s 499 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+193.6s 500 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+194.0s 501 [NbConvertApp] Writing 99469 bytes to __notebook__.ipynb
+195.7s 502 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+195.7s 503 warn(
+195.7s 504 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+195.7s 505 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+196.8s 506 [NbConvertApp] Writing 438123 bytes to __results__.html
