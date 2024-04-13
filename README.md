@@ -5,13 +5,11 @@ Our project aims to create a ResNet model from scratch using less than 5 million
 Our model is a variant of the ResNet model that comprises of basic building blocks called BasicBlocks, each consisting of two convolutional layers with batch normalization and ReLU activation. It consists of multiple layers of these blocks, with the number of blocks per layer specified by the num\_blocks parameter.
 
 The final parameters and hyper parameters in our model are:
-\begin{itemize}
-\item Ci: [64, 128, 256]
-\item Fi: 3x3
-\item Ki: 3x3
-\item P: 8x8
-\item Blocks: [3, 5, 3]
-\end{itemize}
+- Ci: [64, 128, 256]
+- Fi: 3x3
+- Ki: 3x3
+- P: 8x8
+- Blocks: [3, 5, 3]
 
 > Best Accuracy: **95.01%**
 
