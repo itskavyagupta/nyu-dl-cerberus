@@ -1,0 +1,263 @@
+33.0s 1 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar_test_nolabels.pkl
+33.0s 2 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_1
+33.0s 3 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_2
+33.0s 4 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/batches.meta
+33.0s 5 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/test_batch
+33.0s 6 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_3
+33.0s 7 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_5
+33.0s 8 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_4
+33.0s 9 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/readme.html
+33.5s 10 Total number of params 4918602
+36.7s 11 391
+36.7s 12 391
+36.7s 13 79
+38.2s 14 [34m[1mwandb[0m: W&B API key is configured. Use [1m`wandb login --relogin`[0m to force relogin
+38.2s 15 [34m[1mwandb[0m: [33mWARNING[0m If you're specifying your api key in code, ensure this code is not shared publicly.
+38.2s 16 [34m[1mwandb[0m: [33mWARNING[0m Consider setting the WANDB_API_KEY environment variable, or running `wandb login` from the command line.
+38.2s 17 [34m[1mwandb[0m: Appending key for api.wandb.ai to your netrc file: /root/.netrc
+38.4s 18 {'method': 'grid',
+38.4s 19 'metric': {'goal': 'minimize', 'name': 'loss'},
+38.4s 20 'parameters': {'dataaug': {'values': ['cutmix']}}}
+38.8s 21 Create sweep with ID: 4ek2jd1a
+38.8s 22 Sweep URL: https://wandb.ai/classical/pytorch-sweeps-demo/sweeps/4ek2jd1a
+39.2s 23 [34m[1mwandb[0m: Agent Starting Run: hp9byef3 with config:
+39.2s 24 [34m[1mwandb[0m: 	dataaug: cutmix
+40.4s 25 [34m[1mwandb[0m: Currently logged in as: [33mks7406[0m ([33mclassical[0m). Use [1m`wandb login --relogin`[0m to force relogin
+55.8s 26 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+55.8s 27 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_212455-hp9byef3[0m
+55.8s 28 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+55.8s 29 [34m[1mwandb[0m: Syncing run [33mbalmy-sweep-1[0m
+55.8s 30 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo[0m
+55.8s 31 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo/sweeps/4ek2jd1a[0m
+55.8s 32 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo/runs/hp9byef3[0m
+56.9s 33 Total number of params 4918602
+56.9s 34 
+56.9s 35 Epoch: 0
+88.0s 36 
+88.0s 37 Epoch: 0, Loss: 1.735, Acc: 45.142%
+90.3s 38 
+90.3s 39 Test Loss: 1.256, Acc: 55.130%
+90.3s 40 
+90.3s 41 Epoch: 1
+117.2s 42 
+117.2s 43 Epoch: 1, Loss: 1.415, Acc: 61.170%
+119.4s 44 
+119.4s 45 Test Loss: 1.146, Acc: 59.890%
+119.4s 46 
+119.4s 47 Epoch: 2
+146.2s 48 
+146.2s 49 Epoch: 2, Loss: 1.267, Acc: 67.856%
+148.5s 50 
+148.5s 51 Test Loss: 0.832, Acc: 71.260%
+148.5s 52 
+148.5s 53 Epoch: 3
+175.4s 54 
+175.4s 55 Epoch: 3, Loss: 1.174, Acc: 72.118%
+177.8s 56 
+177.8s 57 Test Loss: 0.737, Acc: 75.010%
+177.8s 58 
+177.8s 59 Epoch: 4
+204.6s 60 
+204.6s 61 Epoch: 4, Loss: 1.066, Acc: 74.866%
+206.9s 62 
+206.9s 63 Test Loss: 0.664, Acc: 77.680%
+206.9s 64 
+206.9s 65 Epoch: 5
+233.7s 66 
+233.7s 67 Epoch: 5, Loss: 1.057, Acc: 76.808%
+235.9s 68 
+235.9s 69 Test Loss: 0.709, Acc: 76.170%
+235.9s 70 
+235.9s 71 Epoch: 6
+262.8s 72 
+262.8s 73 Epoch: 6, Loss: 0.961, Acc: 79.020%
+264.9s 74 
+264.9s 75 Test Loss: 0.618, Acc: 78.760%
+264.9s 76 
+264.9s 77 Epoch: 7
+291.7s 78 
+291.7s 79 Epoch: 7, Loss: 0.935, Acc: 80.308%
+294.1s 80 
+294.1s 81 Test Loss: 0.562, Acc: 81.990%
+294.1s 82 
+294.1s 83 Epoch: 8
+320.9s 84 
+320.9s 85 Epoch: 8, Loss: 0.914, Acc: 80.930%
+323.2s 86 
+323.2s 87 Test Loss: 0.600, Acc: 80.130%
+323.2s 88 
+323.2s 89 Epoch: 9
+350.1s 90 
+350.1s 91 Epoch: 9, Loss: 0.895, Acc: 82.110%
+352.3s 92 
+352.3s 93 Test Loss: 0.521, Acc: 82.490%
+352.3s 94 
+352.3s 95 Epoch: 10
+379.2s 96 
+379.2s 97 Epoch: 10, Loss: 0.847, Acc: 82.730%
+381.6s 98 
+381.6s 99 Test Loss: 0.496, Acc: 83.400%
+381.6s 100 
+381.6s 101 Epoch: 11
+408.4s 102 
+408.4s 103 Epoch: 11, Loss: 0.907, Acc: 83.088%
+410.8s 104 
+410.8s 105 Test Loss: 0.474, Acc: 84.640%
+410.8s 106 
+410.8s 107 Epoch: 12
+437.7s 108 
+437.7s 109 Epoch: 12, Loss: 0.827, Acc: 84.088%
+440.0s 110 
+440.0s 111 Test Loss: 0.517, Acc: 82.660%
+440.0s 112 
+440.0s 113 Epoch: 13
+466.8s 114 
+466.8s 115 Epoch: 13, Loss: 0.829, Acc: 84.314%
+469.2s 116 
+469.2s 117 Test Loss: 0.443, Acc: 85.440%
+469.2s 118 
+469.2s 119 Epoch: 14
+496.0s 120 
+496.0s 121 Epoch: 14, Loss: 0.795, Acc: 84.960%
+498.3s 122 
+498.3s 123 Test Loss: 0.504, Acc: 83.430%
+498.3s 124 
+498.3s 125 Epoch: 15
+525.2s 126 
+525.2s 127 Epoch: 15, Loss: 0.757, Acc: 85.538%
+527.6s 128 
+527.6s 129 Test Loss: 0.402, Acc: 86.370%
+527.6s 130 
+527.6s 131 Epoch: 16
+554.5s 132 
+554.5s 133 Epoch: 16, Loss: 0.738, Acc: 85.862%
+556.8s 134 
+556.8s 135 Test Loss: 0.442, Acc: 85.080%
+556.8s 136 
+556.8s 137 Epoch: 17
+583.6s 138 
+583.6s 139 Epoch: 17, Loss: 0.783, Acc: 86.116%
+585.9s 140 
+585.9s 141 Test Loss: 0.387, Acc: 87.640%
+585.9s 142 
+585.9s 143 Epoch: 18
+612.8s 144 
+612.8s 145 Epoch: 18, Loss: 0.748, Acc: 86.682%
+615.0s 146 
+615.0s 147 Test Loss: 0.443, Acc: 85.260%
+615.0s 148 
+615.0s 149 Epoch: 19
+641.9s 150 
+641.9s 151 Epoch: 19, Loss: 0.733, Acc: 86.642%
+644.4s 152 
+644.4s 153 Test Loss: 0.368, Acc: 88.050%
+644.4s 154 
+644.4s 155 Epoch: 20
+671.1s 156 
+671.1s 157 Epoch: 20, Loss: 0.728, Acc: 87.376%
+673.4s 158 
+673.4s 159 Test Loss: 0.365, Acc: 88.440%
+673.4s 160 
+673.4s 161 Epoch: 21
+700.2s 162 
+700.2s 163 Epoch: 21, Loss: 0.734, Acc: 87.624%
+702.6s 164 
+702.6s 165 Test Loss: 0.378, Acc: 88.280%
+702.6s 166 
+702.6s 167 Epoch: 22
+729.5s 168 
+729.5s 169 Epoch: 22, Loss: 0.714, Acc: 87.682%
+731.8s 170 
+731.8s 171 Test Loss: 0.426, Acc: 86.260%
+731.8s 172 
+731.8s 173 Epoch: 23
+758.6s 174 
+758.6s 175 Epoch: 23, Loss: 0.720, Acc: 88.060%
+760.9s 176 
+760.9s 177 Test Loss: 0.352, Acc: 88.550%
+760.9s 178 
+760.9s 179 Epoch: 24
+787.8s 180 
+787.8s 181 Epoch: 24, Loss: 0.718, Acc: 88.548%
+790.0s 182 
+790.0s 183 Test Loss: 0.368, Acc: 88.200%
+790.0s 184 
+790.0s 185 Epoch: 25
+817.0s 186 
+817.0s 187 Epoch: 25, Loss: 0.696, Acc: 88.502%
+819.3s 188 
+819.3s 189 Test Loss: 0.439, Acc: 86.370%
+819.3s 190 
+819.3s 191 Epoch: 26
+846.1s 192 
+846.1s 193 Epoch: 26, Loss: 0.670, Acc: 88.908%
+848.3s 194 
+848.3s 195 Test Loss: 0.350, Acc: 88.880%
+848.3s 196 
+848.3s 197 Epoch: 27
+875.2s 198 
+875.2s 199 Epoch: 27, Loss: 0.718, Acc: 89.010%
+877.4s 200 
+877.4s 201 Test Loss: 0.328, Acc: 89.260%
+877.4s 202 
+877.4s 203 Epoch: 28
+904.2s 204 
+904.2s 205 Epoch: 28, Loss: 0.683, Acc: 89.436%
+906.5s 206 
+906.5s 207 Test Loss: 0.327, Acc: 90.040%
+906.5s 208 
+906.5s 209 Epoch: 29
+933.4s 210 
+933.4s 211 Epoch: 29, Loss: 0.707, Acc: 89.142%
+935.8s 212 
+935.8s 213 Test Loss: 0.315, Acc: 90.100%
+938.6s 214 [34m[1mwandb[0m: - 0.020 MB of 0.020 MB uploaded[34m[1mwandb[0m:
+939.7s 215 [34m[1mwandb[0m:
+939.7s 216 [34m[1mwandb[0m: Run history:
+939.7s 217 [34m[1mwandb[0m:          epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+939.7s 218 [34m[1mwandb[0m:  test_accuracy ▁▂▄▅▆▅▆▆▆▆▇▇▇▇▇▇▇█▇███▇██▇████
+939.7s 219 [34m[1mwandb[0m:      test_loss █▇▅▄▄▄▃▃▃▃▂▂▃▂▂▂▂▂▂▁▁▁▂▁▁▂▁▁▁▁
+939.7s 220 [34m[1mwandb[0m: train_accuracy ▁▄▅▅▆▆▆▇▇▇▇▇▇▇▇▇▇▇████████████
+939.7s 221 [34m[1mwandb[0m:     train_loss █▆▅▄▄▄▃▃▃▂▂▃▂▂▂▂▁▂▂▁▁▁▁▁▁▁▁▁▁▁
+939.7s 222 [34m[1mwandb[0m:
+939.7s 223 [34m[1mwandb[0m: Run summary:
+939.7s 224 [34m[1mwandb[0m:          epoch 29
+939.7s 225 [34m[1mwandb[0m:  test_accuracy 90.1
+939.7s 226 [34m[1mwandb[0m:      test_loss 0.31527
+939.7s 227 [34m[1mwandb[0m: train_accuracy 89.142
+939.7s 228 [34m[1mwandb[0m:     train_loss 0.70728
+939.7s 229 [34m[1mwandb[0m:
+939.7s 230 [34m[1mwandb[0m: 🚀 View run [33mbalmy-sweep-1[0m at: [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo/runs/hp9byef3[0m
+939.7s 231 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo[0m
+939.7s 232 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+939.7s 233 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_212455-hp9byef3/logs[0m
+939.8s 234 Run hp9byef3 errored:
+939.8s 235 Traceback (most recent call last):
+939.8s 236 File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+939.8s 237 self._function()
+939.8s 238 File "/tmp/ipykernel_25/3118229477.py", line 78, in trainwandb
+939.8s 239 plot_train_test_accuracy(train_accuracies, test_accuracies, train_losses, test_losses)
+939.8s 240 File "/tmp/ipykernel_25/4014860157.py", line 5, in plot_train_test_accuracy
+939.8s 241 plt.figure(figsize=(12, 5))
+939.8s 242 TypeError: 'module' object is not callable
+939.8s 243 
+939.8s 244 [34m[1mwandb[0m: [32m[41mERROR[0m Run hp9byef3 errored:
+939.8s 245 [34m[1mwandb[0m: [32m[41mERROR[0m Traceback (most recent call last):
+939.8s 246 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+939.8s 247 [34m[1mwandb[0m: [32m[41mERROR[0m     self._function()
+939.8s 248 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_25/3118229477.py", line 78, in trainwandb
+939.8s 249 [34m[1mwandb[0m: [32m[41mERROR[0m     plot_train_test_accuracy(train_accuracies, test_accuracies, train_losses, test_losses)
+939.8s 250 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_25/4014860157.py", line 5, in plot_train_test_accuracy
+939.8s 251 [34m[1mwandb[0m: [32m[41mERROR[0m     plt.figure(figsize=(12, 5))
+939.8s 252 [34m[1mwandb[0m: [32m[41mERROR[0m TypeError: 'module' object is not callable
+939.8s 253 [34m[1mwandb[0m: [32m[41mERROR[0m
+945.6s 254 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+945.6s 255 warn(
+945.7s 256 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+945.7s 257 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+946.2s 258 [NbConvertApp] Writing 72628 bytes to __notebook__.ipynb
+948.0s 259 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+948.0s 260 warn(
+948.0s 261 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+948.0s 262 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+949.3s 263 [NbConvertApp] Writing 439070 bytes to __results__.html

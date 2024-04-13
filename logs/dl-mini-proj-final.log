@@ -1,0 +1,1283 @@
+29.1s 1 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar_test_nolabels.pkl
+29.1s 2 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_1
+29.1s 3 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_2
+29.1s 4 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/batches.meta
+29.1s 5 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/test_batch
+29.1s 6 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_3
+29.1s 7 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_5
+29.1s 8 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_4
+29.1s 9 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/readme.html
+29.6s 10 Total number of params 4918602
+31.8s 11 391
+31.8s 12 391
+31.8s 13 79
+33.2s 14 [34m[1mwandb[0m: W&B API key is configured. Use [1m`wandb login --relogin`[0m to force relogin
+33.2s 15 [34m[1mwandb[0m: [33mWARNING[0m If you're specifying your api key in code, ensure this code is not shared publicly.
+33.2s 16 [34m[1mwandb[0m: [33mWARNING[0m Consider setting the WANDB_API_KEY environment variable, or running `wandb login` from the command line.
+33.2s 17 [34m[1mwandb[0m: Appending key for api.wandb.ai to your netrc file: /root/.netrc
+33.7s 18 {'method': 'grid',
+33.7s 19 'metric': {'goal': 'minimize', 'name': 'loss'},
+33.7s 20 'parameters': {'dataaug': {'values': ['cutout']}}}
+34.1s 21 Create sweep with ID: 7rbk9m9t
+34.1s 22 Sweep URL: https://wandb.ai/kavyagupta/dl-mini-353-cutout/sweeps/7rbk9m9t
+36.7s 23 [34m[1mwandb[0m: Agent Starting Run: ae12ytgm with config:
+36.7s 24 [34m[1mwandb[0m: 	dataaug: cutout
+37.9s 25 [34m[1mwandb[0m: Currently logged in as: [33mkavyagupta[0m. Use [1m`wandb login --relogin`[0m to force relogin
+53.5s 26 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+53.5s 27 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_230234-ae12ytgm[0m
+53.5s 28 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+53.5s 29 [34m[1mwandb[0m: Syncing run [33mearnest-sweep-1[0m
+53.5s 30 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/kavyagupta/dl-mini-353-cutout[0m
+53.5s 31 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/kavyagupta/dl-mini-353-cutout/sweeps/7rbk9m9t[0m
+53.5s 32 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/kavyagupta/dl-mini-353-cutout/runs/ae12ytgm[0m
+54.5s 33 Total number of params 4918602
+54.5s 34 
+54.5s 35 Epoch: 0
+85.0s 36 
+85.0s 37 Epoch: 0, Loss: 1.492, Acc: 44.928%
+87.2s 38 
+87.2s 39 Test Loss: 1.199, Acc: 58.830%
+87.2s 40 
+87.2s 41 Epoch: 1
+113.6s 42 
+113.6s 43 Epoch: 1, Loss: 1.065, Acc: 61.868%
+115.7s 44 
+115.7s 45 Test Loss: 1.361, Acc: 58.680%
+115.7s 46 
+115.7s 47 Epoch: 2
+142.2s 48 
+142.2s 49 Epoch: 2, Loss: 0.866, Acc: 69.288%
+144.3s 50 
+144.3s 51 Test Loss: 1.060, Acc: 67.120%
+144.3s 52 
+144.3s 53 Epoch: 3
+170.8s 54 
+170.8s 55 Epoch: 3, Loss: 0.749, Acc: 73.810%
+172.8s 56 
+172.8s 57 Test Loss: 0.756, Acc: 74.350%
+172.8s 58 
+172.8s 59 Epoch: 4
+199.4s 60 
+199.4s 61 Epoch: 4, Loss: 0.668, Acc: 76.740%
+201.4s 62 
+201.4s 63 Test Loss: 0.682, Acc: 77.440%
+201.4s 64 
+201.4s 65 Epoch: 5
+228.1s 66 
+228.1s 67 Epoch: 5, Loss: 0.613, Acc: 78.538%
+230.1s 68 
+230.1s 69 Test Loss: 0.721, Acc: 77.090%
+230.1s 70 
+230.1s 71 Epoch: 6
+256.7s 72 
+256.7s 73 Epoch: 6, Loss: 0.561, Acc: 80.316%
+258.7s 74 
+258.7s 75 Test Loss: 0.528, Acc: 82.550%
+258.7s 76 
+258.7s 77 Epoch: 7
+285.4s 78 
+285.4s 79 Epoch: 7, Loss: 0.520, Acc: 81.868%
+287.4s 80 
+287.4s 81 Test Loss: 0.738, Acc: 78.500%
+287.4s 82 
+287.4s 83 Epoch: 8
+313.9s 84 
+313.9s 85 Epoch: 8, Loss: 0.495, Acc: 82.758%
+316.0s 86 
+316.0s 87 Test Loss: 0.606, Acc: 80.410%
+316.0s 88 
+316.0s 89 Epoch: 9
+342.5s 90 
+342.5s 91 Epoch: 9, Loss: 0.469, Acc: 83.594%
+344.5s 92 
+344.5s 93 Test Loss: 0.460, Acc: 84.860%
+344.5s 94 
+344.5s 95 Epoch: 10
+371.0s 96 
+371.0s 97 Epoch: 10, Loss: 0.436, Acc: 84.768%
+373.1s 98 
+373.1s 99 Test Loss: 0.544, Acc: 83.070%
+373.1s 100 
+373.1s 101 Epoch: 11
+399.5s 102 
+399.5s 103 Epoch: 11, Loss: 0.412, Acc: 85.512%
+401.6s 104 
+401.6s 105 Test Loss: 0.469, Acc: 84.760%
+401.6s 106 
+401.6s 107 Epoch: 12
+428.1s 108 
+428.1s 109 Epoch: 12, Loss: 0.400, Acc: 85.990%
+430.1s 110 
+430.1s 111 Test Loss: 0.397, Acc: 86.660%
+430.1s 112 
+430.1s 113 Epoch: 13
+456.6s 114 
+456.6s 115 Epoch: 13, Loss: 0.379, Acc: 86.774%
+458.6s 116 
+458.6s 117 Test Loss: 0.392, Acc: 87.330%
+458.6s 118 
+458.6s 119 Epoch: 14
+485.2s 120 
+485.2s 121 Epoch: 14, Loss: 0.362, Acc: 87.358%
+487.2s 122 
+487.2s 123 Test Loss: 0.384, Acc: 87.780%
+487.2s 124 
+487.2s 125 Epoch: 15
+513.7s 126 
+513.7s 127 Epoch: 15, Loss: 0.354, Acc: 87.486%
+515.9s 128 
+515.9s 129 Test Loss: 0.408, Acc: 86.580%
+515.9s 130 
+515.9s 131 Epoch: 16
+542.4s 132 
+542.4s 133 Epoch: 16, Loss: 0.336, Acc: 88.332%
+544.4s 134 
+544.4s 135 Test Loss: 0.387, Acc: 86.860%
+544.4s 136 
+544.4s 137 Epoch: 17
+570.8s 138 
+570.8s 139 Epoch: 17, Loss: 0.327, Acc: 88.586%
+572.9s 140 
+572.9s 141 Test Loss: 0.377, Acc: 87.500%
+572.9s 142 
+572.9s 143 Epoch: 18
+599.4s 144 
+599.4s 145 Epoch: 18, Loss: 0.316, Acc: 88.974%
+601.6s 146 
+601.6s 147 Test Loss: 0.445, Acc: 85.890%
+601.6s 148 
+601.6s 149 Epoch: 19
+628.1s 150 
+628.1s 151 Epoch: 19, Loss: 0.304, Acc: 89.258%
+630.1s 152 
+630.1s 153 Test Loss: 0.377, Acc: 87.880%
+630.1s 154 
+630.1s 155 Epoch: 20
+656.6s 156 
+656.6s 157 Epoch: 20, Loss: 0.292, Acc: 89.662%
+658.6s 158 
+658.6s 159 Test Loss: 0.334, Acc: 89.180%
+658.6s 160 
+658.6s 161 Epoch: 21
+685.2s 162 
+685.2s 163 Epoch: 21, Loss: 0.291, Acc: 89.718%
+687.1s 164 
+687.1s 165 Test Loss: 0.373, Acc: 87.840%
+687.1s 166 
+687.1s 167 Epoch: 22
+713.6s 168 
+713.6s 169 Epoch: 22, Loss: 0.278, Acc: 90.292%
+715.7s 170 
+715.7s 171 Test Loss: 0.371, Acc: 88.100%
+715.7s 172 
+715.7s 173 Epoch: 23
+742.1s 174 
+742.1s 175 Epoch: 23, Loss: 0.272, Acc: 90.442%
+744.1s 176 
+744.1s 177 Test Loss: 0.366, Acc: 88.710%
+744.1s 178 
+744.1s 179 Epoch: 24
+770.5s 180 
+770.5s 181 Epoch: 24, Loss: 0.262, Acc: 90.876%
+772.5s 182 
+772.5s 183 Test Loss: 0.336, Acc: 89.300%
+772.5s 184 
+772.5s 185 Epoch: 25
+798.9s 186 
+798.9s 187 Epoch: 25, Loss: 0.255, Acc: 91.056%
+801.0s 188 
+801.0s 189 Test Loss: 0.351, Acc: 88.370%
+801.0s 190 
+801.0s 191 Epoch: 26
+827.4s 192 
+827.4s 193 Epoch: 26, Loss: 0.245, Acc: 91.466%
+829.4s 194 
+829.4s 195 Test Loss: 0.348, Acc: 88.670%
+829.4s 196 
+829.4s 197 Epoch: 27
+855.9s 198 
+855.9s 199 Epoch: 27, Loss: 0.245, Acc: 91.370%
+858.0s 200 
+858.0s 201 Test Loss: 0.357, Acc: 88.470%
+858.0s 202 
+858.0s 203 Epoch: 28
+884.4s 204 
+884.4s 205 Epoch: 28, Loss: 0.238, Acc: 91.614%
+886.5s 206 
+886.5s 207 Test Loss: 0.323, Acc: 89.440%
+886.5s 208 
+886.5s 209 Epoch: 29
+912.9s 210 
+912.9s 211 Epoch: 29, Loss: 0.233, Acc: 91.970%
+914.9s 212 
+914.9s 213 Test Loss: 0.343, Acc: 88.970%
+914.9s 214 
+914.9s 215 Epoch: 30
+941.3s 216 
+941.3s 217 Epoch: 30, Loss: 0.224, Acc: 92.206%
+943.4s 218 
+943.4s 219 Test Loss: 0.349, Acc: 89.020%
+943.4s 220 
+943.4s 221 Epoch: 31
+969.8s 222 
+969.8s 223 Epoch: 31, Loss: 0.221, Acc: 92.322%
+971.9s 224 
+971.9s 225 Test Loss: 0.301, Acc: 90.560%
+971.9s 226 
+971.9s 227 Epoch: 32
+998.3s 228 
+998.3s 229 Epoch: 32, Loss: 0.209, Acc: 92.728%
+1000.2s 230 
+1000.2s 231 Test Loss: 0.292, Acc: 90.820%
+1000.2s 232 
+1000.2s 233 Epoch: 33
+1026.8s 234 
+1026.8s 235 Epoch: 33, Loss: 0.203, Acc: 92.886%
+1028.7s 236 
+1028.7s 237 Test Loss: 0.289, Acc: 90.830%
+1028.7s 238 
+1028.7s 239 Epoch: 34
+1055.2s 240 
+1055.2s 241 Epoch: 34, Loss: 0.202, Acc: 92.920%
+1057.2s 242 
+1057.2s 243 Test Loss: 0.338, Acc: 89.750%
+1057.2s 244 
+1057.2s 245 Epoch: 35
+1083.6s 246 
+1083.6s 247 Epoch: 35, Loss: 0.199, Acc: 93.024%
+1085.6s 248 
+1085.6s 249 Test Loss: 0.293, Acc: 91.110%
+1085.6s 250 
+1085.6s 251 Epoch: 36
+1112.1s 252 
+1112.1s 253 Epoch: 36, Loss: 0.198, Acc: 93.018%
+1114.1s 254 
+1114.1s 255 Test Loss: 0.310, Acc: 90.510%
+1114.1s 256 
+1114.1s 257 Epoch: 37
+1140.5s 258 
+1140.5s 259 Epoch: 37, Loss: 0.195, Acc: 93.046%
+1142.6s 260 
+1142.6s 261 Test Loss: 0.305, Acc: 90.540%
+1142.6s 262 
+1142.6s 263 Epoch: 38
+1169.0s 264 
+1169.0s 265 Epoch: 38, Loss: 0.189, Acc: 93.410%
+1171.1s 266 
+1171.1s 267 Test Loss: 0.327, Acc: 89.690%
+1171.1s 268 
+1171.1s 269 Epoch: 39
+1197.6s 270 
+1197.6s 271 Epoch: 39, Loss: 0.185, Acc: 93.534%
+1199.5s 272 
+1199.5s 273 Test Loss: 0.358, Acc: 89.420%
+1199.5s 274 
+1199.5s 275 Epoch: 40
+1226.0s 276 
+1226.0s 277 Epoch: 40, Loss: 0.181, Acc: 93.684%
+1228.0s 278 
+1228.0s 279 Test Loss: 0.315, Acc: 90.220%
+1228.0s 280 
+1228.0s 281 Epoch: 41
+1254.5s 282 
+1254.5s 283 Epoch: 41, Loss: 0.182, Acc: 93.672%
+1256.5s 284 
+1256.5s 285 Test Loss: 0.321, Acc: 89.990%
+1256.5s 286 
+1256.5s 287 Epoch: 42
+1283.0s 288 
+1283.0s 289 Epoch: 42, Loss: 0.172, Acc: 93.966%
+1285.1s 290 
+1285.1s 291 Test Loss: 0.339, Acc: 89.710%
+1285.1s 292 
+1285.1s 293 Epoch: 43
+1311.6s 294 
+1311.6s 295 Epoch: 43, Loss: 0.176, Acc: 93.746%
+1313.6s 296 
+1313.6s 297 Test Loss: 0.299, Acc: 91.050%
+1313.6s 298 
+1313.6s 299 Epoch: 44
+1340.0s 300 
+1340.0s 301 Epoch: 44, Loss: 0.172, Acc: 93.896%
+1342.0s 302 
+1342.0s 303 Test Loss: 0.315, Acc: 90.780%
+1342.0s 304 
+1342.0s 305 Epoch: 45
+1368.5s 306 
+1368.5s 307 Epoch: 45, Loss: 0.169, Acc: 94.100%
+1370.6s 308 
+1370.6s 309 Test Loss: 0.271, Acc: 91.340%
+1370.6s 310 
+1370.6s 311 Epoch: 46
+1397.0s 312 
+1397.0s 313 Epoch: 46, Loss: 0.159, Acc: 94.460%
+1399.1s 314 
+1399.1s 315 Test Loss: 0.314, Acc: 90.470%
+1399.1s 316 
+1399.1s 317 Epoch: 47
+1425.5s 318 
+1425.5s 319 Epoch: 47, Loss: 0.164, Acc: 94.312%
+1427.4s 320 
+1427.4s 321 Test Loss: 0.300, Acc: 90.520%
+1427.4s 322 
+1427.4s 323 Epoch: 48
+1453.9s 324 
+1453.9s 325 Epoch: 48, Loss: 0.160, Acc: 94.388%
+1455.8s 326 
+1455.8s 327 Test Loss: 0.345, Acc: 89.670%
+1455.8s 328 
+1455.8s 329 Epoch: 49
+1482.3s 330 
+1482.3s 331 Epoch: 49, Loss: 0.154, Acc: 94.584%
+1484.3s 332 
+1484.3s 333 Test Loss: 0.289, Acc: 91.080%
+1484.3s 334 
+1484.3s 335 Epoch: 50
+1510.7s 336 
+1510.7s 337 Epoch: 50, Loss: 0.157, Acc: 94.520%
+1512.7s 338 
+1512.7s 339 Test Loss: 0.287, Acc: 91.520%
+1512.7s 340 
+1512.7s 341 Epoch: 51
+1539.2s 342 
+1539.2s 343 Epoch: 51, Loss: 0.154, Acc: 94.568%
+1541.1s 344 
+1541.1s 345 Test Loss: 0.302, Acc: 90.910%
+1541.1s 346 
+1541.1s 347 Epoch: 52
+1567.6s 348 
+1567.6s 349 Epoch: 52, Loss: 0.150, Acc: 94.826%
+1569.6s 350 
+1569.6s 351 Test Loss: 0.318, Acc: 90.630%
+1569.6s 352 
+1569.6s 353 Epoch: 53
+1596.0s 354 
+1596.0s 355 Epoch: 53, Loss: 0.151, Acc: 94.778%
+1598.1s 356 
+1598.1s 357 Test Loss: 0.256, Acc: 92.010%
+1598.1s 358 
+1598.1s 359 Epoch: 54
+1624.5s 360 
+1624.5s 361 Epoch: 54, Loss: 0.149, Acc: 94.766%
+1626.5s 362 
+1626.5s 363 Test Loss: 0.304, Acc: 90.930%
+1626.5s 364 
+1626.5s 365 Epoch: 55
+1652.8s 366 
+1652.8s 367 Epoch: 55, Loss: 0.147, Acc: 94.944%
+1654.8s 368 
+1654.8s 369 Test Loss: 0.262, Acc: 91.510%
+1654.8s 370 
+1654.8s 371 Epoch: 56
+1681.2s 372 
+1681.2s 373 Epoch: 56, Loss: 0.139, Acc: 95.174%
+1683.2s 374 
+1683.2s 375 Test Loss: 0.328, Acc: 90.440%
+1683.2s 376 
+1683.2s 377 Epoch: 57
+1709.6s 378 
+1709.6s 379 Epoch: 57, Loss: 0.140, Acc: 95.080%
+1711.6s 380 
+1711.6s 381 Test Loss: 0.318, Acc: 90.680%
+1711.6s 382 
+1711.6s 383 Epoch: 58
+1738.0s 384 
+1738.0s 385 Epoch: 58, Loss: 0.143, Acc: 95.000%
+1740.0s 386 
+1740.0s 387 Test Loss: 0.278, Acc: 91.640%
+1740.0s 388 
+1740.0s 389 Epoch: 59
+1766.5s 390 
+1766.5s 391 Epoch: 59, Loss: 0.138, Acc: 95.226%
+1768.5s 392 
+1768.5s 393 Test Loss: 0.273, Acc: 92.080%
+1768.5s 394 
+1768.5s 395 Epoch: 60
+1794.9s 396 
+1794.9s 397 Epoch: 60, Loss: 0.137, Acc: 95.138%
+1797.0s 398 
+1797.0s 399 Test Loss: 0.259, Acc: 92.020%
+1797.0s 400 
+1797.0s 401 Epoch: 61
+1823.4s 402 
+1823.4s 403 Epoch: 61, Loss: 0.135, Acc: 95.222%
+1825.5s 404 
+1825.5s 405 Test Loss: 0.265, Acc: 91.980%
+1825.5s 406 
+1825.5s 407 Epoch: 62
+1851.8s 408 
+1851.8s 409 Epoch: 62, Loss: 0.136, Acc: 95.224%
+1853.8s 410 
+1853.8s 411 Test Loss: 0.302, Acc: 91.330%
+1853.8s 412 
+1853.8s 413 Epoch: 63
+1880.3s 414 
+1880.3s 415 Epoch: 63, Loss: 0.134, Acc: 95.292%
+1882.2s 416 
+1882.2s 417 Test Loss: 0.301, Acc: 91.270%
+1882.2s 418 
+1882.2s 419 Epoch: 64
+1908.6s 420 
+1908.6s 421 Epoch: 64, Loss: 0.137, Acc: 95.260%
+1910.6s 422 
+1910.6s 423 Test Loss: 0.315, Acc: 90.560%
+1910.6s 424 
+1910.6s 425 Epoch: 65
+1937.0s 426 
+1937.0s 427 Epoch: 65, Loss: 0.129, Acc: 95.592%
+1939.0s 428 
+1939.0s 429 Test Loss: 0.321, Acc: 90.540%
+1939.0s 430 
+1939.0s 431 Epoch: 66
+1965.4s 432 
+1965.4s 433 Epoch: 66, Loss: 0.129, Acc: 95.510%
+1967.5s 434 
+1967.5s 435 Test Loss: 0.289, Acc: 91.370%
+1967.5s 436 
+1967.5s 437 Epoch: 67
+1994.0s 438 
+1994.0s 439 Epoch: 67, Loss: 0.132, Acc: 95.350%
+1996.1s 440 
+1996.1s 441 Test Loss: 0.295, Acc: 91.460%
+1996.1s 442 
+1996.1s 443 Epoch: 68
+2022.5s 444 
+2022.5s 445 Epoch: 68, Loss: 0.127, Acc: 95.572%
+2024.6s 446 
+2024.6s 447 Test Loss: 0.288, Acc: 91.600%
+2024.6s 448 
+2024.6s 449 Epoch: 69
+2051.0s 450 
+2051.0s 451 Epoch: 69, Loss: 0.133, Acc: 95.504%
+2052.9s 452 
+2052.9s 453 Test Loss: 0.266, Acc: 91.980%
+2052.9s 454 
+2052.9s 455 Epoch: 70
+2079.5s 456 
+2079.5s 457 Epoch: 70, Loss: 0.127, Acc: 95.596%
+2081.6s 458 
+2081.6s 459 Test Loss: 0.334, Acc: 90.650%
+2081.6s 460 
+2081.6s 461 Epoch: 71
+2108.0s 462 
+2108.0s 463 Epoch: 71, Loss: 0.123, Acc: 95.832%
+2110.1s 464 
+2110.1s 465 Test Loss: 0.302, Acc: 91.340%
+2110.1s 466 
+2110.1s 467 Epoch: 72
+2136.7s 468 
+2136.7s 469 Epoch: 72, Loss: 0.133, Acc: 95.378%
+2138.7s 470 
+2138.7s 471 Test Loss: 0.268, Acc: 92.180%
+2138.7s 472 
+2138.7s 473 Epoch: 73
+2165.2s 474 
+2165.2s 475 Epoch: 73, Loss: 0.119, Acc: 95.792%
+2167.2s 476 
+2167.2s 477 Test Loss: 0.261, Acc: 92.020%
+2167.2s 478 
+2167.2s 479 Epoch: 74
+2193.7s 480 
+2193.7s 481 Epoch: 74, Loss: 0.126, Acc: 95.746%
+2195.6s 482 
+2195.6s 483 Test Loss: 0.278, Acc: 91.770%
+2195.6s 484 
+2195.6s 485 Epoch: 75
+2222.1s 486 
+2222.1s 487 Epoch: 75, Loss: 0.123, Acc: 95.746%
+2224.2s 488 
+2224.2s 489 Test Loss: 0.258, Acc: 92.090%
+2224.2s 490 
+2224.2s 491 Epoch: 76
+2250.7s 492 
+2250.7s 493 Epoch: 76, Loss: 0.120, Acc: 95.754%
+2252.8s 494 
+2252.8s 495 Test Loss: 0.283, Acc: 91.880%
+2252.8s 496 
+2252.8s 497 Epoch: 77
+2279.2s 498 
+2279.2s 499 Epoch: 77, Loss: 0.122, Acc: 95.734%
+2281.2s 500 
+2281.2s 501 Test Loss: 0.262, Acc: 92.240%
+2281.2s 502 
+2281.2s 503 Epoch: 78
+2307.6s 504 
+2307.6s 505 Epoch: 78, Loss: 0.123, Acc: 95.720%
+2309.5s 506 
+2309.5s 507 Test Loss: 0.240, Acc: 92.820%
+2309.5s 508 
+2309.5s 509 Epoch: 79
+2335.9s 510 
+2335.9s 511 Epoch: 79, Loss: 0.117, Acc: 95.884%
+2337.9s 512 
+2337.9s 513 Test Loss: 0.274, Acc: 91.540%
+2337.9s 514 
+2337.9s 515 Epoch: 80
+2364.2s 516 
+2364.2s 517 Epoch: 80, Loss: 0.122, Acc: 95.702%
+2366.3s 518 
+2366.3s 519 Test Loss: 0.296, Acc: 91.270%
+2366.3s 520 
+2366.3s 521 Epoch: 81
+2392.7s 522 
+2392.7s 523 Epoch: 81, Loss: 0.073, Acc: 97.614%
+2394.7s 524 
+2394.7s 525 Test Loss: 0.190, Acc: 94.140%
+2394.7s 526 
+2394.7s 527 Epoch: 82
+2421.1s 528 
+2421.1s 529 Epoch: 82, Loss: 0.052, Acc: 98.456%
+2423.1s 530 
+2423.1s 531 Test Loss: 0.187, Acc: 94.290%
+2423.1s 532 
+2423.1s 533 Epoch: 83
+2449.5s 534 
+2449.5s 535 Epoch: 83, Loss: 0.045, Acc: 98.662%
+2451.6s 536 
+2451.6s 537 Test Loss: 0.185, Acc: 94.370%
+2451.6s 538 
+2451.6s 539 Epoch: 84
+2478.1s 540 
+2478.1s 541 Epoch: 84, Loss: 0.041, Acc: 98.808%
+2480.1s 542 
+2480.1s 543 Test Loss: 0.188, Acc: 94.340%
+2480.1s 544 
+2480.1s 545 Epoch: 85
+2506.5s 546 
+2506.5s 547 Epoch: 85, Loss: 0.038, Acc: 98.830%
+2508.5s 548 
+2508.5s 549 Test Loss: 0.186, Acc: 94.440%
+2508.5s 550 
+2508.5s 551 Epoch: 86
+2534.9s 552 
+2534.9s 553 Epoch: 86, Loss: 0.037, Acc: 98.890%
+2536.9s 554 
+2536.9s 555 Test Loss: 0.188, Acc: 94.640%
+2536.9s 556 
+2536.9s 557 Epoch: 87
+2563.4s 558 
+2563.4s 559 Epoch: 87, Loss: 0.033, Acc: 99.072%
+2565.4s 560 
+2565.4s 561 Test Loss: 0.186, Acc: 94.710%
+2565.4s 562 
+2565.4s 563 Epoch: 88
+2592.0s 564 
+2592.0s 565 Epoch: 88, Loss: 0.030, Acc: 99.136%
+2594.0s 566 
+2594.0s 567 Test Loss: 0.192, Acc: 94.340%
+2594.0s 568 
+2594.0s 569 Epoch: 89
+2620.4s 570 
+2620.4s 571 Epoch: 89, Loss: 0.032, Acc: 99.092%
+2622.5s 572 
+2622.5s 573 Test Loss: 0.189, Acc: 94.590%
+2622.5s 574 
+2622.5s 575 Epoch: 90
+2649.0s 576 
+2649.0s 577 Epoch: 90, Loss: 0.030, Acc: 99.146%
+2651.0s 578 
+2651.0s 579 Test Loss: 0.191, Acc: 94.630%
+2651.0s 580 
+2651.0s 581 Epoch: 91
+2677.4s 582 
+2677.4s 583 Epoch: 91, Loss: 0.030, Acc: 99.082%
+2679.5s 584 
+2679.5s 585 Test Loss: 0.192, Acc: 94.600%
+2679.5s 586 
+2679.5s 587 Epoch: 92
+2705.9s 588 
+2705.9s 589 Epoch: 92, Loss: 0.029, Acc: 99.178%
+2707.9s 590 
+2707.9s 591 Test Loss: 0.191, Acc: 94.740%
+2707.9s 592 
+2707.9s 593 Epoch: 93
+2734.4s 594 
+2734.4s 595 Epoch: 93, Loss: 0.027, Acc: 99.234%
+2736.4s 596 
+2736.4s 597 Test Loss: 0.191, Acc: 94.650%
+2736.4s 598 
+2736.4s 599 Epoch: 94
+2762.9s 600 
+2762.9s 601 Epoch: 94, Loss: 0.027, Acc: 99.202%
+2764.9s 602 
+2764.9s 603 Test Loss: 0.193, Acc: 94.700%
+2764.9s 604 
+2764.9s 605 Epoch: 95
+2791.3s 606 
+2791.3s 607 Epoch: 95, Loss: 0.026, Acc: 99.290%
+2793.3s 608 
+2793.3s 609 Test Loss: 0.188, Acc: 94.760%
+2793.3s 610 
+2793.3s 611 Epoch: 96
+2819.8s 612 
+2819.8s 613 Epoch: 96, Loss: 0.025, Acc: 99.284%
+2821.8s 614 
+2821.8s 615 Test Loss: 0.190, Acc: 94.850%
+2821.8s 616 
+2821.8s 617 Epoch: 97
+2848.2s 618 
+2848.2s 619 Epoch: 97, Loss: 0.026, Acc: 99.246%
+2850.2s 620 
+2850.2s 621 Test Loss: 0.193, Acc: 94.610%
+2850.2s 622 
+2850.2s 623 Epoch: 98
+2876.7s 624 
+2876.7s 625 Epoch: 98, Loss: 0.024, Acc: 99.310%
+2878.6s 626 
+2878.6s 627 Test Loss: 0.193, Acc: 94.840%
+2878.6s 628 
+2878.6s 629 Epoch: 99
+2905.1s 630 
+2905.1s 631 Epoch: 99, Loss: 0.023, Acc: 99.360%
+2907.1s 632 
+2907.1s 633 Test Loss: 0.197, Acc: 94.740%
+2907.1s 634 
+2907.1s 635 Epoch: 100
+2933.5s 636 
+2933.5s 637 Epoch: 100, Loss: 0.023, Acc: 99.354%
+2935.5s 638 
+2935.5s 639 Test Loss: 0.196, Acc: 94.740%
+2935.5s 640 
+2935.5s 641 Epoch: 101
+2961.9s 642 
+2961.9s 643 Epoch: 101, Loss: 0.022, Acc: 99.344%
+2963.9s 644 
+2963.9s 645 Test Loss: 0.192, Acc: 94.910%
+2963.9s 646 
+2963.9s 647 Epoch: 102
+2990.3s 648 
+2990.3s 649 Epoch: 102, Loss: 0.022, Acc: 99.354%
+2992.3s 650 
+2992.3s 651 Test Loss: 0.194, Acc: 94.840%
+2992.3s 652 
+2992.3s 653 Epoch: 103
+3018.8s 654 
+3018.8s 655 Epoch: 103, Loss: 0.022, Acc: 99.358%
+3020.8s 656 
+3020.8s 657 Test Loss: 0.192, Acc: 94.780%
+3020.8s 658 
+3020.8s 659 Epoch: 104
+3047.3s 660 
+3047.3s 661 Epoch: 104, Loss: 0.021, Acc: 99.432%
+3049.2s 662 
+3049.2s 663 Test Loss: 0.190, Acc: 94.840%
+3049.2s 664 
+3049.2s 665 Epoch: 105
+3075.7s 666 
+3075.7s 667 Epoch: 105, Loss: 0.021, Acc: 99.430%
+3077.7s 668 
+3077.7s 669 Test Loss: 0.193, Acc: 94.870%
+3077.7s 670 
+3077.7s 671 Epoch: 106
+3104.1s 672 
+3104.1s 673 Epoch: 106, Loss: 0.022, Acc: 99.386%
+3106.1s 674 
+3106.1s 675 Test Loss: 0.196, Acc: 94.730%
+3106.1s 676 
+3106.1s 677 Epoch: 107
+3132.5s 678 
+3132.5s 679 Epoch: 107, Loss: 0.022, Acc: 99.374%
+3134.4s 680 
+3134.4s 681 Test Loss: 0.196, Acc: 94.750%
+3134.4s 682 
+3134.4s 683 Epoch: 108
+3160.8s 684 
+3160.8s 685 Epoch: 108, Loss: 0.021, Acc: 99.390%
+3162.8s 686 
+3162.8s 687 Test Loss: 0.191, Acc: 94.740%
+3162.8s 688 
+3162.8s 689 Epoch: 109
+3189.2s 690 
+3189.2s 691 Epoch: 109, Loss: 0.020, Acc: 99.474%
+3191.3s 692 
+3191.3s 693 Test Loss: 0.201, Acc: 94.770%
+3191.3s 694 
+3191.3s 695 Epoch: 110
+3217.6s 696 
+3217.6s 697 Epoch: 110, Loss: 0.019, Acc: 99.424%
+3219.6s 698 
+3219.6s 699 Test Loss: 0.200, Acc: 94.700%
+3219.6s 700 
+3219.6s 701 Epoch: 111
+3246.0s 702 
+3246.0s 703 Epoch: 111, Loss: 0.020, Acc: 99.406%
+3248.0s 704 
+3248.0s 705 Test Loss: 0.201, Acc: 94.660%
+3248.0s 706 
+3248.0s 707 Epoch: 112
+3274.3s 708 
+3274.3s 709 Epoch: 112, Loss: 0.019, Acc: 99.462%
+3276.4s 710 
+3276.4s 711 Test Loss: 0.199, Acc: 94.760%
+3276.4s 712 
+3276.4s 713 Epoch: 113
+3302.9s 714 
+3302.9s 715 Epoch: 113, Loss: 0.020, Acc: 99.416%
+3305.0s 716 
+3305.0s 717 Test Loss: 0.196, Acc: 94.780%
+3305.0s 718 
+3305.0s 719 Epoch: 114
+3331.7s 720 
+3331.7s 721 Epoch: 114, Loss: 0.019, Acc: 99.466%
+3333.7s 722 
+3333.7s 723 Test Loss: 0.195, Acc: 94.850%
+3333.7s 724 
+3333.7s 725 Epoch: 115
+3360.3s 726 
+3360.3s 727 Epoch: 115, Loss: 0.018, Acc: 99.516%
+3362.4s 728 
+3362.4s 729 Test Loss: 0.195, Acc: 94.850%
+3362.4s 730 
+3362.4s 731 Epoch: 116
+3388.8s 732 
+3388.8s 733 Epoch: 116, Loss: 0.018, Acc: 99.468%
+3390.8s 734 
+3390.8s 735 Test Loss: 0.197, Acc: 94.770%
+3390.8s 736 
+3390.8s 737 Epoch: 117
+3417.3s 738 
+3417.3s 739 Epoch: 117, Loss: 0.019, Acc: 99.472%
+3419.4s 740 
+3419.4s 741 Test Loss: 0.196, Acc: 94.860%
+3419.4s 742 
+3419.4s 743 Epoch: 118
+3445.9s 744 
+3445.9s 745 Epoch: 118, Loss: 0.017, Acc: 99.512%
+3447.9s 746 
+3447.9s 747 Test Loss: 0.198, Acc: 94.730%
+3447.9s 748 
+3447.9s 749 Epoch: 119
+3474.4s 750 
+3474.4s 751 Epoch: 119, Loss: 0.018, Acc: 99.476%
+3476.4s 752 
+3476.4s 753 Test Loss: 0.199, Acc: 94.710%
+3476.4s 754 
+3476.4s 755 Epoch: 120
+3503.0s 756 
+3503.0s 757 Epoch: 120, Loss: 0.018, Acc: 99.456%
+3505.1s 758 
+3505.1s 759 Test Loss: 0.199, Acc: 94.810%
+3505.1s 760 
+3505.1s 761 Epoch: 121
+3531.6s 762 
+3531.6s 763 Epoch: 121, Loss: 0.017, Acc: 99.494%
+3533.7s 764 
+3533.7s 765 Test Loss: 0.198, Acc: 94.960%
+3533.7s 766 
+3533.7s 767 Epoch: 122
+3560.4s 768 
+3560.4s 769 Epoch: 122, Loss: 0.017, Acc: 99.534%
+3562.5s 770 
+3562.5s 771 Test Loss: 0.199, Acc: 94.820%
+3562.5s 772 
+3562.5s 773 Epoch: 123
+3589.1s 774 
+3589.1s 775 Epoch: 123, Loss: 0.018, Acc: 99.514%
+3591.2s 776 
+3591.2s 777 Test Loss: 0.195, Acc: 94.920%
+3591.2s 778 
+3591.2s 779 Epoch: 124
+3617.7s 780 
+3617.7s 781 Epoch: 124, Loss: 0.017, Acc: 99.490%
+3619.7s 782 
+3619.7s 783 Test Loss: 0.199, Acc: 94.920%
+3619.7s 784 
+3619.7s 785 Epoch: 125
+3646.1s 786 
+3646.1s 787 Epoch: 125, Loss: 0.017, Acc: 99.516%
+3648.1s 788 
+3648.1s 789 Test Loss: 0.201, Acc: 94.800%
+3648.1s 790 
+3648.1s 791 Epoch: 126
+3674.7s 792 
+3674.7s 793 Epoch: 126, Loss: 0.016, Acc: 99.540%
+3676.6s 794 
+3676.6s 795 Test Loss: 0.200, Acc: 94.750%
+3676.6s 796 
+3676.6s 797 Epoch: 127
+3703.1s 798 
+3703.1s 799 Epoch: 127, Loss: 0.016, Acc: 99.548%
+3705.1s 800 
+3705.1s 801 Test Loss: 0.203, Acc: 94.850%
+3705.1s 802 
+3705.1s 803 Epoch: 128
+3731.5s 804 
+3731.5s 805 Epoch: 128, Loss: 0.017, Acc: 99.536%
+3733.5s 806 
+3733.5s 807 Test Loss: 0.202, Acc: 94.800%
+3733.5s 808 
+3733.5s 809 Epoch: 129
+3760.0s 810 
+3760.0s 811 Epoch: 129, Loss: 0.016, Acc: 99.552%
+3762.1s 812 
+3762.1s 813 Test Loss: 0.202, Acc: 94.820%
+3762.1s 814 
+3762.1s 815 Epoch: 130
+3788.7s 816 
+3788.7s 817 Epoch: 130, Loss: 0.016, Acc: 99.598%
+3790.7s 818 
+3790.7s 819 Test Loss: 0.206, Acc: 94.810%
+3790.7s 820 
+3790.7s 821 Epoch: 131
+3817.3s 822 
+3817.3s 823 Epoch: 131, Loss: 0.016, Acc: 99.532%
+3819.4s 824 
+3819.4s 825 Test Loss: 0.209, Acc: 94.710%
+3819.4s 826 
+3819.4s 827 Epoch: 132
+3846.1s 828 
+3846.1s 829 Epoch: 132, Loss: 0.015, Acc: 99.542%
+3848.0s 830 
+3848.0s 831 Test Loss: 0.203, Acc: 94.960%
+3848.0s 832 
+3848.0s 833 Epoch: 133
+3874.7s 834 
+3874.7s 835 Epoch: 133, Loss: 0.016, Acc: 99.536%
+3876.7s 836 
+3876.7s 837 Test Loss: 0.203, Acc: 94.930%
+3876.7s 838 
+3876.7s 839 Epoch: 134
+3903.3s 840 
+3903.3s 841 Epoch: 134, Loss: 0.017, Acc: 99.496%
+3905.5s 842 
+3905.5s 843 Test Loss: 0.204, Acc: 94.830%
+3905.5s 844 
+3905.5s 845 Epoch: 135
+3932.3s 846 
+3932.3s 847 Epoch: 135, Loss: 0.016, Acc: 99.504%
+3934.3s 848 
+3934.3s 849 Test Loss: 0.205, Acc: 94.940%
+3934.3s 850 
+3934.3s 851 Epoch: 136
+3961.0s 852 
+3961.0s 853 Epoch: 136, Loss: 0.015, Acc: 99.584%
+3963.1s 854 
+3963.1s 855 Test Loss: 0.202, Acc: 95.100%
+3963.1s 856 
+3963.1s 857 Epoch: 137
+3989.6s 858 
+3989.6s 859 Epoch: 137, Loss: 0.015, Acc: 99.596%
+3991.5s 860 
+3991.5s 861 Test Loss: 0.203, Acc: 95.020%
+3991.5s 862 
+3991.5s 863 Epoch: 138
+4018.1s 864 
+4018.1s 865 Epoch: 138, Loss: 0.015, Acc: 99.588%
+4020.0s 866 
+4020.0s 867 Test Loss: 0.200, Acc: 95.030%
+4020.0s 868 
+4020.0s 869 Epoch: 139
+4046.4s 870 
+4046.4s 871 Epoch: 139, Loss: 0.016, Acc: 99.524%
+4048.4s 872 
+4048.4s 873 Test Loss: 0.204, Acc: 94.920%
+4048.4s 874 
+4048.4s 875 Epoch: 140
+4074.8s 876 
+4074.8s 877 Epoch: 140, Loss: 0.014, Acc: 99.590%
+4076.8s 878 
+4076.8s 879 Test Loss: 0.205, Acc: 94.820%
+4076.8s 880 
+4076.8s 881 Epoch: 141
+4103.2s 882 
+4103.2s 883 Epoch: 141, Loss: 0.016, Acc: 99.546%
+4105.2s 884 
+4105.2s 885 Test Loss: 0.208, Acc: 94.930%
+4105.2s 886 
+4105.2s 887 Epoch: 142
+4131.5s 888 
+4131.5s 889 Epoch: 142, Loss: 0.014, Acc: 99.600%
+4133.7s 890 
+4133.7s 891 Test Loss: 0.202, Acc: 95.050%
+4133.7s 892 
+4133.7s 893 Epoch: 143
+4160.0s 894 
+4160.0s 895 Epoch: 143, Loss: 0.014, Acc: 99.610%
+4162.1s 896 
+4162.1s 897 Test Loss: 0.205, Acc: 94.950%
+4162.1s 898 
+4162.1s 899 Epoch: 144
+4188.6s 900 
+4188.6s 901 Epoch: 144, Loss: 0.014, Acc: 99.616%
+4190.5s 902 
+4190.5s 903 Test Loss: 0.203, Acc: 94.980%
+4190.5s 904 
+4190.5s 905 Epoch: 145
+4216.9s 906 
+4216.9s 907 Epoch: 145, Loss: 0.016, Acc: 99.558%
+4218.9s 908 
+4218.9s 909 Test Loss: 0.205, Acc: 94.980%
+4218.9s 910 
+4218.9s 911 Epoch: 146
+4245.3s 912 
+4245.3s 913 Epoch: 146, Loss: 0.014, Acc: 99.642%
+4247.3s 914 
+4247.3s 915 Test Loss: 0.201, Acc: 94.990%
+4247.3s 916 
+4247.3s 917 Epoch: 147
+4273.8s 918 
+4273.8s 919 Epoch: 147, Loss: 0.014, Acc: 99.610%
+4275.8s 920 
+4275.8s 921 Test Loss: 0.201, Acc: 95.180%
+4275.8s 922 
+4275.8s 923 Epoch: 148
+4302.5s 924 
+4302.5s 925 Epoch: 148, Loss: 0.015, Acc: 99.574%
+4304.6s 926 
+4304.6s 927 Test Loss: 0.203, Acc: 94.860%
+4304.6s 928 
+4304.6s 929 Epoch: 149
+4331.4s 930 
+4331.4s 931 Epoch: 149, Loss: 0.015, Acc: 99.560%
+4333.5s 932 
+4333.5s 933 Test Loss: 0.201, Acc: 95.010%
+4333.5s 934 
+4333.5s 935 Epoch: 150
+4360.1s 936 
+4360.1s 937 Epoch: 150, Loss: 0.014, Acc: 99.610%
+4362.2s 938 
+4362.2s 939 Test Loss: 0.203, Acc: 94.940%
+4362.2s 940 
+4362.2s 941 Epoch: 151
+4388.9s 942 
+4388.9s 943 Epoch: 151, Loss: 0.013, Acc: 99.586%
+4390.9s 944 
+4390.9s 945 Test Loss: 0.201, Acc: 94.980%
+4390.9s 946 
+4390.9s 947 Epoch: 152
+4417.2s 948 
+4417.2s 949 Epoch: 152, Loss: 0.013, Acc: 99.634%
+4419.3s 950 
+4419.3s 951 Test Loss: 0.199, Acc: 94.960%
+4419.3s 952 
+4419.3s 953 Epoch: 153
+4445.7s 954 
+4445.7s 955 Epoch: 153, Loss: 0.013, Acc: 99.638%
+4447.6s 956 
+4447.6s 957 Test Loss: 0.200, Acc: 94.920%
+4447.6s 958 
+4447.6s 959 Epoch: 154
+4474.2s 960 
+4474.2s 961 Epoch: 154, Loss: 0.013, Acc: 99.656%
+4476.4s 962 
+4476.4s 963 Test Loss: 0.200, Acc: 94.940%
+4476.4s 964 
+4476.4s 965 Epoch: 155
+4503.2s 966 
+4503.2s 967 Epoch: 155, Loss: 0.013, Acc: 99.634%
+4505.1s 968 
+4505.1s 969 Test Loss: 0.200, Acc: 95.000%
+4505.1s 970 
+4505.1s 971 Epoch: 156
+4531.8s 972 
+4531.8s 973 Epoch: 156, Loss: 0.012, Acc: 99.700%
+4533.9s 974 
+4533.9s 975 Test Loss: 0.201, Acc: 94.930%
+4533.9s 976 
+4533.9s 977 Epoch: 157
+4560.5s 978 
+4560.5s 979 Epoch: 157, Loss: 0.012, Acc: 99.642%
+4562.6s 980 
+4562.6s 981 Test Loss: 0.200, Acc: 94.900%
+4562.6s 982 
+4562.6s 983 Epoch: 158
+4589.1s 984 
+4589.1s 985 Epoch: 158, Loss: 0.012, Acc: 99.704%
+4591.1s 986 
+4591.1s 987 Test Loss: 0.200, Acc: 95.000%
+4591.1s 988 
+4591.1s 989 Epoch: 159
+4617.6s 990 
+4617.6s 991 Epoch: 159, Loss: 0.012, Acc: 99.668%
+4619.5s 992 
+4619.5s 993 Test Loss: 0.199, Acc: 95.040%
+4619.5s 994 
+4619.5s 995 Epoch: 160
+4646.0s 996 
+4646.0s 997 Epoch: 160, Loss: 0.011, Acc: 99.730%
+4648.2s 998 
+4648.2s 999 Test Loss: 0.198, Acc: 94.930%
+4648.2s 1000 
+4648.2s 1001 Epoch: 161
+4674.5s 1002 
+4674.5s 1003 Epoch: 161, Loss: 0.012, Acc: 99.672%
+4676.5s 1004 
+4676.5s 1005 Test Loss: 0.200, Acc: 94.920%
+4676.5s 1006 
+4676.5s 1007 Epoch: 162
+4703.0s 1008 
+4703.0s 1009 Epoch: 162, Loss: 0.011, Acc: 99.692%
+4705.0s 1010 
+4705.0s 1011 Test Loss: 0.202, Acc: 95.020%
+4705.0s 1012 
+4705.0s 1013 Epoch: 163
+4731.4s 1014 
+4731.4s 1015 Epoch: 163, Loss: 0.012, Acc: 99.654%
+4733.5s 1016 
+4733.5s 1017 Test Loss: 0.200, Acc: 94.990%
+4733.5s 1018 
+4733.5s 1019 Epoch: 164
+4759.9s 1020 
+4759.9s 1021 Epoch: 164, Loss: 0.012, Acc: 99.698%
+4761.9s 1022 
+4761.9s 1023 Test Loss: 0.200, Acc: 94.940%
+4761.9s 1024 
+4761.9s 1025 Epoch: 165
+4788.4s 1026 
+4788.4s 1027 Epoch: 165, Loss: 0.012, Acc: 99.720%
+4790.4s 1028 
+4790.4s 1029 Test Loss: 0.200, Acc: 95.060%
+4790.4s 1030 
+4790.4s 1031 Epoch: 166
+4816.8s 1032 
+4816.8s 1033 Epoch: 166, Loss: 0.011, Acc: 99.718%
+4818.9s 1034 
+4818.9s 1035 Test Loss: 0.201, Acc: 95.030%
+4818.9s 1036 
+4818.9s 1037 Epoch: 167
+4845.2s 1038 
+4845.2s 1039 Epoch: 167, Loss: 0.011, Acc: 99.710%
+4847.3s 1040 
+4847.3s 1041 Test Loss: 0.199, Acc: 94.990%
+4847.3s 1042 
+4847.3s 1043 Epoch: 168
+4873.7s 1044 
+4873.7s 1045 Epoch: 168, Loss: 0.012, Acc: 99.686%
+4875.5s 1046 
+4875.5s 1047 Test Loss: 0.198, Acc: 95.030%
+4875.5s 1048 
+4875.5s 1049 Epoch: 169
+4902.0s 1050 
+4902.0s 1051 Epoch: 169, Loss: 0.012, Acc: 99.684%
+4904.1s 1052 
+4904.1s 1053 Test Loss: 0.199, Acc: 95.030%
+4904.1s 1054 
+4904.1s 1055 Epoch: 170
+4930.5s 1056 
+4930.5s 1057 Epoch: 170, Loss: 0.011, Acc: 99.726%
+4932.7s 1058 
+4932.7s 1059 Test Loss: 0.200, Acc: 94.980%
+4932.7s 1060 
+4932.7s 1061 Epoch: 171
+4959.1s 1062 
+4959.1s 1063 Epoch: 171, Loss: 0.011, Acc: 99.680%
+4961.1s 1064 
+4961.1s 1065 Test Loss: 0.197, Acc: 94.980%
+4961.1s 1066 
+4961.1s 1067 Epoch: 172
+4987.6s 1068 
+4987.6s 1069 Epoch: 172, Loss: 0.011, Acc: 99.714%
+4989.6s 1070 
+4989.6s 1071 Test Loss: 0.197, Acc: 95.050%
+4989.6s 1072 
+4989.6s 1073 Epoch: 173
+5016.2s 1074 
+5016.2s 1075 Epoch: 173, Loss: 0.011, Acc: 99.696%
+5018.2s 1076 
+5018.2s 1077 Test Loss: 0.198, Acc: 95.040%
+5018.2s 1078 
+5018.2s 1079 Epoch: 174
+5044.8s 1080 
+5044.8s 1081 Epoch: 174, Loss: 0.011, Acc: 99.682%
+5046.7s 1082 
+5046.7s 1083 Test Loss: 0.198, Acc: 95.080%
+5046.7s 1084 
+5046.7s 1085 Epoch: 175
+5073.1s 1086 
+5073.1s 1087 Epoch: 175, Loss: 0.012, Acc: 99.672%
+5075.2s 1088 
+5075.2s 1089 Test Loss: 0.198, Acc: 94.960%
+5075.2s 1090 
+5075.2s 1091 Epoch: 176
+5101.6s 1092 
+5101.6s 1093 Epoch: 176, Loss: 0.011, Acc: 99.718%
+5103.6s 1094 
+5103.6s 1095 Test Loss: 0.199, Acc: 95.010%
+5103.6s 1096 
+5103.6s 1097 Epoch: 177
+5130.0s 1098 
+5130.0s 1099 Epoch: 177, Loss: 0.011, Acc: 99.696%
+5132.0s 1100 
+5132.0s 1101 Test Loss: 0.198, Acc: 95.140%
+5132.0s 1102 
+5132.0s 1103 Epoch: 178
+5158.5s 1104 
+5158.5s 1105 Epoch: 178, Loss: 0.011, Acc: 99.688%
+5160.5s 1106 
+5160.5s 1107 Test Loss: 0.199, Acc: 95.010%
+5160.5s 1108 
+5160.5s 1109 Epoch: 179
+5186.9s 1110 
+5186.9s 1111 Epoch: 179, Loss: 0.011, Acc: 99.720%
+5189.0s 1112 
+5189.0s 1113 Test Loss: 0.199, Acc: 94.970%
+5189.0s 1114 
+5189.0s 1115 Epoch: 180
+5215.5s 1116 
+5215.5s 1117 Epoch: 180, Loss: 0.011, Acc: 99.710%
+5217.4s 1118 
+5217.4s 1119 Test Loss: 0.202, Acc: 94.990%
+5217.4s 1120 
+5217.4s 1121 Epoch: 181
+5243.8s 1122 
+5243.8s 1123 Epoch: 181, Loss: 0.012, Acc: 99.686%
+5245.9s 1124 
+5245.9s 1125 Test Loss: 0.199, Acc: 94.990%
+5245.9s 1126 
+5245.9s 1127 Epoch: 182
+5272.3s 1128 
+5272.3s 1129 Epoch: 182, Loss: 0.011, Acc: 99.690%
+5274.3s 1130 
+5274.3s 1131 Test Loss: 0.199, Acc: 95.110%
+5274.3s 1132 
+5274.3s 1133 Epoch: 183
+5300.7s 1134 
+5300.7s 1135 Epoch: 183, Loss: 0.011, Acc: 99.734%
+5302.7s 1136 
+5302.7s 1137 Test Loss: 0.200, Acc: 95.010%
+5302.7s 1138 
+5302.7s 1139 Epoch: 184
+5329.1s 1140 
+5329.1s 1141 Epoch: 184, Loss: 0.010, Acc: 99.760%
+5331.1s 1142 
+5331.1s 1143 Test Loss: 0.198, Acc: 95.060%
+5331.1s 1144 
+5331.1s 1145 Epoch: 185
+5357.5s 1146 
+5357.5s 1147 Epoch: 185, Loss: 0.010, Acc: 99.752%
+5359.4s 1148 
+5359.4s 1149 Test Loss: 0.199, Acc: 94.960%
+5359.4s 1150 
+5359.4s 1151 Epoch: 186
+5385.9s 1152 
+5385.9s 1153 Epoch: 186, Loss: 0.011, Acc: 99.724%
+5387.9s 1154 
+5387.9s 1155 Test Loss: 0.201, Acc: 95.040%
+5387.9s 1156 
+5387.9s 1157 Epoch: 187
+5414.3s 1158 
+5414.3s 1159 Epoch: 187, Loss: 0.010, Acc: 99.742%
+5416.4s 1160 
+5416.4s 1161 Test Loss: 0.198, Acc: 95.040%
+5416.4s 1162 
+5416.4s 1163 Epoch: 188
+5442.7s 1164 
+5442.7s 1165 Epoch: 188, Loss: 0.011, Acc: 99.720%
+5444.8s 1166 
+5444.8s 1167 Test Loss: 0.198, Acc: 95.000%
+5444.8s 1168 
+5444.8s 1169 Epoch: 189
+5471.3s 1170 
+5471.3s 1171 Epoch: 189, Loss: 0.009, Acc: 99.758%
+5473.2s 1172 
+5473.2s 1173 Test Loss: 0.198, Acc: 95.040%
+5473.2s 1174 
+5473.2s 1175 Epoch: 190
+5499.7s 1176 
+5499.7s 1177 Epoch: 190, Loss: 0.012, Acc: 99.694%
+5501.7s 1178 
+5501.7s 1179 Test Loss: 0.199, Acc: 95.140%
+5501.7s 1180 
+5501.7s 1181 Epoch: 191
+5528.1s 1182 
+5528.1s 1183 Epoch: 191, Loss: 0.010, Acc: 99.768%
+5530.0s 1184 
+5530.0s 1185 Test Loss: 0.198, Acc: 95.150%
+5530.0s 1186 
+5530.0s 1187 Epoch: 192
+5556.6s 1188 
+5556.6s 1189 Epoch: 192, Loss: 0.010, Acc: 99.726%
+5558.5s 1190 
+5558.5s 1191 Test Loss: 0.199, Acc: 95.070%
+5558.5s 1192 
+5558.5s 1193 Epoch: 193
+5585.0s 1194 
+5585.0s 1195 Epoch: 193, Loss: 0.010, Acc: 99.732%
+5587.1s 1196 
+5587.1s 1197 Test Loss: 0.199, Acc: 95.060%
+5587.1s 1198 
+5587.1s 1199 Epoch: 194
+5613.5s 1200 
+5613.5s 1201 Epoch: 194, Loss: 0.011, Acc: 99.716%
+5615.5s 1202 
+5615.5s 1203 Test Loss: 0.197, Acc: 95.080%
+5615.5s 1204 
+5615.5s 1205 Epoch: 195
+5642.1s 1206 
+5642.1s 1207 Epoch: 195, Loss: 0.011, Acc: 99.704%
+5644.0s 1208 
+5644.0s 1209 Test Loss: 0.197, Acc: 95.120%
+5644.0s 1210 
+5644.0s 1211 Epoch: 196
+5670.5s 1212 
+5670.5s 1213 Epoch: 196, Loss: 0.011, Acc: 99.702%
+5672.6s 1214 
+5672.6s 1215 Test Loss: 0.198, Acc: 95.100%
+5672.6s 1216 
+5672.6s 1217 Epoch: 197
+5699.0s 1218 
+5699.0s 1219 Epoch: 197, Loss: 0.010, Acc: 99.742%
+5701.1s 1220 
+5701.1s 1221 Test Loss: 0.197, Acc: 95.110%
+5701.1s 1222 
+5701.1s 1223 Epoch: 198
+5727.5s 1224 
+5727.5s 1225 Epoch: 198, Loss: 0.011, Acc: 99.714%
+5729.5s 1226 
+5729.5s 1227 Test Loss: 0.196, Acc: 95.090%
+5729.5s 1228 
+5729.5s 1229 Epoch: 199
+5755.9s 1230 
+5755.9s 1231 Epoch: 199, Loss: 0.010, Acc: 99.730%
+5758.1s 1232 
+5758.1s 1233 Test Loss: 0.197, Acc: 95.010%
+5760.2s 1234 [34m[1mwandb[0m: - 0.001 MB of 0.032 MB uploaded[34m[1mwandb[0m: \ 0.001 MB of 0.032 MB uploaded[34m[1mwandb[0m: | 0.032 MB of 0.032 MB uploaded[34m[1mwandb[0m:
+5761.4s 1235 [34m[1mwandb[0m:
+5761.4s 1236 [34m[1mwandb[0m: Run history:
+5761.4s 1237 [34m[1mwandb[0m:          epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+5761.4s 1238 [34m[1mwandb[0m:  test_accuracy ▁▅▆▆▇▇▇▇▇▇▇▇▇▇▇▇████████████████████████
+5761.4s 1239 [34m[1mwandb[0m:      test_loss █▄▃▂▂▂▂▂▂▂▂▁▁▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+5761.4s 1240 [34m[1mwandb[0m: train_accuracy ▁▄▅▆▆▆▇▇▇▇▇▇▇▇▇▇████████████████████████
+5761.4s 1241 [34m[1mwandb[0m:     train_loss █▅▄▃▃▃▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+5761.4s 1242 [34m[1mwandb[0m:
+5761.4s 1243 [34m[1mwandb[0m: Run summary:
+5761.4s 1244 [34m[1mwandb[0m:          epoch 199
+5761.4s 1245 [34m[1mwandb[0m:  test_accuracy 95.01
+5761.4s 1246 [34m[1mwandb[0m:      test_loss 0.19657
+5761.4s 1247 [34m[1mwandb[0m: train_accuracy 99.73
+5761.4s 1248 [34m[1mwandb[0m:     train_loss 0.01028
+5761.4s 1249 [34m[1mwandb[0m:
+5761.4s 1250 [34m[1mwandb[0m: 🚀 View run [33mearnest-sweep-1[0m at: [34m[4mhttps://wandb.ai/kavyagupta/dl-mini-353-cutout/runs/ae12ytgm[0m
+5761.4s 1251 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/kavyagupta/dl-mini-353-cutout[0m
+5761.4s 1252 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+5761.4s 1253 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_230234-ae12ytgm/logs[0m
+5761.5s 1254 Run ae12ytgm errored:
+5761.5s 1255 Traceback (most recent call last):
+5761.5s 1256 File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+5761.5s 1257 self._function()
+5761.5s 1258 File "/tmp/ipykernel_23/1604683654.py", line 88, in trainwandb
+5761.5s 1259 plot_train_test_accuracy(train_accuracies, test_accuracies, train_losses, test_losses)
+5761.5s 1260 File "/tmp/ipykernel_23/4014860157.py", line 5, in plot_train_test_accuracy
+5761.5s 1261 plt.figure(figsize=(12, 5))
+5761.5s 1262 TypeError: 'module' object is not callable
+5761.5s 1263 
+5761.5s 1264 [34m[1mwandb[0m: [32m[41mERROR[0m Run ae12ytgm errored:
+5761.5s 1265 [34m[1mwandb[0m: [32m[41mERROR[0m Traceback (most recent call last):
+5761.5s 1266 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+5761.5s 1267 [34m[1mwandb[0m: [32m[41mERROR[0m     self._function()
+5761.5s 1268 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_23/1604683654.py", line 88, in trainwandb
+5761.5s 1269 [34m[1mwandb[0m: [32m[41mERROR[0m     plot_train_test_accuracy(train_accuracies, test_accuracies, train_losses, test_losses)
+5761.5s 1270 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_23/4014860157.py", line 5, in plot_train_test_accuracy
+5761.5s 1271 [34m[1mwandb[0m: [32m[41mERROR[0m     plt.figure(figsize=(12, 5))
+5761.5s 1272 [34m[1mwandb[0m: [32m[41mERROR[0m TypeError: 'module' object is not callable
+5761.5s 1273 [34m[1mwandb[0m: [32m[41mERROR[0m
+5767.1s 1274 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+5767.1s 1275 warn(
+5767.2s 1276 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+5767.2s 1277 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+5767.7s 1278 [NbConvertApp] Writing 98343 bytes to __notebook__.ipynb
+5769.3s 1279 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+5769.3s 1280 warn(
+5769.3s 1281 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+5769.3s 1282 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+5770.4s 1283 [NbConvertApp] Writing 454687 bytes to __results__.html

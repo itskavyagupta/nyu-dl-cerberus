@@ -1,0 +1,781 @@
+30.1s 1 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar_test_nolabels.pkl
+30.1s 2 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_1
+30.1s 3 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_2
+30.1s 4 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/batches.meta
+30.1s 5 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/test_batch
+30.1s 6 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_3
+30.1s 7 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_5
+30.1s 8 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/data_batch_4
+30.1s 9 /kaggle/input/deep-learning-mini-project-spring-24-nyu/cifar-10-python/cifar-10-batches-py/readme.html
+30.6s 10 Total number of params 4918602
+33.7s 11 391
+33.7s 12 391
+33.7s 13 79
+35.1s 14 [34m[1mwandb[0m: W&B API key is configured. Use [1m`wandb login --relogin`[0m to force relogin
+35.1s 15 [34m[1mwandb[0m: [33mWARNING[0m If you're specifying your api key in code, ensure this code is not shared publicly.
+35.1s 16 [34m[1mwandb[0m: [33mWARNING[0m Consider setting the WANDB_API_KEY environment variable, or running `wandb login` from the command line.
+35.1s 17 [34m[1mwandb[0m: Appending key for api.wandb.ai to your netrc file: /root/.netrc
+35.4s 18 {'method': 'grid',
+35.4s 19 'metric': {'goal': 'minimize', 'name': 'loss'},
+35.4s 20 'parameters': {'dataaug': {'values': ['cutout',
+35.4s 21 'mixup',
+35.4s 22 'cutmix',
+35.4s 23 'cutout-mixup']}}}
+49.9s 24 Create sweep with ID: mnpi1d3n
+49.9s 25 Sweep URL: https://wandb.ai/classical/pytorch-sweeps-demo/sweeps/mnpi1d3n
+50.6s 26 [34m[1mwandb[0m: Agent Starting Run: 2iul21hq with config:
+50.6s 27 [34m[1mwandb[0m: 	dataaug: cutout
+51.7s 28 [34m[1mwandb[0m: Currently logged in as: [33mks7406[0m ([33mclassical[0m). Use [1m`wandb login --relogin`[0m to force relogin
+67.2s 29 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+67.2s 30 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_202832-2iul21hq[0m
+67.2s 31 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+67.2s 32 [34m[1mwandb[0m: Syncing run [33mstilted-sweep-1[0m
+67.2s 33 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo[0m
+67.2s 34 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo/sweeps/mnpi1d3n[0m
+67.2s 35 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo/runs/2iul21hq[0m
+68.2s 36 Total number of params 4918602
+68.2s 37 
+68.2s 38 Epoch: 0
+99.2s 39 
+99.2s 40 Epoch: 0, Loss: 1.507, Acc: 44.744%
+101.4s 41 
+101.4s 42 Test Loss: 1.342, Acc: 53.660%
+101.4s 43 
+101.4s 44 Epoch: 1
+128.4s 45 
+128.4s 46 Epoch: 1, Loss: 1.056, Acc: 62.420%
+130.5s 47 
+130.5s 48 Test Loss: 1.206, Acc: 60.210%
+130.5s 49 
+130.5s 50 Epoch: 2
+157.4s 51 
+157.4s 52 Epoch: 2, Loss: 0.855, Acc: 69.876%
+159.5s 53 
+159.5s 54 Test Loss: 1.137, Acc: 66.720%
+159.5s 55 
+159.5s 56 Epoch: 3
+186.5s 57 
+186.5s 58 Epoch: 3, Loss: 0.742, Acc: 74.006%
+188.5s 59 
+188.5s 60 Test Loss: 0.983, Acc: 69.720%
+188.5s 61 
+188.5s 62 Epoch: 4
+215.5s 63 
+215.5s 64 Epoch: 4, Loss: 0.667, Acc: 76.696%
+217.6s 65 
+217.6s 66 Test Loss: 0.760, Acc: 75.960%
+217.6s 67 
+217.6s 68 Epoch: 5
+244.5s 69 
+244.5s 70 Epoch: 5, Loss: 0.612, Acc: 78.660%
+246.7s 71 
+246.7s 72 Test Loss: 0.602, Acc: 79.870%
+246.7s 73 
+246.7s 74 Epoch: 6
+273.6s 75 
+273.6s 76 Epoch: 6, Loss: 0.561, Acc: 80.542%
+275.7s 77 
+275.7s 78 Test Loss: 0.581, Acc: 81.180%
+275.7s 79 
+275.7s 80 Epoch: 7
+302.6s 81 
+302.6s 82 Epoch: 7, Loss: 0.520, Acc: 81.778%
+304.8s 83 
+304.8s 84 Test Loss: 0.620, Acc: 80.220%
+304.8s 85 
+304.8s 86 Epoch: 8
+331.8s 87 
+331.8s 88 Epoch: 8, Loss: 0.493, Acc: 82.812%
+333.9s 89 
+333.9s 90 Test Loss: 0.518, Acc: 82.840%
+333.9s 91 
+333.9s 92 Epoch: 9
+360.8s 93 
+360.8s 94 Epoch: 9, Loss: 0.463, Acc: 83.892%
+362.9s 95 
+362.9s 96 Test Loss: 0.499, Acc: 83.610%
+362.9s 97 
+362.9s 98 Epoch: 10
+389.9s 99 
+389.9s 100 Epoch: 10, Loss: 0.439, Acc: 84.678%
+392.1s 101 
+392.1s 102 Test Loss: 0.511, Acc: 83.140%
+392.1s 103 
+392.1s 104 Epoch: 11
+419.0s 105 
+419.0s 106 Epoch: 11, Loss: 0.425, Acc: 85.280%
+421.2s 107 
+421.2s 108 Test Loss: 0.406, Acc: 86.460%
+421.2s 109 
+421.2s 110 Epoch: 12
+448.1s 111 
+448.1s 112 Epoch: 12, Loss: 0.397, Acc: 86.322%
+450.2s 113 
+450.2s 114 Test Loss: 0.496, Acc: 84.270%
+450.2s 115 
+450.2s 116 Epoch: 13
+477.1s 117 
+477.1s 118 Epoch: 13, Loss: 0.383, Acc: 86.720%
+479.3s 119 
+479.3s 120 Test Loss: 0.464, Acc: 84.830%
+479.3s 121 
+479.3s 122 Epoch: 14
+506.1s 123 
+506.1s 124 Epoch: 14, Loss: 0.360, Acc: 87.394%
+508.2s 125 
+508.2s 126 Test Loss: 0.393, Acc: 87.300%
+508.2s 127 
+508.2s 128 Epoch: 15
+535.1s 129 
+535.1s 130 Epoch: 15, Loss: 0.354, Acc: 87.594%
+537.2s 131 
+537.2s 132 Test Loss: 0.401, Acc: 87.100%
+537.2s 133 
+537.2s 134 Epoch: 16
+564.1s 135 
+564.1s 136 Epoch: 16, Loss: 0.343, Acc: 88.028%
+566.3s 137 
+566.3s 138 Test Loss: 0.421, Acc: 86.430%
+566.3s 139 
+566.3s 140 Epoch: 17
+593.2s 141 
+593.2s 142 Epoch: 17, Loss: 0.330, Acc: 88.598%
+595.3s 143 
+595.3s 144 Test Loss: 0.390, Acc: 87.020%
+595.3s 145 
+595.3s 146 Epoch: 18
+622.2s 147 
+622.2s 148 Epoch: 18, Loss: 0.315, Acc: 88.952%
+624.3s 149 
+624.3s 150 Test Loss: 0.410, Acc: 86.740%
+624.3s 151 
+624.3s 152 Epoch: 19
+651.2s 153 
+651.2s 154 Epoch: 19, Loss: 0.307, Acc: 89.398%
+653.3s 155 
+653.3s 156 Test Loss: 0.347, Acc: 88.430%
+653.3s 157 
+653.3s 158 Epoch: 20
+680.2s 159 
+680.2s 160 Epoch: 20, Loss: 0.300, Acc: 89.460%
+682.4s 161 
+682.4s 162 Test Loss: 0.409, Acc: 86.920%
+682.4s 163 
+682.4s 164 Epoch: 21
+709.3s 165 
+709.3s 166 Epoch: 21, Loss: 0.294, Acc: 89.734%
+711.5s 167 
+711.5s 168 Test Loss: 0.318, Acc: 89.460%
+711.5s 169 
+711.5s 170 Epoch: 22
+738.5s 171 
+738.5s 172 Epoch: 22, Loss: 0.285, Acc: 90.048%
+740.8s 173 
+740.8s 174 Test Loss: 0.390, Acc: 87.280%
+740.8s 175 
+740.8s 176 Epoch: 23
+767.7s 177 
+767.7s 178 Epoch: 23, Loss: 0.276, Acc: 90.438%
+769.8s 179 
+769.8s 180 Test Loss: 0.392, Acc: 87.550%
+769.8s 181 
+769.8s 182 Epoch: 24
+796.8s 183 
+796.8s 184 Epoch: 24, Loss: 0.269, Acc: 90.514%
+798.9s 185 
+798.9s 186 Test Loss: 0.321, Acc: 89.560%
+798.9s 187 
+798.9s 188 Epoch: 25
+825.8s 189 
+825.8s 190 Epoch: 25, Loss: 0.261, Acc: 90.922%
+827.9s 191 
+827.9s 192 Test Loss: 0.349, Acc: 88.690%
+827.9s 193 
+827.9s 194 Epoch: 26
+854.8s 195 
+854.8s 196 Epoch: 26, Loss: 0.247, Acc: 91.560%
+857.0s 197 
+857.0s 198 Test Loss: 0.341, Acc: 89.030%
+857.0s 199 
+857.0s 200 Epoch: 27
+884.0s 201 
+884.0s 202 Epoch: 27, Loss: 0.247, Acc: 91.370%
+886.0s 203 
+886.0s 204 Test Loss: 0.361, Acc: 88.710%
+886.0s 205 
+886.0s 206 Epoch: 28
+913.1s 207 
+913.1s 208 Epoch: 28, Loss: 0.244, Acc: 91.410%
+915.3s 209 
+915.3s 210 Test Loss: 0.379, Acc: 88.460%
+915.3s 211 
+915.3s 212 Epoch: 29
+942.2s 213 
+942.2s 214 Epoch: 29, Loss: 0.236, Acc: 91.728%
+944.5s 215 
+944.5s 216 Test Loss: 0.296, Acc: 90.420%
+946.7s 217 [34m[1mwandb[0m: - 0.001 MB of 0.017 MB uploaded[34m[1mwandb[0m: \ 0.001 MB of 0.017 MB uploaded[34m[1mwandb[0m: | 0.020 MB of 0.020 MB uploaded[34m[1mwandb[0m:
+947.8s 218 [34m[1mwandb[0m:
+947.8s 219 [34m[1mwandb[0m: Run history:
+947.8s 220 [34m[1mwandb[0m:          epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+947.8s 221 [34m[1mwandb[0m:  test_accuracy ▁▂▃▄▅▆▆▆▇▇▇▇▇▇▇▇▇▇▇█▇█▇▇██████
+947.8s 222 [34m[1mwandb[0m:      test_loss █▇▇▆▄▃▃▃▂▂▂▂▂▂▂▂▂▂▂▁▂▁▂▂▁▁▁▁▂▁
+947.8s 223 [34m[1mwandb[0m: train_accuracy ▁▄▅▅▆▆▆▇▇▇▇▇▇▇▇▇▇█████████████
+947.8s 224 [34m[1mwandb[0m:     train_loss █▆▄▄▃▃▃▃▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁
+947.8s 225 [34m[1mwandb[0m:
+947.8s 226 [34m[1mwandb[0m: Run summary:
+947.8s 227 [34m[1mwandb[0m:          epoch 29
+947.8s 228 [34m[1mwandb[0m:  test_accuracy 90.42
+947.8s 229 [34m[1mwandb[0m:      test_loss 0.29602
+947.8s 230 [34m[1mwandb[0m: train_accuracy 91.728
+947.8s 231 [34m[1mwandb[0m:     train_loss 0.23596
+947.8s 232 [34m[1mwandb[0m:
+947.8s 233 [34m[1mwandb[0m: 🚀 View run [33mstilted-sweep-1[0m at: [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo/runs/2iul21hq[0m
+947.8s 234 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo[0m
+947.8s 235 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+947.8s 236 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_202832-2iul21hq/logs[0m
+947.9s 237 Run 2iul21hq errored:
+947.9s 238 Traceback (most recent call last):
+947.9s 239 File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+947.9s 240 self._function()
+947.9s 241 File "/tmp/ipykernel_24/3118229477.py", line 78, in trainwandb
+947.9s 242 plot_train_test_accuracy(train_accuracies, test_accuracies, train_losses, test_losses)
+947.9s 243 File "/tmp/ipykernel_24/4014860157.py", line 5, in plot_train_test_accuracy
+947.9s 244 plt.figure(figsize=(12, 5))
+947.9s 245 NameError: name 'plt' is not defined
+947.9s 246 
+947.9s 247 [34m[1mwandb[0m: [32m[41mERROR[0m Run 2iul21hq errored:
+947.9s 248 [34m[1mwandb[0m: [32m[41mERROR[0m Traceback (most recent call last):
+947.9s 249 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+947.9s 250 [34m[1mwandb[0m: [32m[41mERROR[0m     self._function()
+947.9s 251 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/3118229477.py", line 78, in trainwandb
+947.9s 252 [34m[1mwandb[0m: [32m[41mERROR[0m     plot_train_test_accuracy(train_accuracies, test_accuracies, train_losses, test_losses)
+947.9s 253 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/4014860157.py", line 5, in plot_train_test_accuracy
+947.9s 254 [34m[1mwandb[0m: [32m[41mERROR[0m     plt.figure(figsize=(12, 5))
+947.9s 255 [34m[1mwandb[0m: [32m[41mERROR[0m NameError: name 'plt' is not defined
+947.9s 256 [34m[1mwandb[0m: [32m[41mERROR[0m
+951.9s 257 [34m[1mwandb[0m: Agent Starting Run: 8nv8hmom with config:
+951.9s 258 [34m[1mwandb[0m: 	dataaug: mixup
+968.6s 259 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+968.6s 260 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_204333-8nv8hmom[0m
+968.6s 261 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+968.6s 262 [34m[1mwandb[0m: Syncing run [33mfloral-sweep-2[0m
+968.6s 263 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo[0m
+968.6s 264 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo/sweeps/mnpi1d3n[0m
+968.6s 265 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo/runs/8nv8hmom[0m
+969.6s 266 Total number of params 4918602
+969.6s 267 
+969.6s 268 Epoch: 0
+997.1s 269 
+997.1s 270 Epoch: 0, Loss: 1.785, Acc: 49.296%
+999.3s 271 
+999.3s 272 Test Loss: 1.502, Acc: 46.700%
+999.3s 273 
+999.3s 274 Epoch: 1
+1026.3s 275 
+1026.3s 276 Epoch: 1, Loss: 1.449, Acc: 65.300%
+1028.4s 277 
+1028.4s 278 Test Loss: 1.030, Acc: 64.940%
+1028.4s 279 
+1028.4s 280 Epoch: 2
+1055.4s 281 
+1055.4s 282 Epoch: 2, Loss: 1.363, Acc: 71.212%
+1057.5s 283 
+1057.5s 284 Test Loss: 0.895, Acc: 70.650%
+1057.5s 285 
+1057.5s 286 Epoch: 3
+1084.4s 287 
+1084.4s 288 Epoch: 3, Loss: 1.289, Acc: 74.662%
+1086.4s 289 
+1086.4s 290 Test Loss: 0.735, Acc: 75.080%
+1086.4s 291 
+1086.4s 292 Epoch: 4
+1113.3s 293 
+1113.3s 294 Epoch: 4, Loss: 1.240, Acc: 77.058%
+1115.5s 295 
+1115.5s 296 Test Loss: 0.731, Acc: 75.740%
+1115.5s 297 
+1115.5s 298 Epoch: 5
+1142.5s 299 
+1142.5s 300 Epoch: 5, Loss: 1.175, Acc: 79.072%
+1144.6s 301 
+1144.6s 302 Test Loss: 0.795, Acc: 74.500%
+1144.6s 303 
+1144.6s 304 Epoch: 6
+1171.5s 305 
+1171.5s 306 Epoch: 6, Loss: 1.166, Acc: 80.006%
+1173.7s 307 
+1173.7s 308 Test Loss: 0.601, Acc: 81.190%
+1173.7s 309 
+1173.7s 310 Epoch: 7
+1200.6s 311 
+1200.6s 312 Epoch: 7, Loss: 1.136, Acc: 81.040%
+1202.8s 313 
+1202.8s 314 Test Loss: 0.680, Acc: 78.570%
+1202.8s 315 
+1202.8s 316 Epoch: 8
+1229.7s 317 
+1229.7s 318 Epoch: 8, Loss: 1.088, Acc: 82.052%
+1231.8s 319 
+1231.8s 320 Test Loss: 0.578, Acc: 82.910%
+1231.8s 321 
+1231.8s 322 Epoch: 9
+1258.7s 323 
+1258.7s 324 Epoch: 9, Loss: 1.097, Acc: 82.516%
+1260.8s 325 
+1260.8s 326 Test Loss: 0.583, Acc: 82.840%
+1260.8s 327 
+1260.8s 328 Epoch: 10
+1287.8s 329 
+1287.8s 330 Epoch: 10, Loss: 1.040, Acc: 83.760%
+1289.9s 331 
+1289.9s 332 Test Loss: 0.531, Acc: 82.220%
+1289.9s 333 
+1289.9s 334 Epoch: 11
+1317.0s 335 
+1317.0s 336 Epoch: 11, Loss: 0.998, Acc: 84.332%
+1319.1s 337 
+1319.1s 338 Test Loss: 0.574, Acc: 83.990%
+1319.1s 339 
+1319.1s 340 Epoch: 12
+1346.1s 341 
+1346.1s 342 Epoch: 12, Loss: 1.023, Acc: 84.422%
+1348.2s 343 
+1348.2s 344 Test Loss: 0.547, Acc: 85.520%
+1348.2s 345 
+1348.2s 346 Epoch: 13
+1375.3s 347 
+1375.3s 348 Epoch: 13, Loss: 1.028, Acc: 84.900%
+1377.4s 349 
+1377.4s 350 Test Loss: 0.456, Acc: 87.240%
+1377.4s 351 
+1377.4s 352 Epoch: 14
+1404.4s 353 
+1404.4s 354 Epoch: 14, Loss: 1.025, Acc: 85.666%
+1406.5s 355 
+1406.5s 356 Test Loss: 0.540, Acc: 85.150%
+1406.5s 357 
+1406.5s 358 Epoch: 15
+1433.5s 359 
+1433.5s 360 Epoch: 15, Loss: 0.973, Acc: 86.296%
+1435.7s 361 
+1435.7s 362 Test Loss: 0.463, Acc: 86.250%
+1435.7s 363 
+1435.7s 364 Epoch: 16
+1462.5s 365 
+1462.5s 366 Epoch: 16, Loss: 0.984, Acc: 86.226%
+1464.7s 367 
+1464.7s 368 Test Loss: 0.566, Acc: 82.920%
+1464.7s 369 
+1464.7s 370 Epoch: 17
+1491.5s 371 
+1491.5s 372 Epoch: 17, Loss: 0.947, Acc: 87.232%
+1493.6s 373 
+1493.6s 374 Test Loss: 0.517, Acc: 87.210%
+1493.6s 375 
+1493.6s 376 Epoch: 18
+1520.5s 377 
+1520.5s 378 Epoch: 18, Loss: 0.965, Acc: 86.858%
+1522.6s 379 
+1522.6s 380 Test Loss: 0.454, Acc: 86.470%
+1522.6s 381 
+1522.6s 382 Epoch: 19
+1549.4s 383 
+1549.4s 384 Epoch: 19, Loss: 0.927, Acc: 87.804%
+1551.5s 385 
+1551.5s 386 Test Loss: 0.466, Acc: 87.370%
+1551.5s 387 
+1551.5s 388 Epoch: 20
+1578.2s 389 
+1578.2s 390 Epoch: 20, Loss: 0.972, Acc: 87.636%
+1580.3s 391 
+1580.3s 392 Test Loss: 0.543, Acc: 84.110%
+1580.3s 393 
+1580.3s 394 Epoch: 21
+1607.2s 395 
+1607.2s 396 Epoch: 21, Loss: 0.950, Acc: 88.154%
+1609.4s 397 
+1609.4s 398 Test Loss: 0.424, Acc: 88.580%
+1609.4s 399 
+1609.4s 400 Epoch: 22
+1636.3s 401 
+1636.3s 402 Epoch: 22, Loss: 0.928, Acc: 88.258%
+1638.4s 403 
+1638.4s 404 Test Loss: 0.507, Acc: 86.080%
+1638.4s 405 
+1638.4s 406 Epoch: 23
+1665.3s 407 
+1665.3s 408 Epoch: 23, Loss: 0.909, Acc: 88.342%
+1667.4s 409 
+1667.4s 410 Test Loss: 0.481, Acc: 88.550%
+1667.4s 411 
+1667.4s 412 Epoch: 24
+1694.3s 413 
+1694.3s 414 Epoch: 24, Loss: 0.921, Acc: 88.648%
+1696.3s 415 
+1696.3s 416 Test Loss: 0.424, Acc: 88.080%
+1696.3s 417 
+1696.3s 418 Epoch: 25
+1723.2s 419 
+1723.2s 420 Epoch: 25, Loss: 0.947, Acc: 88.730%
+1725.4s 421 
+1725.4s 422 Test Loss: 0.427, Acc: 88.980%
+1725.4s 423 
+1725.4s 424 Epoch: 26
+1752.3s 425 
+1752.3s 426 Epoch: 26, Loss: 0.881, Acc: 89.398%
+1754.5s 427 
+1754.5s 428 Test Loss: 0.383, Acc: 90.090%
+1754.5s 429 
+1754.5s 430 Epoch: 27
+1781.4s 431 
+1781.4s 432 Epoch: 27, Loss: 0.849, Acc: 89.716%
+1783.5s 433 
+1783.5s 434 Test Loss: 0.418, Acc: 87.700%
+1783.5s 435 
+1783.5s 436 Epoch: 28
+1810.5s 437 
+1810.5s 438 Epoch: 28, Loss: 0.927, Acc: 89.148%
+1812.7s 439 
+1812.7s 440 Test Loss: 0.424, Acc: 89.290%
+1812.7s 441 
+1812.7s 442 Epoch: 29
+1839.7s 443 
+1839.7s 444 Epoch: 29, Loss: 0.896, Acc: 89.708%
+1842.0s 445 
+1842.0s 446 Test Loss: 0.484, Acc: 84.860%
+1843.9s 447 [34m[1mwandb[0m: - 0.001 MB of 0.017 MB uploaded[34m[1mwandb[0m: \ 0.001 MB of 0.017 MB uploaded[34m[1mwandb[0m: | 0.020 MB of 0.020 MB uploaded[34m[1mwandb[0m:
+1845.0s 448 [34m[1mwandb[0m:
+1845.0s 449 [34m[1mwandb[0m: Run history:
+1845.0s 450 [34m[1mwandb[0m:          epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+1845.0s 451 [34m[1mwandb[0m:  test_accuracy ▁▄▅▆▆▅▇▆▇▇▇▇▇█▇▇▇█▇█▇█▇██████▇
+1845.0s 452 [34m[1mwandb[0m:      test_loss █▅▄▃▃▄▂▃▂▂▂▂▂▁▂▂▂▂▁▂▂▁▂▂▁▁▁▁▁▂
+1845.0s 453 [34m[1mwandb[0m: train_accuracy ▁▄▅▅▆▆▆▆▇▇▇▇▇▇▇▇▇█████████████
+1845.0s 454 [34m[1mwandb[0m:     train_loss █▅▅▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▁▂▂▁▁▂▁
+1845.0s 455 [34m[1mwandb[0m:
+1845.0s 456 [34m[1mwandb[0m: Run summary:
+1845.0s 457 [34m[1mwandb[0m:          epoch 29
+1845.0s 458 [34m[1mwandb[0m:  test_accuracy 84.86
+1845.0s 459 [34m[1mwandb[0m:      test_loss 0.48424
+1845.0s 460 [34m[1mwandb[0m: train_accuracy 89.708
+1845.0s 461 [34m[1mwandb[0m:     train_loss 0.89621
+1845.0s 462 [34m[1mwandb[0m:
+1845.0s 463 [34m[1mwandb[0m: 🚀 View run [33mfloral-sweep-2[0m at: [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo/runs/8nv8hmom[0m
+1845.0s 464 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo[0m
+1845.0s 465 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+1845.0s 466 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_204333-8nv8hmom/logs[0m
+1845.1s 467 Run 8nv8hmom errored:
+1845.1s 468 Traceback (most recent call last):
+1845.1s 469 File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+1845.1s 470 self._function()
+1845.1s 471 File "/tmp/ipykernel_24/3118229477.py", line 78, in trainwandb
+1845.1s 472 plot_train_test_accuracy(train_accuracies, test_accuracies, train_losses, test_losses)
+1845.1s 473 File "/tmp/ipykernel_24/4014860157.py", line 5, in plot_train_test_accuracy
+1845.1s 474 plt.figure(figsize=(12, 5))
+1845.1s 475 NameError: name 'plt' is not defined
+1845.1s 476 
+1845.1s 477 [34m[1mwandb[0m: [32m[41mERROR[0m Run 8nv8hmom errored:
+1845.1s 478 [34m[1mwandb[0m: [32m[41mERROR[0m Traceback (most recent call last):
+1845.1s 479 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+1845.1s 480 [34m[1mwandb[0m: [32m[41mERROR[0m     self._function()
+1845.1s 481 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/3118229477.py", line 78, in trainwandb
+1845.1s 482 [34m[1mwandb[0m: [32m[41mERROR[0m     plot_train_test_accuracy(train_accuracies, test_accuracies, train_losses, test_losses)
+1845.1s 483 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/4014860157.py", line 5, in plot_train_test_accuracy
+1845.1s 484 [34m[1mwandb[0m: [32m[41mERROR[0m     plt.figure(figsize=(12, 5))
+1845.1s 485 [34m[1mwandb[0m: [32m[41mERROR[0m NameError: name 'plt' is not defined
+1845.1s 486 [34m[1mwandb[0m: [32m[41mERROR[0m
+1847.2s 487 [34m[1mwandb[0m: Agent Starting Run: 0xnmpkva with config:
+1847.2s 488 [34m[1mwandb[0m: 	dataaug: cutmix
+1863.8s 489 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+1863.8s 490 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_205828-0xnmpkva[0m
+1863.8s 491 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+1863.8s 492 [34m[1mwandb[0m: Syncing run [33mstellar-sweep-3[0m
+1863.8s 493 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo[0m
+1863.8s 494 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo/sweeps/mnpi1d3n[0m
+1863.8s 495 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo/runs/0xnmpkva[0m
+1864.8s 496 Total number of params 4918602
+1864.8s 497 
+1864.8s 498 Epoch: 0
+1868.4s 499 [34m[1mwandb[0m: - 0.001 MB of 0.001 MB uploaded[34m[1mwandb[0m: \ 0.001 MB of 0.017 MB uploaded[34m[1mwandb[0m: | 0.001 MB of 0.017 MB uploaded[34m[1mwandb[0m: / 0.017 MB of 0.017 MB uploaded[34m[1mwandb[0m:
+1869.6s 500 [34m[1mwandb[0m: 🚀 View run [33mstellar-sweep-3[0m at: [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo/runs/0xnmpkva[0m
+1869.6s 501 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo[0m
+1869.6s 502 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+1869.6s 503 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_205828-0xnmpkva/logs[0m
+1869.6s 504 Run 0xnmpkva errored:
+1869.6s 505 Traceback (most recent call last):
+1869.6s 506 File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+1869.6s 507 self._function()
+1869.6s 508 File "/tmp/ipykernel_24/3118229477.py", line 53, in trainwandb
+1869.6s 509 train_acc, train_loss = train(epoch, optimizer, net, trainloader, 0, 1, do_clipping)
+1869.6s 510 File "/tmp/ipykernel_24/726425598.py", line 45, in train
+1869.6s 511 inputs, targets_a, targets_b, lam = cutmix_data(inputs, targets, alpha=1.0)
+1869.6s 512 ValueError: not enough values to unpack (expected 4, got 3)
+1869.6s 513 
+1869.6s 514 [34m[1mwandb[0m: [32m[41mERROR[0m Run 0xnmpkva errored:
+1869.6s 515 [34m[1mwandb[0m: [32m[41mERROR[0m Traceback (most recent call last):
+1869.6s 516 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+1869.6s 517 [34m[1mwandb[0m: [32m[41mERROR[0m     self._function()
+1869.6s 518 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/3118229477.py", line 53, in trainwandb
+1869.6s 519 [34m[1mwandb[0m: [32m[41mERROR[0m     train_acc, train_loss = train(epoch, optimizer, net, trainloader, 0, 1, do_clipping)
+1869.6s 520 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/726425598.py", line 45, in train
+1869.6s 521 [34m[1mwandb[0m: [32m[41mERROR[0m     inputs, targets_a, targets_b, lam = cutmix_data(inputs, targets, alpha=1.0)
+1869.6s 522 [34m[1mwandb[0m: [32m[41mERROR[0m ValueError: not enough values to unpack (expected 4, got 3)
+1869.6s 523 [34m[1mwandb[0m: [32m[41mERROR[0m
+1872.7s 524 [34m[1mwandb[0m: Agent Starting Run: tebxwits with config:
+1872.7s 525 [34m[1mwandb[0m: 	dataaug: cutout-mixup
+1889.4s 526 [34m[1mwandb[0m: Tracking run with wandb version 0.16.6
+1889.4s 527 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240412_205854-tebxwits[0m
+1889.4s 528 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+1889.4s 529 [34m[1mwandb[0m: Syncing run [33mkind-sweep-4[0m
+1889.4s 530 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo[0m
+1889.4s 531 [34m[1mwandb[0m: 🧹 View sweep at [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo/sweeps/mnpi1d3n[0m
+1889.4s 532 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo/runs/tebxwits[0m
+1890.4s 533 Total number of params 4918602
+1890.4s 534 
+1890.4s 535 Epoch: 0
+1917.8s 536 
+1917.8s 537 Epoch: 0, Loss: 1.830, Acc: 47.032%
+1920.1s 538 
+1920.1s 539 Test Loss: 1.314, Acc: 52.420%
+1920.1s 540 
+1920.1s 541 Epoch: 1
+1947.0s 542 
+1947.0s 543 Epoch: 1, Loss: 1.553, Acc: 61.938%
+1949.2s 544 
+1949.2s 545 Test Loss: 1.146, Acc: 59.670%
+1949.2s 546 
+1949.2s 547 Epoch: 2
+1976.2s 548 
+1976.2s 549 Epoch: 2, Loss: 1.419, Acc: 67.960%
+1978.3s 550 
+1978.3s 551 Test Loss: 0.928, Acc: 68.010%
+1978.3s 552 
+1978.3s 553 Epoch: 3
+2005.4s 554 
+2005.4s 555 Epoch: 3, Loss: 1.332, Acc: 71.548%
+2007.5s 556 
+2007.5s 557 Test Loss: 0.828, Acc: 72.750%
+2007.5s 558 
+2007.5s 559 Epoch: 4
+2034.5s 560 
+2034.5s 561 Epoch: 4, Loss: 1.279, Acc: 74.280%
+2036.6s 562 
+2036.6s 563 Test Loss: 0.852, Acc: 70.730%
+2036.6s 564 
+2036.6s 565 Epoch: 5
+2063.6s 566 
+2063.6s 567 Epoch: 5, Loss: 1.240, Acc: 75.840%
+2065.7s 568 
+2065.7s 569 Test Loss: 0.664, Acc: 78.400%
+2065.7s 570 
+2065.7s 571 Epoch: 6
+2092.8s 572 
+2092.8s 573 Epoch: 6, Loss: 1.218, Acc: 77.386%
+2095.0s 574 
+2095.0s 575 Test Loss: 0.601, Acc: 81.200%
+2095.0s 576 
+2095.0s 577 Epoch: 7
+2122.0s 578 
+2122.0s 579 Epoch: 7, Loss: 1.168, Acc: 78.834%
+2124.2s 580 
+2124.2s 581 Test Loss: 0.680, Acc: 78.350%
+2124.2s 582 
+2124.2s 583 Epoch: 8
+2151.2s 584 
+2151.2s 585 Epoch: 8, Loss: 1.133, Acc: 79.906%
+2153.3s 586 
+2153.3s 587 Test Loss: 0.616, Acc: 80.970%
+2153.3s 588 
+2153.3s 589 Epoch: 9
+2180.3s 590 
+2180.3s 591 Epoch: 9, Loss: 1.108, Acc: 80.592%
+2182.5s 592 
+2182.5s 593 Test Loss: 0.585, Acc: 81.440%
+2182.5s 594 
+2182.5s 595 Epoch: 10
+2209.5s 596 
+2209.5s 597 Epoch: 10, Loss: 1.104, Acc: 80.892%
+2211.8s 598 
+2211.8s 599 Test Loss: 0.618, Acc: 78.850%
+2211.8s 600 
+2211.8s 601 Epoch: 11
+2238.9s 602 
+2238.9s 603 Epoch: 11, Loss: 1.043, Acc: 82.034%
+2241.1s 604 
+2241.1s 605 Test Loss: 0.569, Acc: 82.560%
+2241.1s 606 
+2241.1s 607 Epoch: 12
+2268.1s 608 
+2268.1s 609 Epoch: 12, Loss: 1.090, Acc: 82.546%
+2270.2s 610 
+2270.2s 611 Test Loss: 0.644, Acc: 82.060%
+2270.2s 612 
+2270.2s 613 Epoch: 13
+2297.2s 614 
+2297.2s 615 Epoch: 13, Loss: 1.060, Acc: 83.196%
+2299.5s 616 
+2299.5s 617 Test Loss: 0.553, Acc: 84.820%
+2299.5s 618 
+2299.5s 619 Epoch: 14
+2326.6s 620 
+2326.6s 621 Epoch: 14, Loss: 1.047, Acc: 84.032%
+2328.8s 622 
+2328.8s 623 Test Loss: 0.578, Acc: 81.240%
+2328.8s 624 
+2328.8s 625 Epoch: 15
+2355.8s 626 
+2355.8s 627 Epoch: 15, Loss: 1.011, Acc: 84.194%
+2358.0s 628 
+2358.0s 629 Test Loss: 0.567, Acc: 83.440%
+2358.0s 630 
+2358.0s 631 Epoch: 16
+2385.1s 632 
+2385.1s 633 Epoch: 16, Loss: 1.038, Acc: 84.304%
+2387.2s 634 
+2387.2s 635 Test Loss: 0.563, Acc: 83.150%
+2387.2s 636 
+2387.2s 637 Epoch: 17
+2414.3s 638 
+2414.3s 639 Epoch: 17, Loss: 1.048, Acc: 84.858%
+2416.5s 640 
+2416.5s 641 Test Loss: 0.534, Acc: 85.470%
+2416.5s 642 
+2416.5s 643 Epoch: 18
+2443.6s 644 
+2443.6s 645 Epoch: 18, Loss: 0.994, Acc: 85.620%
+2445.7s 646 
+2445.7s 647 Test Loss: 0.586, Acc: 84.900%
+2445.7s 648 
+2445.7s 649 Epoch: 19
+2472.7s 650 
+2472.7s 651 Epoch: 19, Loss: 0.990, Acc: 85.820%
+2474.9s 652 
+2474.9s 653 Test Loss: 0.484, Acc: 86.180%
+2474.9s 654 
+2474.9s 655 Epoch: 20
+2501.9s 656 
+2501.9s 657 Epoch: 20, Loss: 0.976, Acc: 86.108%
+2503.9s 658 
+2503.9s 659 Test Loss: 0.470, Acc: 87.610%
+2503.9s 660 
+2503.9s 661 Epoch: 21
+2530.8s 662 
+2530.8s 663 Epoch: 21, Loss: 0.998, Acc: 85.934%
+2533.1s 664 
+2533.1s 665 Test Loss: 0.429, Acc: 87.660%
+2533.1s 666 
+2533.1s 667 Epoch: 22
+2560.0s 668 
+2560.0s 669 Epoch: 22, Loss: 0.936, Acc: 86.628%
+2562.1s 670 
+2562.1s 671 Test Loss: 0.441, Acc: 87.720%
+2562.1s 672 
+2562.1s 673 Epoch: 23
+2589.1s 674 
+2589.1s 675 Epoch: 23, Loss: 0.959, Acc: 87.002%
+2591.2s 676 
+2591.2s 677 Test Loss: 0.497, Acc: 86.520%
+2591.2s 678 
+2591.2s 679 Epoch: 24
+2618.2s 680 
+2618.2s 681 Epoch: 24, Loss: 0.971, Acc: 87.090%
+2620.3s 682 
+2620.3s 683 Test Loss: 0.461, Acc: 86.970%
+2620.3s 684 
+2620.3s 685 Epoch: 25
+2647.3s 686 
+2647.3s 687 Epoch: 25, Loss: 0.911, Acc: 87.536%
+2649.4s 688 
+2649.4s 689 Test Loss: 0.469, Acc: 87.300%
+2649.4s 690 
+2649.4s 691 Epoch: 26
+2676.5s 692 
+2676.5s 693 Epoch: 26, Loss: 0.900, Acc: 87.640%
+2678.5s 694 
+2678.5s 695 Test Loss: 0.373, Acc: 89.210%
+2678.5s 696 
+2678.5s 697 Epoch: 27
+2705.6s 698 
+2705.6s 699 Epoch: 27, Loss: 0.954, Acc: 87.542%
+2707.8s 700 
+2707.8s 701 Test Loss: 0.435, Acc: 88.640%
+2707.8s 702 
+2707.8s 703 Epoch: 28
+2734.8s 704 
+2734.8s 705 Epoch: 28, Loss: 0.947, Acc: 87.800%
+2736.9s 706 
+2736.9s 707 Test Loss: 0.451, Acc: 88.490%
+2736.9s 708 
+2736.9s 709 Epoch: 29
+2764.0s 710 
+2764.0s 711 Epoch: 29, Loss: 0.975, Acc: 87.954%
+2766.5s 712 
+2766.5s 713 Test Loss: 0.411, Acc: 90.250%
+2768.8s 714 [34m[1mwandb[0m: - 0.001 MB of 0.001 MB uploaded[34m[1mwandb[0m: \ 0.001 MB of 0.001 MB uploaded[34m[1mwandb[0m: | 0.020 MB of 0.020 MB uploaded[34m[1mwandb[0m:
+2769.9s 715 [34m[1mwandb[0m:
+2769.9s 716 [34m[1mwandb[0m: Run history:
+2769.9s 717 [34m[1mwandb[0m:          epoch ▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇███
+2769.9s 718 [34m[1mwandb[0m:  test_accuracy ▁▂▄▅▄▆▆▆▆▆▆▇▆▇▆▇▇▇▇▇███▇▇▇████
+2769.9s 719 [34m[1mwandb[0m:      test_loss █▇▅▄▅▃▃▃▃▃▃▂▃▂▃▂▂▂▃▂▂▁▂▂▂▂▁▁▂▁
+2769.9s 720 [34m[1mwandb[0m: train_accuracy ▁▄▅▅▆▆▆▆▇▇▇▇▇▇▇▇▇▇████████████
+2769.9s 721 [34m[1mwandb[0m:     train_loss █▆▅▄▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▁▁▂▁▁▁▁▂
+2769.9s 722 [34m[1mwandb[0m:
+2769.9s 723 [34m[1mwandb[0m: Run summary:
+2769.9s 724 [34m[1mwandb[0m:          epoch 29
+2769.9s 725 [34m[1mwandb[0m:  test_accuracy 90.25
+2769.9s 726 [34m[1mwandb[0m:      test_loss 0.41085
+2769.9s 727 [34m[1mwandb[0m: train_accuracy 87.954
+2769.9s 728 [34m[1mwandb[0m:     train_loss 0.97484
+2769.9s 729 [34m[1mwandb[0m:
+2769.9s 730 [34m[1mwandb[0m: 🚀 View run [33mkind-sweep-4[0m at: [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo/runs/tebxwits[0m
+2769.9s 731 [34m[1mwandb[0m: ⭐️ View project at: [34m[4mhttps://wandb.ai/classical/pytorch-sweeps-demo[0m
+2769.9s 732 [34m[1mwandb[0m: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+2769.9s 733 [34m[1mwandb[0m: Find logs at: [35m[1m./wandb/run-20240412_205854-tebxwits/logs[0m
+2770.0s 734 Run tebxwits errored:
+2770.0s 735 Traceback (most recent call last):
+2770.0s 736 File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+2770.0s 737 self._function()
+2770.0s 738 File "/tmp/ipykernel_24/3118229477.py", line 78, in trainwandb
+2770.0s 739 plot_train_test_accuracy(train_accuracies, test_accuracies, train_losses, test_losses)
+2770.0s 740 File "/tmp/ipykernel_24/4014860157.py", line 5, in plot_train_test_accuracy
+2770.0s 741 plt.figure(figsize=(12, 5))
+2770.0s 742 NameError: name 'plt' is not defined
+2770.0s 743 
+2770.0s 744 [34m[1mwandb[0m: [32m[41mERROR[0m Run tebxwits errored:
+2770.0s 745 [34m[1mwandb[0m: [32m[41mERROR[0m Traceback (most recent call last):
+2770.0s 746 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/opt/conda/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 308, in _run_job
+2770.0s 747 [34m[1mwandb[0m: [32m[41mERROR[0m     self._function()
+2770.0s 748 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/3118229477.py", line 78, in trainwandb
+2770.0s 749 [34m[1mwandb[0m: [32m[41mERROR[0m     plot_train_test_accuracy(train_accuracies, test_accuracies, train_losses, test_losses)
+2770.0s 750 [34m[1mwandb[0m: [32m[41mERROR[0m   File "/tmp/ipykernel_24/4014860157.py", line 5, in plot_train_test_accuracy
+2770.0s 751 [34m[1mwandb[0m: [32m[41mERROR[0m     plt.figure(figsize=(12, 5))
+2770.0s 752 [34m[1mwandb[0m: [32m[41mERROR[0m NameError: name 'plt' is not defined
+2770.0s 753 [34m[1mwandb[0m: [32m[41mERROR[0m
+2774.5s 754 Traceback (most recent call last):
+2774.5s 755 File "<string>", line 1, in <module>
+2774.5s 756 File "/opt/conda/lib/python3.10/site-packages/papermill/execute.py", line 134, in execute_notebook
+2774.5s 757 raise_for_execution_errors(nb, output_path)
+2774.5s 758 File "/opt/conda/lib/python3.10/site-packages/papermill/execute.py", line 241, in raise_for_execution_errors
+2774.5s 759 raise error
+2774.5s 760 papermill.exceptions.PapermillExecutionError:
+2774.5s 761 ---------------------------------------------------------------------------
+2774.5s 762 Exception encountered at "In [32]":
+2774.5s 763 [0;31m---------------------------------------------------------------------------[0m
+2774.5s 764 [0;31mNameError[0m                                 Traceback (most recent call last)
+2774.5s 765 Cell [0;32mIn[32], line 1[0m
+2774.5s 766 [0;32m----> 1[0m [38;5;28;01mif[39;00m [43mfinal_test_create_csv[49m[38;5;241m==[39m[38;5;241m1[39m:
+2774.5s 767 [1;32m      2[0m   predicted_labels [38;5;241m=[39m []
+2774.5s 768 [1;32m      3[0m   image_ids [38;5;241m=[39m []
+2774.5s 769 
+2774.5s 770 [0;31mNameError[0m: name 'final_test_create_csv' is not defined
+2774.5s 771 
+2776.5s 772 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+2776.5s 773 warn(
+2776.5s 774 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+2776.5s 775 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+2777.0s 776 [NbConvertApp] Writing 95542 bytes to __notebook__.ipynb
+2778.7s 777 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+2778.7s 778 warn(
+2778.7s 779 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+2778.8s 780 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+2779.9s 781 [NbConvertApp] Writing 461599 bytes to __results__.html
