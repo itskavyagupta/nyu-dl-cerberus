@@ -25,5 +25,6 @@ Our model is a variant of the widely-implemented [ResNet model](https://github.c
 1. Project report can be found at [docs/project_report.pdf](https://github.com/itskavyagupta/NYU-DL-Cerberus/blob/main/docs/Report.pdf)
 2. All Model Experiments using [WandB](https://api.wandb.ai/links/classical/vhpf97st)
 3. Data Augmentation Strategy Experimentation using [WandB](https://api.wandb.ai/links/classical/r30pm7oh)
+4. Output logs for different and final configurations [logs](https://github.com/itskavyagupta/NYU-DL-Cerberus/tree/main/logs)
 
 > This Project was part of graduate level Deep Learning course at New York University
