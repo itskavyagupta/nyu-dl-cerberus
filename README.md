@@ -41,7 +41,16 @@ This file contains the logs for each of the configuration that was run to finali
 ---
 
 # **Process**
-Apart from using transformations, we also used additional data augmentation techniques. The visualisations for the same are linked below. 
+
+In our model evaluation, we tested 10 models with three different optimizers: AdaDelta, SGD, and AdaDelta with Gradient Clipping, chosen based on initial trials where Adam and AdaGrad yielded unsatisfactory results.
+
+- SGD: Updates model parameters using gradients of the loss function.
+- AdaDelta: Dynamically adjusts learning rate during training, eliminating the need for manual tuning.
+- AdaDelta with Gradient Clipping: Addresses vanishing/exploding gradient issues by clipping larger gradients.
+
+We experimented with learning rates of 0.1 and 0.01, alongside a learning rate decay strategy reducing the rate by a factor of 10 every 80 epochs, refining the model's optimization over time.
+
+Apart from using experimenting with different ResNet model configurations, we also used additional data augmentation techniques. The visualisations for the same are linked below. 
 
 - Cutout: Masks square regions of input images, setting pixel values to zero during training. We used one 8x8 hole.
 
@@ -51,13 +60,6 @@ Apart from using transformations, we also used additional data augmentation tech
 
 - CutMix: Randomly selects patches from two images, blending them to create new mixed images. We used alpha to make the Beta distribution uniform across [0, 1], ensuring random mixing behavior.
 
-In our model evaluation, we scrutinized 10 models with three different optimizers: AdaDelta, SGD, and AdaDelta with Gradient Clipping, chosen based on initial trials where Adam and AdaGrad yielded unsatisfactory results.
-
-- SGD: Updates model parameters using gradients of the loss function.
-- AdaDelta: Dynamically adjusts learning rate during training, eliminating the need for manual tuning.
-- AdaDelta with Gradient Clipping: Addresses vanishing/exploding gradient issues by clipping larger gradients.
-
-We experimented with learning rates of 0.1 and 0.01, alongside a learning rate decay strategy reducing the rate by a factor of 10 every 80 epochs, refining the model's optimization over time.
 
 To prevent overfitting, we implemented annealing with a 50-epoch cycle, allowing periodic adjustments to the learning rate, promoting stable convergence and better generalization.
 
